@@ -46,6 +46,6 @@ While routing ``RClick`` > Add testpoint
 
 Via at SMD
 ----------------------------------------
-#. In Layout (|i-layout|) ``RClick`` > Select Traces/Pins
-#. LClick on pad
-#. RClick > Add Via at SMD
+#. In Layout (|i-pads-layout|) ``RClick`` > Select Traces/Pins
+#. ``LClick`` on pad
+#. ``RClick`` > Add Via at SMD

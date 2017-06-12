@@ -23,7 +23,7 @@ Cluster components
 ----------------------------------------
 #. ``RCLick`` > Select Components
 #. Select parts
-# ``RClick`` > Create Cluster
+#. ``RClick`` > Create Cluster
 
 Select clusters
 ----------------------------------------

@@ -6,9 +6,14 @@
 .. include:: icons-logos.rst
 
 ########################################
-Cheat Sheet 1 for |l-pads|
+Cheat Sheet for |l-pads|
 ########################################
 
 .. include:: schematics.rst
 .. include:: pcb.rst
+.. include:: crossprobing.rst
+.. include:: vias.rst
+.. include:: diffpairs.rst
+.. include:: parts.rst
+.. include:: constraint-manager.rst
 

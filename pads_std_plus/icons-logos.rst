@@ -10,6 +10,8 @@
 .. Common icons
 .. |i-pads-layout| image:: _static/img/i-pads-layout.png
 .. |i-pads-router| image:: _static/img/i-pads-router.png
+.. |i-constraint-manager| image:: _static/img/i-constraint-manager.png
+.. |i-pads-library-tools| image:: _static/img/i-pads-library-tools.png
 
 
 .. Schematics icons
@@ -28,12 +30,14 @@
 
 .. PCB icons
 
-.. |il-copper-pour-cutout| image:: _static/img/il-copper-pour-cutout.png
 .. |il-copper-pour| image:: _static/img/il-copper-pour.png
+.. |il-copper-pour-cutout| image:: _static/img/il-copper-pour-cutout.png
 .. |il-drafting| image:: _static/img/il-drafting.png
 .. |il-keepout| image:: _static/img/il-keepout.png
 .. |il-outline| image:: _static/img/il-outline.png
-.. |il-plane-shape-cutout| image:: _static/img/il-plane-shape-cutout.png
 .. |il-plane-shape| image:: _static/img/il-plane-shape.png
-.. |il-solid-copper-cutout| image:: _static/img/il-solid-copper-cutout.png
+.. |il-plane-shape-cutout| image:: _static/img/il-plane-shape-cutout.png
 .. |il-solid-copper| image:: _static/img/il-solid-copper.png
+.. |il-solid-copper-cutout| image:: _static/img/il-solid-copper-cutout.png
+.. |il-decal-wizard| image:: _static/img/il-decal-wizard.png
+

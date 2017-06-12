@@ -24,7 +24,7 @@ Add Ground, VDD, links, etc
 Add > Special Components or View > My Parts, then “Special Components” tab.
 
 
-.. note::
+.. hint::
 
     - Same part may have multiple symbols!
     - If you put a part over a net, it will be automatically splitted!

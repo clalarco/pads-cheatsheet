@@ -6,7 +6,7 @@ Set Board Outline and cutouts
 ----------------------------------------
 |il-drafting| > |il-outline|
 
-.. note::
+.. tip::
     ``RClick`` for polygon options
 
 Edit outline

@@ -6,7 +6,7 @@ Layers Colors
 ----------------------------------------
 ``Ctrl+Alt+C``
 
-.. note::
+.. hint::
     Items with background color are hidden
 
 Nets Colors

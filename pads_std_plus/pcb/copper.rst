@@ -21,5 +21,5 @@ Edit
 #. RClick > Select Board Outline
 #. Pick polygon trace and edit
 
-.. note::
+.. tip::
     ``RCLick`` for polygon options

@@ -19,4 +19,4 @@ Add
 
 Navigating
 ----------------------------------------
-``Alt + LClick`` over a Link.
+``Alt+LClick`` over a Link.

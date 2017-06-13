@@ -18,7 +18,7 @@ Add Multiple
 Add nets to pins
 ----------------------------------------
 #. n or |is-net|
-#. ``Alt + LClick`` on pin
+#. ``Alt+LClick`` on pin
 
 
 

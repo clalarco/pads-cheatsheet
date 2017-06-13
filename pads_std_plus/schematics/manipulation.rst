@@ -4,15 +4,15 @@ Manipulation
 
 Rotate
 ----------------------------------------
-F3 or pick handle |is-handle|
+``F3`` or pick handle |is-handle|
 
 Mirror Horizontally
 ----------------------------------------
-F4 or |is-mirror|
+``F4`` or |is-mirror|
 
 Flip Vertically
 ----------------------------------------
-F5 or |is-flip|
+``F5`` or |is-flip|
 
 Array
 ----------------------------------------

@@ -71,10 +71,10 @@ Add data into databook
 
 
 .. note::
-    - Pins Tab Information:
-        - Pin Group: Gate A, Gate B, Unused pin or Signal
-        - Number: Decal number;
-        - Name: Symbol name;
-        - Type: Source, Bidirectional, etc
-        - Swap: Gates Swap groups
-        - Seq: Symbol pin name
+    Pins Tab Information:
+        - **Pin Group** Gate A, Gate B, Unused pin or Signal
+        - **Number** Decal number
+        - **Name** Symbol name
+        - **Type** Source, Bidirectional, etc
+        - **Swap** Gates Swap groups
+        - **Seq** Symbol pin name

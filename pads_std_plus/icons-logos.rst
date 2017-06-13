@@ -8,6 +8,7 @@
 
 
 .. Common icons
+.. |i-pads-dxdesigner| image:: _static/img/i-pads-dxdesigner.png
 .. |i-pads-layout| image:: _static/img/i-pads-layout.png
 .. |i-pads-router| image:: _static/img/i-pads-router.png
 .. |i-constraint-manager| image:: _static/img/i-constraint-manager.png
@@ -40,4 +41,3 @@
 .. |il-solid-copper| image:: _static/img/il-solid-copper.png
 .. |il-solid-copper-cutout| image:: _static/img/il-solid-copper-cutout.png
 .. |il-decal-wizard| image:: _static/img/il-decal-wizard.png
-

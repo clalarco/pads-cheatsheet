@@ -16,7 +16,7 @@ Setup
 
 Set via Pad Stacks
 ----------------------------------------
-#. In Layout ( ) Setup > Pad Stacks
+#. In Layout (|i-pads-layout|) Setup > Pad Stacks
 #. Set Pad Stack type to Via
 #. Select Via and change properties
 
@@ -43,23 +43,23 @@ Stitching vias
 
 Setup
 ----------------------------------------
-#. In Layout ( ) Tools > Options, Via Patterns page
+#. In Layout (|i-pads-layout|) Tools > Options, Via Patterns page
 #. Choose GND at 'Add vias from net' option.
 #. Choose Via type
 #. For shapes, select Net and Via type if required
 
 Add Stitching vias around nets
 ----------------------------------------
-#. RClick > Select Nets
+#. ``RClick`` > Select Nets
 #. Choose nets
-#. RClick > Add Via Shield
+#. ``RClick`` > Add Via Shield
 #. ESC
-#. RClick > Select Pins/Vias/Tacks
+#. ``RClick`` > Select Pins/Vias/Tacks
 #. Move/remove the unwanted vias
 
 Fill a shape with stitching vias
 ----------------------------------------
 #. Choose a 'solid copper' shape (|il-drafting| > |il-solid-copper|)
-#. RClick > Select Shapes
+#. ``RClick`` > Select Shapes
 #. Select shape
-#. RClick > Via Stitch
+#. ``RClick`` > Via Stitch

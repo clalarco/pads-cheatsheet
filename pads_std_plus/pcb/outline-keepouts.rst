@@ -12,7 +12,7 @@ Set Board Outline and cutouts
 Edit outline
 ----------------------------------------
 #. Clear selection
-#. RClick > Select Board Outline
+#. ``RClick`` > Select Board Outline
 #. Pick outline trace and move
 
 Add keepout

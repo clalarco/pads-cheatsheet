@@ -31,8 +31,8 @@ Select clusters
 
 Place parts from a cluster
 ----------------------------------------
-#. LClick to Select Cluster
-#. RClick > Break
+#. ``LClick`` to Select Cluster
+#. ``RClick`` > Break
 #. Place parts
 
 .. hint::

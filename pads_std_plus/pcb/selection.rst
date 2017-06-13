@@ -12,4 +12,4 @@ Region
 
 Add/Remove into selection
 ----------------------------------------
-``Ctrl + LClick`` into item
+``Ctrl+LClick`` into item

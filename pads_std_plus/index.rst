@@ -9,6 +9,8 @@
 Cheat Sheet for |l-pads|
 ########################################
 
+.. include:: apps-header.rst
+
 .. include:: schematics.rst
 .. include:: pcb.rst
 .. include:: crossprobing.rst

@@ -2,6 +2,17 @@
 Diff Pairs
 ****************************************
 
+.. container:: side-images
+
+    .. figure:: _static/img/d-diffpair-separation.png
+
+        Separation and Spacing
+
+    .. figure:: _static/img/d-diffpair-via-type.png
+
+        Via types
+
+
 ========================================
 Setup
 ========================================
@@ -18,7 +29,7 @@ Set diff pair in constraint manager:
 #. Set patterns for Net name and Pair net Name
 #. Click Apply
 
-   .. hint:: nets set in schematics won’t appear in auto assign dialog
+   .. hint:: Nets set in schematics won’t appear in auto assign dialog
 
 Set Diff Pair Spacing
 ----------------------------------------
@@ -51,7 +62,7 @@ In Router (|i-pads-router|) Same as route a single trace
 
 Set via pattern
 ----------------------------------------
-While Routing
+While routing:
 
 #. ``RClick`` > Via Pattern
 #. Select via type

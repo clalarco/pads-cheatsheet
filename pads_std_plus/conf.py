@@ -154,7 +154,7 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-
+locale_dirs = ['locale/']   # path is example but recommended.
 
 # -- Options for Epub output ----------------------------------------------
 

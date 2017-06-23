@@ -60,6 +60,18 @@ Route Diff pairs
 
 In Router (|i-pads-router|) Same as route a single trace
 
+Change leader routing trace
+----------------------------------------
+``tab``
+
+Split traces
+----------------------------------------
+``Ctrl+X``
+
+Route separately/join
+----------------------------------------
+``Ctrl+Z``
+
 Set via pattern
 ----------------------------------------
 While routing:

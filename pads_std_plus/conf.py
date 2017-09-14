@@ -78,6 +78,9 @@ pygments_style = 'sphinx'
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
+# It's PADS Std Plus
+tags.add('pads_std_plus')
+
 
 # -- Options for HTML output ----------------------------------------------
 
@@ -85,6 +88,7 @@ todo_include_todos = False
 # a list of builtin themes.
 #
 html_theme = 'epub'
+html_title = 'PADS Std Plus Cheat Sheet'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

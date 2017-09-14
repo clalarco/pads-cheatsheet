@@ -2,7 +2,13 @@
 New Project
 ========================================
 
-in 'Start Page' tab, select in 'New Project' pane > PADS Integrated > PADS ODA
+.. only:: pads_std_plus
+
+    in 'Start Page' tab, select in 'New Project' pane > PADS Integrated > PADS ODA
+
+.. only:: pads_maker
+
+    in 'Start Page' tab, select in 'New Project' pane > Design
 
 
 Add a new Sheet
@@ -22,10 +28,19 @@ Change page size
 Show Parts Panel
 ----------------------------------------
 
-View > PADS Databook
+.. only:: pads_std_plus
+
+    View > PADS Databook
 
 
-Disable PADS Databook Database
-----------------------------------------
+.. only:: pads_maker
 
-Setup > Settings > Licensing, uncheck 'PADS Databook database support'
+    View > Parts
+
+
+.. only:: pads_std_plus
+
+    Disable PADS Databook Database
+    ----------------------------------------
+
+    Setup > Settings > Licensing, uncheck 'PADS Databook database support'

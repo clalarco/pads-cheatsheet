@@ -35,6 +35,8 @@ Place parts from a cluster
 #. ``RClick`` > Break
 #. Place parts
 
-.. hint::
-    - It’s easier to pick components from Schematics using cross-probing (use filters to select only symbols)
-    - You can create a cluster of clusters!
+.. only:: not pads_maker
+
+    .. hint::
+        - It’s easier to pick components from Schematics using cross-probing (use filters to select only symbols)
+        - You can create a cluster of clusters!

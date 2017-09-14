@@ -21,7 +21,14 @@ Also Check “Add Net Names”
 
 Add Ground, VDD, links, etc
 ----------------------------------------
-Add > Special Components or View > My Parts, then “Special Components” tab.
+.. only:: pads_std_plus
+
+    Add > Special Components or View > My Parts, then “Special Components” tab.
+
+
+.. only:: pads_maker
+
+    Add > Special Components or |is-specialcomponents|
 
 
 .. hint::

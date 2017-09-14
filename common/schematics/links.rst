@@ -4,7 +4,10 @@ Links
 
 Setup
 ----------------------------------------
-#. View > My Parts, to show panel
+.. only:: pads_std_plus
+
+    #. View > My Parts, to show panel
+
 #. Setup > Settings
 #. In Cross Probing, Check “Zoom Fit to Selected objects”
 #. In Advanced, check “Automatically synchronize Links and net names”

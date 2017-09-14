@@ -2,14 +2,14 @@
 Schematics
 ****************************************
 
-.. include:: schematics/new-project.rst
-.. include:: schematics/parts.rst
-.. include:: schematics/manipulation.rst
-.. include:: schematics/nets.rst
-.. include:: schematics/bus.rst
-.. include:: schematics/links.rst
-.. include:: schematics/blocks.rst
-.. include:: schematics/filter.rst
+.. include:: ../common/schematics/new-project.rst
+.. include:: ../common/schematics/parts.rst
+.. include:: ../common/schematics/manipulation.rst
+.. include:: ../common/schematics/nets.rst
+.. include:: ../common/schematics/bus.rst
+.. include:: ../common/schematics/links.rst
+.. include:: ../common/schematics/blocks.rst
+.. include:: ../common/schematics/filter.rst
 .. include:: schematics/create-pcb.rst
 
 

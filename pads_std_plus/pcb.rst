@@ -2,15 +2,12 @@
 PCB
 ****************************************
 
-.. include:: pcb/begin.rst
-.. include:: pcb/outline-keepouts.rst
-.. include:: pcb/layers.rst
-.. include:: pcb/pan-zoom.rst
-.. include:: pcb/selection.rst
-.. include:: pcb/visibility.rst
-.. include:: pcb/placement.rst
-.. include:: pcb/copper.rst
-.. include:: pcb/routing.rst
-
-
-
+.. include:: begin.rst
+.. include:: ../common/pcb/outline-keepouts.rst
+.. include:: ../common/pcb/layers.rst
+.. include:: ../common/pcb/pan-zoom.rst
+.. include:: ../common/pcb/selection.rst
+.. include:: ../common/pcb/visibility.rst
+.. include:: ../common/pcb/placement.rst
+.. include:: ../common/pcb/copper.rst
+.. include:: ../common/pcb/routing.rst

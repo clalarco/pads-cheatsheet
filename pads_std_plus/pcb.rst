@@ -2,7 +2,7 @@
 PCB
 ****************************************
 
-.. include:: begin.rst
+.. include:: pcb/begin.rst
 .. include:: ../common/pcb/outline-keepouts.rst
 .. include:: ../common/pcb/layers.rst
 .. include:: ../common/pcb/pan-zoom.rst

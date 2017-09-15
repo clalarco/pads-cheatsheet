@@ -14,7 +14,7 @@ Cheat Sheet for |l-pads|
 .. include:: schematics.rst
 .. include:: pcb.rst
 .. include:: crossprobing.rst
-.. include:: vias.rst
+.. include:: ../common/vias.rst
 .. include:: diffpairs.rst
 .. include:: parts.rst
 .. include:: constraint-manager.rst

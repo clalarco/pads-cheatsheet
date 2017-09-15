@@ -13,5 +13,5 @@ Cheat Sheet for |l-pads-maker|
 
 .. include:: schematics.rst
 .. include:: pcb.rst
-.. include:: vias.rst
+.. include:: ../common/vias.rst
 .. include:: parts.rst

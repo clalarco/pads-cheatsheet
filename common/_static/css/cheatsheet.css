@@ -225,7 +225,7 @@ div.admonition ul li ~ li:before {
 
 /* icons */
 
-h4 img, ol li img {
+h4 img, ol li img, p img {
   max-height: 14px;
 }
 

@@ -7,6 +7,7 @@
 .. Common icons
 .. |i-pads-maker-schematic| image:: _static/img/i-pads-maker-schematic.png
 .. |i-pads-maker-layout| image:: _static/img/i-pads-maker-layout.png
+.. |i-pads-layout| image:: _static/img/i-pads-maker-layout.png
 
 .. Schematics icons
 

@@ -2,32 +2,31 @@
 Parts
 ****************************************
 
+========================================
+Symbols
+========================================
+
 .. hint::
-    Use Library Tools |i-pads-library-tools|
+    Use PADS Maker Schematic |i-pads-maker-schematic|
+
+New Symbol
+----------------------------------------
+In an existing design: File > New > Symbol
+
+New Symbol (box type)
+----------------------------------------
+#. Create csv from template
+#. In an existing design: File > New > Symbol from Pin List
+
+.. hint::
+    Check wiki help "Creating and Editing Parts/Symbols", Method #3 for excel template
 
 ========================================
-New Part
+Symbols
 ========================================
-#. Add symbol
-#. Add decal
-#. Add part and map symbols and decals
 
-Calling from Schematics
-----------------------------------------
-Tools > PADS Library Tools
-
-Calling from Layout
-----------------------------------------
-File > PADS Library Tools
-
-Add a Symbol (box type)
-----------------------------------------
-#. Select symbols section and partition.
-#. Over Partition ``RClick`` > New Symbol or Symbol Wizard
-#. Choose Module and Fracture for big pin counts parts. Fill rows.
-
-.. tip::
-    You can copy/paste from Excel!
+.. hint::
+    Use PADS Maker Layout |i-pads-maker-layout|
 
 Add a Decal
 ----------------------------------------

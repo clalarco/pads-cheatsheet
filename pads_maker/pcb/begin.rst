@@ -2,14 +2,11 @@
 Begin
 ========================================
 
-1. Sync to Schematics
-----------------------------------------
-Setup > Project Integration, click in amber lights
+1. Open PADS Maker Layout |i-pads-maker-layout|
 
-2. Set Board Outline and cutouts
-----------------------------------------
-|il-drafting| > |il-outline| and draw
+2. Tasks > New > Select Layers Board
 
-3. Set Layers
-----------------------------------------
-Setup > Layer Definition
+3. File > Import... and select .dnf file
+
+4. Choose the proper footprints if required
+

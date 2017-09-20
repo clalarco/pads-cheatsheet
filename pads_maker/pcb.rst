@@ -9,5 +9,6 @@ PCB
 .. include:: ../common/pcb/selection.rst
 .. include:: ../common/pcb/visibility.rst
 .. include:: ../common/pcb/placement.rst
-.. include:: ../common/pcb/copper.rst
+.. include:: pcb/rules.rst
 .. include:: ../common/pcb/routing.rst
+.. include:: ../common/pcb/copper.rst

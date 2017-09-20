@@ -29,37 +29,51 @@ Add a via padstack
 
 Set default vias
 ----------------------------------------
-#. In Layout (|i-pads-layout|) Setup > Via Spans
-#. Set Default via for the given according to vias types and layers
 
-Set vias per Layer/Class
-----------------------------------------
-In Constraint manager (|i-constraint-manager|) > Net Classes, set Via Assignments (same dialog as Via Spans)
+.. only:: pads_std_plus
+
+    #. In Layout (|i-pads-layout|) Setup > Via Spans
+    #. Set Default via for the given according to vias types and layers
 
 
-========================================
-Stitching vias
-========================================
+.. only:: pads_maker
 
-Setup
-----------------------------------------
-#. In Layout (|i-pads-layout|) Tools > Options, Via Patterns page
-#. Choose GND at 'Add vias from net' option.
-#. Choose Via type
-#. For shapes, select Net and Via type if required
+    #. Setup > Design Rules... > Default > Routing
+    #. At Vias section, select vias (selected = enabled)
 
-Add Stitching vias around nets
-----------------------------------------
-#. ``RClick`` > Select Nets
-#. Choose nets
-#. ``RClick`` > Add Via Shield
-#. ESC
-#. ``RClick`` > Select Pins/Vias/Tacks
-#. Move/remove the unwanted vias
 
-Fill a shape with stitching vias
-----------------------------------------
-#. Choose a 'solid copper' shape (|il-drafting| > |il-solid-copper|)
-#. ``RClick`` > Select Shapes
-#. Select shape
-#. ``RClick`` > Via Stitch
+.. only:: pads_std_plus
+
+    Set vias per Layer/Class
+    ----------------------------------------
+    In Constraint manager (|i-constraint-manager|) > Net Classes, set Via Assignments (same dialog as Via Spans)
+
+
+.. only:: pads_std_plus
+
+    ========================================
+    Stitching vias
+    ========================================
+
+    Setup
+    ----------------------------------------
+    #. In Layout (|i-pads-layout|) Tools > Options, Via Patterns page
+    #. Choose GND at 'Add vias from net' option.
+    #. Choose Via type
+    #. For shapes, select Net and Via type if required
+
+    Add Stitching vias around nets
+    ----------------------------------------
+    #. ``RClick`` > Select Nets
+    #. Choose nets
+    #. ``RClick`` > Add Via Shield
+    #. ESC
+    #. ``RClick`` > Select Pins/Vias/Tacks
+    #. Move/remove the unwanted vias
+
+    Fill a shape with stitching vias
+    ----------------------------------------
+    #. Choose a 'solid copper' shape (|il-drafting| > |il-solid-copper|)
+    #. ``RClick`` > Select Shapes
+    #. Select shape
+    #. ``RClick`` > Via Stitch

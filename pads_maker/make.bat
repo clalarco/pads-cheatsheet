@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=PADSStdPlus
+set SPHINXPROJ=PADSMaker
 
 if "%1" == "" goto help
 

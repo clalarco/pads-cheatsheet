@@ -71,7 +71,7 @@ locale_dirs = ['../locale']
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = [
-    'vias.rst',
+    '../common/*.rst',
     'parts.rst',
     'apps-header.rst',
     'icons-logos.rst',
@@ -79,6 +79,8 @@ exclude_patterns = [
     'Thumbs.db',
     'schematics',
     'pcb',
+    'schematics.rst',
+    'pcb.rst',
 ]
 
 # The name of the Pygments (syntax highlighting) style to use.

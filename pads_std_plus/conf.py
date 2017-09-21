@@ -19,7 +19,6 @@
 import os
 import sys
 d = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(d, "../common"))
 
 
 # -- General configuration ------------------------------------------------
@@ -65,12 +64,26 @@ release = u'VX.2.1'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+locale_dirs = ['../locale']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'schematics', 'pcb', 'crossprobing']
+exclude_patterns = [
+    'common',
+    'parts.rst',
+    'apps-header.rst',
+    'icons-logos.rst',
+    '_build',
+    'Thumbs.db',
+    'schematics',
+    'pcb',
+    'crossprobing.rst',
+    'diffpairs.rst',
+    'schematics.rst',
+    'constraint-manager.rst',
+    'pcb.rst',
+]
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -87,8 +100,8 @@ tags.add('pads_std_plus')
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'epub'
 html_title = 'PADS Std Plus Cheat Sheet'
+html_theme = 'epub'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -157,8 +170,6 @@ texinfo_documents = [
      author, 'PADSStdPlus', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-locale_dirs = ['locale/']   # path is example but recommended.
 
 # -- Options for Epub output ----------------------------------------------
 

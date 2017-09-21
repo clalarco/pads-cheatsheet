@@ -1,0 +1,1316 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-21 17:05-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../index.rst:10
+msgid "Cheat Sheet for |l-pads-maker|"
+msgstr "Resumen para |l-pads-maker|"
+
+#: ../../apps-header.rst:5
+msgid "**Start Schematics** |i-pads-maker-schematic| PADS Maker Schematic"
+msgstr "**Esquemático** |i-pads-maker-schematic| PADS Maker Schematic"
+
+#: ../../apps-header.rst:6
+msgid "**Start PCB** |i-pads-maker-layout| PADS Maker Layout"
+msgstr "**PCB** |i-pads-maker-layout| PADS Maker Layout"
+
+#: ../../schematics.rst:3
+msgid "Schematics"
+msgstr "Esquemático"
+
+#: ../../../common/schematics/new-project.rst:3
+msgid "New Project"
+msgstr "Proyecto Nuevo"
+
+#: ../../../common/schematics/new-project.rst:7
+msgid ""
+"in 'Start Page' tab, select in 'New Project' pane > PADS Integrated > "
+"PADS ODA"
+msgstr "En 'Start Page', seleccione en 'New Project' > PADS Integrated > PADS ODA"
+
+#: ../../../common/schematics/new-project.rst:11
+msgid "in 'Start Page' tab, select in 'New Project' pane > Design"
+msgstr "En 'Start Page', seleccione en 'New Project' > Design"
+
+#: ../../../common/schematics/new-project.rst:15
+msgid "Add a new Sheet"
+msgstr "Nueva Hoja"
+
+#: ../../../common/schematics/new-project.rst:17
+msgid "``pg down`` on a active sheet"
+msgstr "``pg down`` en la última hoja activa"
+
+#: ../../../common/schematics/new-project.rst:21
+msgid "Change page size"
+msgstr "Cambiar tamaño de página"
+
+#: ../../../common/schematics/new-project.rst:23
+msgid "Unselect all"
+msgstr "Deseleccionar todo"
+
+#: ../../../common/schematics/new-project.rst:24
+msgid "In Properties, change Drawing size and orientation"
+msgstr "en 'properties' > change Drawing size and orientation"
+
+#: ../../../common/schematics/new-project.rst:25
+msgid "In page, ``RClick`` > Change border... to select a proper border"
+msgstr "En la página, ``RClick`` > 'Change border...' para seleccionar el borde"
+
+#: ../../../common/schematics/new-project.rst:29
+msgid "Show Parts Panel"
+msgstr "Mostrar Biblioteca Partes"
+
+#: ../../../common/schematics/new-project.rst:33
+msgid "View > PADS Databook"
+msgstr ""
+
+#: ../../../common/schematics/new-project.rst:38
+msgid "View > Parts"
+msgstr ""
+
+#: ../../../common/schematics/new-project.rst:44
+msgid "Disable PADS Databook Database"
+msgstr "Deshabilitar PADS Databook"
+
+#: ../../../common/schematics/new-project.rst:46
+msgid "Setup > Settings > Licensing, uncheck 'PADS Databook database support'"
+msgstr ""
+"Setup > Settings > Licensing, deseleccionar 'PADS Databook database "
+"support'"
+
+#: ../../../common/schematics/parts.rst:3 ../../parts.rst:3
+msgid "Parts"
+msgstr "Partes/Componentes"
+
+#: ../../../common/schematics/parts.rst:6
+msgid "Add a part"
+msgstr "Agregar una parte"
+
+#: ../../../common/schematics/parts.rst:8
+msgid "Choose symbol from PADS Databook"
+msgstr "Escoger símbolo from PADS Databook"
+
+#: ../../../common/schematics/parts.rst:9
+msgid "drag and drop it into the page"
+msgstr "arrastrar y soltar en la página"
+
+#: ../../../common/schematics/parts.rst:13
+msgid "With Nets"
+msgstr "Con nets"
+
+#: ../../../common/schematics/parts.rst:14
+msgid "Check 'Add Nets'"
+msgstr ""
+
+#: ../../../common/schematics/parts.rst:18
+msgid "With names in Nets"
+msgstr "Con nombres de nets"
+
+#: ../../../common/schematics/parts.rst:19
+#, fuzzy
+msgid "Also Check 'Add Net Names'"
+msgstr "También check en 'Add Net Names'"
+
+#: ../../../common/schematics/parts.rst:23
+msgid "Add Ground, VDD, links, etc"
+msgstr "Agregar Tierra, VCC, links, etc."
+
+#: ../../../common/schematics/parts.rst:26
+#, fuzzy
+msgid ""
+"Add > Special Components or View > My Parts, then 'Special Components' "
+"tab."
+msgstr "Add > Special Components o View > My Parts, luego 'Special Components'"
+
+#: ../../../common/schematics/parts.rst:31
+msgid "Add > Special Components or |is-specialcomponents|"
+msgstr "Add > Special Components o |is-specialcomponents|"
+
+#: ../../../common/schematics/parts.rst:36
+msgid "Same part may have multiple symbols!"
+msgstr "La misma parte puede tener múltiples símbolos"
+
+#: ../../../common/schematics/parts.rst:37
+msgid "If you put a part over a net, it will be automatically splitted!"
+msgstr "Al poner una parte sobre una net, ésta será cortada automaticamente!"
+
+#: ../../../common/schematics/manipulation.rst:3
+msgid "Manipulation"
+msgstr "Manejo de Objetos"
+
+#: ../../../common/pcb/placement.rst:15
+#: ../../../common/schematics/manipulation.rst:6
+msgid "Rotate"
+msgstr "Rotar"
+
+#: ../../../common/schematics/manipulation.rst:7
+msgid "``F3`` or pick handle |is-handle|"
+msgstr "``F3`` o usar |is-handle|"
+
+#: ../../../common/schematics/manipulation.rst:10
+msgid "Mirror Horizontally"
+msgstr "Reflejo Horizontal"
+
+#: ../../../common/schematics/manipulation.rst:11
+msgid "``F4`` or |is-mirror|"
+msgstr "``F4`` o |is-mirror|"
+
+#: ../../../common/schematics/manipulation.rst:14
+msgid "Flip Vertically"
+msgstr "Reflejo Vertical"
+
+#: ../../../common/schematics/manipulation.rst:15
+msgid "``F5`` or |is-flip|"
+msgstr "``F5`` o |is-flip|"
+
+#: ../../../common/schematics/manipulation.rst:18
+msgid "Array"
+msgstr "Arreglo"
+
+#: ../../../common/schematics/manipulation.rst:19
+msgid "Select components"
+msgstr "Seleccionar componentes"
+
+#: ../../../common/schematics/manipulation.rst:20
+msgid "|is-array|"
+msgstr ""
+
+#: ../../../common/schematics/manipulation.rst:21
+msgid "Set rows and column"
+msgstr "Definir filas (rows) y columnas"
+
+#: ../../../common/schematics/manipulation.rst:22
+msgid "Set spacing"
+msgstr "Definir separación"
+
+#: ../../../common/schematics/manipulation.rst:25
+msgid "Duplicate"
+msgstr "Copiar"
+
+#: ../../../common/schematics/manipulation.rst:26
+msgid "Select part; then ``Ctrl+C``, ``Ctrl+V``, or"
+msgstr "Seleccioanar objeto, luego ``Ctrl+C``, ``Ctrl+V``, o"
+
+#: ../../../common/schematics/manipulation.rst:27
+msgid "Select part, then ``Ctrl+LClick`` and drag ``LClick``"
+msgstr "Seleccionar objeto, luego ``Ctrl+LClick`` y arrastrar ``LClick``"
+
+#: ../../../common/schematics/nets.rst:3
+msgid "Nets"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:6
+msgid "Add a net"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:7
+msgid "``n`` or |is-net|"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:8
+msgid "``LClick`` in start"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:9
+msgid "Draw and ``LClick`` on end"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:14
+msgid "Add Multiple"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:15
+msgid "|is-multinet|"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:16
+msgid "``drag LClick`` to select starting pins"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:17
+msgid "``drag LClick`` to destination nets"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:18
+msgid "``RClick``"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:21
+msgid "Add nets to pins"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:22
+msgid "n or |is-net|"
+msgstr ""
+
+#: ../../../common/schematics/nets.rst:23
+msgid "``Alt+LClick`` on pin"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:3
+msgid "Bus"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:6 ../../../common/schematics/bus.rst:6
+#: ../../../common/schematics/links.rst:17
+msgid "Add"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:7
+msgid "``b`` or |is-bus|"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:8
+msgid "``LClick`` to draw"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:9
+msgid "``ESC``"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:10
+msgid "In Properties > Name, set NET_NAME[n:0]"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:13
+msgid "Rip nets from bus"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:14
+msgid "RClick on Bus > Rip Nets"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:15
+msgid "Select nets (``Ctrl`` = multi)"
+msgstr ""
+
+#: ../../../common/pcb/selection.rst:7 ../../../common/schematics/bus.rst:16
+msgid "``LClick``"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:19
+msgid "Connect a symbol to the bus"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:20
+msgid "Touch bus with symbol pins"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:21
+msgid "Select the bus indexes to connect and order"
+msgstr ""
+
+#: ../../../common/schematics/bus.rst:22
+msgid "put symbol away from the bus to draw nets"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:3
+msgid "Links"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:6 ../../../common/vias.rst:15
+#: ../../../common/vias.rst:59
+msgid "Setup"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:9
+msgid "View > My Parts, to show panel"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:11
+msgid "Setup > Settings"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:12
+msgid "In Cross Probing, Check 'Zoom Fit to Selected objects'"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:13
+msgid "In Advanced, check 'Automatically synchronize Links and net names'"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:14
+msgid "Click OK"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:18
+msgid "In My Parts > Special Components > Link"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:19
+msgid "Connect link to net"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:20
+msgid "In properties, set a name for the link"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:21
+msgid "Add another Link with the same net"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:24
+msgid "Navigating"
+msgstr ""
+
+#: ../../../common/schematics/links.rst:25
+msgid "``Alt+LClick`` over a Link."
+msgstr ""
+
+#: ../../../common/schematics/filter.rst:3
+msgid "Selection Filter"
+msgstr ""
+
+#: ../../../common/schematics/filter.rst:5
+msgid "|is-filter| then select the elements to enable by selection"
+msgstr ""
+
+#: ../../../common/schematics/filter.rst:8
+msgid "Add custom filters"
+msgstr ""
+
+#: ../../../common/schematics/filter.rst:9
+msgid "Choose 'settings...' in combobox"
+msgstr ""
+
+#: ../../schematics/create-pcb.rst:3
+msgid "Create a PCB from schematics"
+msgstr ""
+
+#: ../../schematics/create-pcb.rst:5
+msgid "Tools > Prepare for Layout"
+msgstr ""
+
+#: ../../schematics/create-pcb.rst:6
+msgid "ECO > Forward Annotation. Select filename."
+msgstr ""
+
+#: ../../pcb.rst:3
+msgid "PCB"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:11 ../../pcb/begin.rst:3
+msgid "Begin"
+msgstr ""
+
+#: ../../pcb/begin.rst:5
+msgid "Open PADS Maker Layout |i-pads-maker-layout|"
+msgstr ""
+
+#: ../../pcb/begin.rst:7
+msgid "Tasks > New > Select Layers Board"
+msgstr ""
+
+#: ../../pcb/begin.rst:9
+msgid "File > Import... and select .dnf file"
+msgstr ""
+
+#: ../../pcb/begin.rst:11
+msgid "Choose the proper footprints if required"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:3
+msgid "Outline and keepouts"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:6
+msgid "Set Board Outline and cutouts"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:7
+msgid "|il-drafting| > |il-outline|"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:10
+msgid "``RClick`` for polygon options"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:13
+msgid "Edit outline"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:20
+#: ../../../common/pcb/outline-keepouts.rst:14
+msgid "Clear selection"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:15
+msgid "``RClick`` > Select Board Outline"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:16
+msgid "Pick outline trace and move"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:19
+msgid "Add keepout"
+msgstr ""
+
+#: ../../../common/pcb/outline-keepouts.rst:20
+msgid "|il-drafting| > |il-keepout| and draw, then set parameters"
+msgstr ""
+
+#: ../../../common/pcb/layers.rst:3
+msgid "Layers"
+msgstr ""
+
+#: ../../../common/pcb/layers.rst:6
+msgid "Set Layers"
+msgstr ""
+
+#: ../../../common/pcb/layers.rst:7
+msgid "Setup > Layer Definition"
+msgstr ""
+
+#: ../../../common/pcb/layers.rst:10
+msgid "Change layers number"
+msgstr ""
+
+#: ../../../common/pcb/layers.rst:11
+msgid "Click Modify"
+msgstr ""
+
+#: ../../../common/pcb/layers.rst:12
+msgid "Set new number"
+msgstr ""
+
+#: ../../../common/pcb/layers.rst:13
+msgid "Check reassignment"
+msgstr ""
+
+#: ../../../common/pcb/pan-zoom.rst:3
+msgid "Pan and Zoom"
+msgstr ""
+
+#: ../../../common/pcb/pan-zoom.rst:6
+msgid "Pan Up/Down"
+msgstr ""
+
+#: ../../../common/pcb/pan-zoom.rst:7
+msgid "``mouse wheel``"
+msgstr ""
+
+#: ../../../common/pcb/pan-zoom.rst:10
+msgid "Pan Left/Right"
+msgstr ""
+
+#: ../../../common/pcb/pan-zoom.rst:11
+msgid "``Shift+mouse wheel``"
+msgstr ""
+
+#: ../../../common/pcb/pan-zoom.rst:14
+msgid "Zoom"
+msgstr ""
+
+#: ../../../common/pcb/pan-zoom.rst:15
+msgid "``Ctrl+mouse wheel``"
+msgstr ""
+
+#: ../../../common/pcb/selection.rst:3
+msgid "Selection"
+msgstr ""
+
+#: ../../../common/pcb/selection.rst:6
+msgid "Single"
+msgstr ""
+
+#: ../../../common/pcb/selection.rst:10
+msgid "Region"
+msgstr ""
+
+#: ../../../common/pcb/selection.rst:11
+msgid "``LClick`` and drag"
+msgstr ""
+
+#: ../../../common/pcb/selection.rst:14
+msgid "Add/Remove into selection"
+msgstr ""
+
+#: ../../../common/pcb/selection.rst:15
+msgid "``Ctrl+LClick`` into item"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:3
+msgid "Visibility"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:6
+msgid "Layers Colors"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:7
+msgid "``Ctrl+Alt+C``"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:10
+msgid "Items with background color are hidden"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:13
+msgid "Nets Colors"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:14
+msgid "``Ctrl+Alt+N``"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:15
+msgid "Select net or class"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:16
+msgid "Click 'Add'"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:17
+msgid "Set color and what to show"
+msgstr ""
+
+#: ../../../common/pcb/visibility.rst:18
+msgid "Check 'color traces by net' to show trace with the same color"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:3
+msgid "Parts Placement"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:6
+msgid "Disperse"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:7
+msgid "Tools > Disperse Components"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:10
+msgid "Move components"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:11
+msgid "Pick part"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:12
+msgid "``Ctrl+E`` or ``LClick and drag``"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:16
+msgid "``Ctrl+R`` or ``tab``"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:19
+msgid "Change layer"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:20
+msgid "``Rclick`` > Flip Side or ``Ctrl+F``"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:23
+msgid "Cluster components"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:24
+msgid "``RCLick`` > Select Components"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:25
+msgid "Select parts"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:26
+msgid "``RClick`` > Create Cluster"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:29
+msgid "Select clusters"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:30
+msgid "``RClick`` > Select clusters"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:33
+msgid "Place parts from a cluster"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:34
+msgid "``LClick`` to Select Cluster"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:35
+msgid "``RClick`` > Break"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:36
+msgid "Place parts"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:41
+msgid ""
+"It’s easier to pick components from Schematics using cross-probing (use "
+"filters to select only symbols)"
+msgstr ""
+
+#: ../../../common/pcb/placement.rst:42
+msgid "You can create a cluster of clusters!"
+msgstr ""
+
+#: ../../pcb/rules.rst:3
+msgid "Rules"
+msgstr ""
+
+#: ../../pcb/rules.rst:6
+msgid "Open Dialog"
+msgstr ""
+
+#: ../../pcb/rules.rst:7
+msgid "Setup > Design Rules... and select scope:"
+msgstr ""
+
+#: ../../pcb/rules.rst:10
+msgid ""
+"**Scopes** - **Default** Set rules for all nets - **Net** Set rules per "
+"net, overriding Default"
+msgstr ""
+
+#: ../../pcb/rules.rst:15
+msgid "**\"Report\"** generates a report with rules"
+msgstr ""
+
+#: ../../pcb/rules.rst:18
+msgid ""
+"**Sections** - **Clearance** Set trace widths and separations - "
+"**Routing** Set layers to route and via types"
+msgstr ""
+
+#: ../../pcb/rules.rst:24
+msgid "Set Trace Width"
+msgstr ""
+
+#: ../../pcb/rules.rst:25
+msgid "Clearance > Trace width"
+msgstr ""
+
+#: ../../pcb/rules.rst:28
+msgid "Set separation for different nets"
+msgstr ""
+
+#: ../../pcb/rules.rst:29
+msgid "Clearance > Clerance section"
+msgstr ""
+
+#: ../../pcb/rules.rst:32
+msgid "Set separation of objects for same net"
+msgstr ""
+
+#: ../../pcb/rules.rst:33
+msgid "Clearance > Same net Section"
+msgstr ""
+
+#: ../../pcb/rules.rst:36
+msgid "Allow Via at SMD"
+msgstr ""
+
+#: ../../pcb/rules.rst:37
+msgid "Clearance > Same net > Via/SMD set 0"
+msgstr ""
+
+#: ../../pcb/rules.rst:40
+msgid "Components separation"
+msgstr ""
+
+#: ../../pcb/rules.rst:41
+msgid "Clearance > Other > Body to Body"
+msgstr ""
+
+#: ../../pcb/rules.rst:44
+msgid "Drills separation"
+msgstr ""
+
+#: ../../pcb/rules.rst:45
+msgid "Clearance > Other > Drill to drill"
+msgstr ""
+
+#: ../../pcb/rules.rst:48
+msgid "Set allowed Layers"
+msgstr ""
+
+#: ../../pcb/rules.rst:49
+msgid "Routing > Layer biasing (selected = enabled)"
+msgstr ""
+
+#: ../../pcb/rules.rst:52
+msgid "Set allowed via types"
+msgstr ""
+
+#: ../../pcb/rules.rst:53
+msgid "Routing > Vias (selected = enabled)"
+msgstr ""
+
+#: ../../pcb/rules.rst:56
+msgid "Set maximum number of vias"
+msgstr ""
+
+#: ../../pcb/rules.rst:57
+msgid "Routing > maximum number of vias"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:3
+msgid "Routing"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:6
+msgid "Setup Dynamic Route and Bus Route"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:7
+msgid "Tools > Options > Design"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:8
+msgid "Set On-line DRC to Prevent"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:15
+msgid "|i-pads-router|"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:18
+msgid "``RClick`` > Select Pins/Traces/Unroutes"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:21
+msgid "Start route"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:22
+msgid "``LClick`` over pin or trace"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:23
+msgid "``F3``"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:26
+msgid "Confirm a segment"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:27
+msgid "``LClick`` or ``space``"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:30
+msgid "Undo a segment"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:31
+msgid "``Backspace``"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:34
+msgid "Change Layer"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:35
+msgid "``F4`` or ``l<n>``"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:38
+msgid "Autocomplete"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:39
+msgid "``Double LClick``"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:42
+msgid "Stop Routing"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:43
+msgid "``Ctrl+LClick``"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:46
+msgid "Change Width"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:47
+msgid "``w<width>``"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:50
+msgid "Add a via"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:51
+msgid "``Shift+LClick``"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:54
+msgid "Add testpoint"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:55
+msgid "While routing ``RClick`` > Add testpoint"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:58
+msgid "Add jumper"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:60
+msgid "While routing ``RClick`` > Add jumper"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:61
+msgid "Select orentation and length"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:65
+msgid "Via at SMD"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:69
+msgid "In Layout (|i-pads-layout|)  ``RClick`` > Select Traces/Pins"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:73
+msgid "``RClick`` > Select Traces/Pins"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:76
+msgid "``LClick`` on pad"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:77
+msgid "``RClick`` > Add Via at SMD"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:80
+msgid "To enable via at SMD, via to pad distance for the same net should be zero."
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:84
+msgid "Bus Route"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:85
+msgid "Rclick > Select Pins/Vias/Tacks"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:86
+msgid "Select pins to be routed together"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:87
+msgid "RClick > Bus Route"
+msgstr ""
+
+#: ../../../common/pcb/routing.rst:90
+msgid ""
+"If one of the traces in cannot be routed, it will ask you to route it "
+"separately."
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:3
+msgid "Copper"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:7 ../../../common/pcb/copper.rst:13
+msgid "|il-drafting|"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:8
+msgid ""
+"|il-solid-copper| for solid copper or |il-copper-pour| for copper pour or"
+" |il-plane-shape| for plane shape **only in mixed plane layers**"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:9
+msgid "Draw shape"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:12
+msgid "Add cutout"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:14
+msgid ""
+"|il-solid-copper-cutout| for solid copper or |il-copper-pour-cutout| for "
+"copper pour or |il-plane-shape-cutout| for plane shape **only in mixed "
+"plane layers**"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:19
+msgid "Edit"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:21
+msgid "RClick > Select Board Outline"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:22
+msgid "Pick polygon trace and edit"
+msgstr ""
+
+#: ../../../common/pcb/copper.rst:25
+msgid "``RCLick`` for polygon options"
+msgstr ""
+
+#: ../../../common/vias.rst:3
+msgid "Vias"
+msgstr ""
+
+#: ../../../common/vias.rst:7
+msgid "**Pad stack** The via shape in the layers"
+msgstr ""
+
+#: ../../../common/vias.rst:8
+msgid "**Via Span** The default via used to pass from one layer to another"
+msgstr ""
+
+#: ../../../common/vias.rst:9
+msgid "**Through Via** via crossing all layers"
+msgstr ""
+
+#: ../../../common/vias.rst:10
+msgid "**Partial Via** Via crossing a only some layers (blind and buried vias)"
+msgstr ""
+
+#: ../../../common/vias.rst:18
+msgid "Set via Pad Stacks"
+msgstr ""
+
+#: ../../../common/vias.rst:19
+msgid "In Layout (|i-pads-layout|) Setup > Pad Stacks"
+msgstr ""
+
+#: ../../../common/vias.rst:20
+msgid "Set Pad Stack type to Via"
+msgstr ""
+
+#: ../../../common/vias.rst:21
+msgid "Select Via and change properties"
+msgstr ""
+
+#: ../../../common/vias.rst:24
+msgid "Add a via padstack"
+msgstr ""
+
+#: ../../../common/vias.rst:25
+msgid "In Pad Stacks dialog, set Via type and Click in 'Add Via'."
+msgstr ""
+
+#: ../../../common/vias.rst:26
+msgid "Select through or partial"
+msgstr ""
+
+#: ../../../common/vias.rst:27
+msgid "Set start an end layer for partial vias"
+msgstr ""
+
+#: ../../../common/vias.rst:28
+msgid "Set pad styles for Pad and thermal"
+msgstr ""
+
+#: ../../../common/vias.rst:31
+msgid "Set default vias"
+msgstr ""
+
+#: ../../../common/vias.rst:35
+msgid "In Layout (|i-pads-layout|) Setup > Via Spans"
+msgstr ""
+
+#: ../../../common/vias.rst:36
+msgid "Set Default via for the given according to vias types and layers"
+msgstr ""
+
+#: ../../../common/vias.rst:41
+msgid "Setup > Design Rules... > Default > Routing"
+msgstr ""
+
+#: ../../../common/vias.rst:42
+msgid "At Vias section, select vias (selected = enabled)"
+msgstr ""
+
+#: ../../../common/vias.rst:48
+msgid "Set vias per Layer/Class"
+msgstr ""
+
+#: ../../../common/vias.rst:49
+msgid ""
+"In Constraint manager (|i-constraint-manager|) > Net Classes, set Via "
+"Assignments (same dialog as Via Spans)"
+msgstr ""
+
+#: ../../../common/vias.rst:56
+msgid "Stitching vias"
+msgstr ""
+
+#: ../../../common/vias.rst:60
+msgid "In Layout (|i-pads-layout|) Tools > Options, Via Patterns page"
+msgstr ""
+
+#: ../../../common/vias.rst:61
+msgid "Choose GND at 'Add vias from net' option."
+msgstr ""
+
+#: ../../../common/vias.rst:62
+msgid "Choose Via type"
+msgstr ""
+
+#: ../../../common/vias.rst:63
+msgid "For shapes, select Net and Via type if required"
+msgstr ""
+
+#: ../../../common/vias.rst:66
+msgid "Add Stitching vias around nets"
+msgstr ""
+
+#: ../../../common/vias.rst:67
+msgid "``RClick`` > Select Nets"
+msgstr ""
+
+#: ../../../common/vias.rst:68
+msgid "Choose nets"
+msgstr ""
+
+#: ../../../common/vias.rst:69
+msgid "``RClick`` > Add Via Shield"
+msgstr ""
+
+#: ../../../common/vias.rst:70
+msgid "ESC"
+msgstr ""
+
+#: ../../../common/vias.rst:71
+msgid "``RClick`` > Select Pins/Vias/Tacks"
+msgstr ""
+
+#: ../../../common/vias.rst:72
+msgid "Move/remove the unwanted vias"
+msgstr ""
+
+#: ../../../common/vias.rst:75
+msgid "Fill a shape with stitching vias"
+msgstr ""
+
+#: ../../../common/vias.rst:76
+msgid "Choose a 'solid copper' shape (|il-drafting| > |il-solid-copper|)"
+msgstr ""
+
+#: ../../../common/vias.rst:77
+msgid "``RClick`` > Select Shapes"
+msgstr ""
+
+#: ../../../common/vias.rst:78
+msgid "Select shape"
+msgstr ""
+
+#: ../../../common/vias.rst:79
+msgid "``RClick`` > Via Stitch"
+msgstr ""
+
+#: ../../parts.rst:7 ../../parts.rst:26
+msgid "Symbols"
+msgstr ""
+
+#: ../../parts.rst:10
+msgid "Use PADS Maker Schematic |i-pads-maker-schematic|"
+msgstr ""
+
+#: ../../parts.rst:13
+msgid "New Symbol"
+msgstr ""
+
+#: ../../parts.rst:14
+msgid "In an existing design: File > New > Symbol"
+msgstr ""
+
+#: ../../parts.rst:17
+msgid "New Symbol (box type)"
+msgstr ""
+
+#: ../../parts.rst:18
+msgid "Create csv from template"
+msgstr ""
+
+#: ../../parts.rst:19
+msgid "In an existing design: File > New > Symbol from Pin List"
+msgstr ""
+
+#: ../../parts.rst:22
+msgid ""
+"Check wiki help \"Creating and Editing Parts/Symbols\", Method #3 for "
+"excel template"
+msgstr ""
+
+#: ../../parts.rst:29
+msgid "Use PADS Maker Layout |i-pads-maker-layout|"
+msgstr ""
+
+#: ../../parts.rst:32
+msgid "Add a Decal"
+msgstr ""
+
+#: ../../parts.rst:33
+msgid "Select decals section and partition"
+msgstr ""
+
+#: ../../parts.rst:34
+msgid "Over Partition ``RClick`` > New Decal..."
+msgstr ""
+
+#: ../../parts.rst:35
+msgid "If possible, use Decal Wizard"
+msgstr ""
+
+#: ../../parts.rst:38
+msgid "Use Decal Wizard"
+msgstr ""
+
+#: ../../parts.rst:39
+msgid "|il-drafting|  > |il-decal-wizard|"
+msgstr ""
+
+#: ../../parts.rst:40
+msgid "At bottom, select units"
+msgstr ""
+
+#: ../../parts.rst:41
+msgid "Choose type (dual, quad, polar, BGA/PGA)"
+msgstr ""
+
+#: ../../parts.rst:42
+msgid "Fill data, click OK."
+msgstr ""
+
+#: ../../parts.rst:45
+msgid "Add a Part"
+msgstr ""
+
+#: ../../parts.rst:46
+msgid "Select 'Parts' section and partition"
+msgstr ""
+
+#: ../../parts.rst:47
+msgid "Select Logic Family (UND by default)"
+msgstr ""
+
+#: ../../parts.rst:48
+msgid "In PCB Decals assign Decals"
+msgstr ""
+
+#: ../../parts.rst:49
+msgid ""
+"In Gates, Click 'Add' and choose symbol in 'CAE Decal 1', 'CAE Decal 2', "
+"etc"
+msgstr ""
+
+#: ../../parts.rst:50
+msgid ""
+"Make a copy of C:\\PADS Projects\\Samples\\Part_Pins_Template.csv and "
+"complete the info for Pins Tab."
+msgstr ""
+
+#: ../../parts.rst:51
+msgid "In 'Pins' tab, click on Import CSV and import the completed CSV"
+msgstr ""
+
+#: ../../parts.rst:52
+msgid "Click 'Check Part' and fix issues before click OK"
+msgstr ""
+
+#: ../../parts.rst:55
+msgid "Part with fractures"
+msgstr ""
+
+#: ../../parts.rst:56
+msgid "In Gates Tab, add multiple Gates with Swap 0"
+msgstr ""
+
+#: ../../parts.rst:59
+msgid "Part with multiple symbol representations"
+msgstr ""
+
+#: ../../parts.rst:60
+msgid "Add CAE Decal 1, CAE Decal 2, etc."
+msgstr ""
+
+#: ../../parts.rst:63
+msgid "Part with duplicate symbols (E.g., a quad nand IC)"
+msgstr ""
+
+#: ../../parts.rst:64
+msgid "Add many gates with the same swap number, but different to 0"
+msgstr ""
+
+#: ../../parts.rst:67
+msgid "Add data into databook"
+msgstr ""
+
+#: ../../parts.rst:68
+msgid "Choose partition at Parts section"
+msgstr ""
+
+#: ../../parts.rst:69
+msgid "``RClick`` > Edit parametric data"
+msgstr ""
+
+#: ../../parts.rst:78
+msgid "Pins Tab Information:"
+msgstr ""
+
+#: ../../parts.rst:74
+msgid "**Pin Group** Gate A, Gate B, Unused pin or Signal"
+msgstr ""
+
+#: ../../parts.rst:75
+msgid "**Number** Decal number"
+msgstr ""
+
+#: ../../parts.rst:76
+msgid "**Name** Symbol name"
+msgstr ""
+
+#: ../../parts.rst:77
+msgid "**Type** Source, Bidirectional, etc"
+msgstr ""
+
+#: ../../parts.rst:78
+msgid "**Swap** Gates Swap groups"
+msgstr ""
+
+#: ../../parts.rst:79
+msgid "**Seq** Symbol pin name"
+msgstr ""
+
+#~ msgid "Check “Add Nets”"
+#~ msgstr ""
+
+#~ msgid "In Cross Probing, Check “Zoom Fit to Selected objects”"
+#~ msgstr ""
+
+#~ msgid "In Advanced, check “Automatically synchronize Links and net names”"
+#~ msgstr ""
+
+#~ msgid "Choose ‘settings...’ in combobox"
+#~ msgstr ""
+

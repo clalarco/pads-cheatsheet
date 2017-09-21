@@ -7,7 +7,17 @@
 .. Common icons
 .. |i-pads-maker-schematic| image:: _static/img/i-pads-maker-schematic.png
 .. |i-pads-maker-layout| image:: _static/img/i-pads-maker-layout.png
-.. |i-pads-layout| image:: _static/img/i-pads-maker-layout.png
+
+.. only:: pads_maker
+    .. |i-pads-layout| image:: _static/img/i-pads-maker-layout.png
+
+.. only:: not pads_maker
+    .. |i-pads-layout| image:: _static/img/i-pads-layout.png
+
+.. |i-pads-dxdesigner| image:: _static/img/i-pads-dxdesigner.png
+.. |i-pads-router| image:: _static/img/i-pads-router.png
+.. |i-constraint-manager| image:: _static/img/i-constraint-manager.png
+.. |i-pads-library-tools| image:: _static/img/i-pads-library-tools.png
 
 .. Schematics icons
 

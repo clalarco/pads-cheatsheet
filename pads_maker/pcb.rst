@@ -2,13 +2,16 @@
 PCB
 ****************************************
 
-.. include:: pcb/begin.rst
-.. include:: ../common/pcb/outline-keepouts.rst
-.. include:: ../common/pcb/layers.rst
-.. include:: ../common/pcb/pan-zoom.rst
-.. include:: ../common/pcb/selection.rst
-.. include:: ../common/pcb/visibility.rst
-.. include:: ../common/pcb/placement.rst
-.. include:: pcb/rules.rst
-.. include:: ../common/pcb/routing.rst
-.. include:: ../common/pcb/copper.rst
+.. toctree::
+    :maxdepth: 0
+
+    pcb/begin
+    ../common/pcb/outline-keepouts
+    ../common/pcb/layers
+    ../common/pcb/pan-zoom
+    ../common/pcb/selection
+    ../common/pcb/visibility
+    ../common/pcb/placement
+    pcb/rules
+    ../common/pcb/routing
+    ../common/pcb/copper

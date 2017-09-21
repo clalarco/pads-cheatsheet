@@ -3,15 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. include:: icons-logos.rst
+.. include:: /common/icons-logos.rst
 
 ########################################
 Cheat Sheet for |l-pads-maker|
 ########################################
 
-.. include:: apps-header.rst
+.. container:: start_apps
 
-.. include:: schematics.rst
-.. include:: pcb.rst
-.. include:: ../common/vias.rst
-.. include:: parts.rst
+    - **Start Schematics** |i-pads-maker-schematic| PADS Maker Schematic
+    - **Start PCB** |i-pads-maker-layout| PADS Maker Layout
+
+.. toctree::
+    :maxdepth: 0
+
+    pads_maker/schematics
+    pads_maker/pcb
+    common/vias
+    pads_maker/parts

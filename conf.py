@@ -42,6 +42,7 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The master toctree document.
+print ([t for t in tags])
 if tags.has('pads_maker'):
     master_doc = 'index-pads-maker'
     # General information about the project.
@@ -90,8 +91,6 @@ exclude_patterns = [
     '_build',
     'Thumbs.db',
     'common/icons-logos.rst',
-    'pads_maker/icons-logos.rst',
-    'pads_std_plus/icons-logos.rst',
 ]
 
 if tags.has('pads_maker'):

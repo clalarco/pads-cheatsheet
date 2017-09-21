@@ -15,6 +15,8 @@ HOW TO GENERATE THE DOCUMENT
 TRANSLATIONS
 ------------
 
+In pads_maker or pads_std_plus directories.
+
 1. Create pot files
 
    make gettext

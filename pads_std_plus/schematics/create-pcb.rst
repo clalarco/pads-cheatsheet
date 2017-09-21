@@ -1,3 +1,5 @@
+.. include:: /common/icons-logos.rst
+
 ========================================
 Create a PCB from schematics
 ========================================

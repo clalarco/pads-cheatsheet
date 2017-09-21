@@ -6,18 +6,11 @@
 .. |l-pads| image:: /pads_std_plus/_static/img/l-pads.png
 
 
-..PADS Maker icons
+.. PADS Maker icons
 .. |i-pads-maker-schematic| image:: /pads_maker/_static/img/i-pads-maker-schematic.png
 .. |i-pads-maker-layout| image:: /pads_maker/_static/img/i-pads-maker-layout.png
 
-.. only:: pads_maker
-
-    .. |i-pads-layout| image:: /pads_maker/_static/img/i-pads-maker-layout.png
-
-
-.. only:: pads_std_plus
-
-    .. |i-pads-layout| image:: /pads_std_plus/_static/img/i-pads-layout.png
+.. |i-pads-layout| image:: /pads_std_plus/_static/img/i-pads-layout.png
 
 
 .. Common icons

@@ -6,4 +6,4 @@ Selection Filter
 
 Add custom filters
 ----------------------------------------
-Choose ‘settings...’ in combobox
+Choose 'settings...' in combobox

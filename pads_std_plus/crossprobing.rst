@@ -17,7 +17,7 @@ On Schematics
 On Layout |i-pads-layout| and Router |i-pads-router|
 ----------------------------------------------------
 #. Tools > Options
-#. In Cross Probing Tab, Check “Enable”
+#. In Cross Probing Tab, Check 'Enable'
 #. Choose Action.
 
 .. hint::

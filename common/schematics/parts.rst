@@ -11,19 +11,19 @@ Add a part
 
 With Nets
 ----------------------------------------
-Check “Add Nets”
+Check 'Add Nets'
 
 
 With names in Nets
 ----------------------------------------
-Also Check “Add Net Names”
+Also Check 'Add Net Names'
 
 
 Add Ground, VDD, links, etc
 ----------------------------------------
 .. only:: pads_std_plus
 
-    Add > Special Components or View > My Parts, then “Special Components” tab.
+    Add > Special Components or View > My Parts, then 'Special Components' tab.
 
 
 .. only:: pads_maker

@@ -20,7 +20,7 @@ Setup
 Set Diff Pair in schematics
 ----------------------------------------
 #. Select net
-#. In Properties, set the pair net in ‘diff pair’ field
+#. In Properties, set the pair net in 'diff pair' field
 
 Set diff pair in constraint manager:
 ----------------------------------------
@@ -29,7 +29,7 @@ Set diff pair in constraint manager:
 #. Set patterns for Net name and Pair net Name
 #. Click Apply
 
-   .. hint:: Nets set in schematics won’t appear in auto assign dialog
+   .. hint:: Nets set in schematics won't appear in auto assign dialog
 
 Set Diff Pair Spacing
 ----------------------------------------
@@ -39,7 +39,7 @@ Set Diff Pair Spacing
 Set Max Separation
 ----------------------------------------
 #. At Constraint Classes select the class
-#. Select ‘Nets’ tab
+#. Select 'Nets' tab
 #. Select class or net
 #. Set Separation Distance
 

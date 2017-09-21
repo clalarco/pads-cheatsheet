@@ -19,7 +19,6 @@
 import os
 import sys
 d = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(d, "../common"))
 
 
 # -- General configuration ------------------------------------------------
@@ -71,7 +70,7 @@ locale_dirs = ['../locale']
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = [
-    '../common/*.rst',
+    'common',
     'parts.rst',
     'apps-header.rst',
     'icons-logos.rst',

@@ -23,23 +23,23 @@ msgstr ""
 
 #: ../../common/schematics/nets.rst:8
 msgid "Add a net"
-msgstr ""
+msgstr "Nueva Net"
 
 #: ../../common/schematics/nets.rst:9
 msgid "``n`` or |is-net|"
-msgstr ""
+msgstr "``n`` o |is-net|"
 
 #: ../../common/schematics/nets.rst:10
 msgid "``LClick`` in start"
-msgstr ""
+msgstr "``LClick`` al inicio"
 
 #: ../../common/schematics/nets.rst:11
 msgid "Draw and ``LClick`` on end"
-msgstr ""
+msgstr "Draw and ``LClick`` al final"
 
 #: ../../common/schematics/nets.rst:16
 msgid "Add Multiple"
-msgstr ""
+msgstr "Agregar múltiples net"
 
 #: ../../common/schematics/nets.rst:17
 msgid "|is-multinet|"
@@ -47,11 +47,11 @@ msgstr ""
 
 #: ../../common/schematics/nets.rst:18
 msgid "``drag LClick`` to select starting pins"
-msgstr ""
+msgstr "``arrastra LClick`` para seleccionar pines de partida"
 
 #: ../../common/schematics/nets.rst:19
 msgid "``drag LClick`` to destination nets"
-msgstr ""
+msgstr "``arrastra LClick`` para seleccionar los pines de destino"
 
 #: ../../common/schematics/nets.rst:20
 msgid "``RClick``"
@@ -59,13 +59,13 @@ msgstr ""
 
 #: ../../common/schematics/nets.rst:23
 msgid "Add nets to pins"
-msgstr ""
+msgstr "Agregar nets a pines"
 
 #: ../../common/schematics/nets.rst:24
 msgid "n or |is-net|"
-msgstr ""
+msgstr "n o |is-net|"
 
 #: ../../common/schematics/nets.rst:25
 msgid "``Alt+LClick`` on pin"
-msgstr ""
+msgstr "``Alt+LClick`` sobre el pin"
 

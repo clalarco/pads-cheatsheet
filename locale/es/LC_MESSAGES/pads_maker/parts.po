@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../pads_maker/parts.rst:5
+msgid "Parts"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:9 ../../pads_maker/parts.rst:28
+msgid "Symbols"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:12
+msgid "Use PADS Maker Schematic |i-pads-maker-schematic|"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:15
+msgid "New Symbol"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:16
+msgid "In an existing design: File > New > Symbol"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:19
+msgid "New Symbol (box type)"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:20
+msgid "Create csv from template"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:21
+msgid "In an existing design: File > New > Symbol from Pin List"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:24
+msgid ""
+"Check wiki help \"Creating and Editing Parts/Symbols\", Method #3 for "
+"excel template"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:31
+msgid "Use PADS Maker Layout |i-pads-maker-layout|"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:34
+msgid "Add a Decal"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:35
+msgid "Select decals section and partition"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:36
+msgid "Over Partition ``RClick`` > New Decal..."
+msgstr ""
+
+#: ../../pads_maker/parts.rst:37
+msgid "If possible, use Decal Wizard"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:40
+msgid "Use Decal Wizard"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:41
+msgid "|il-drafting|  > |il-decal-wizard|"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:42
+msgid "At bottom, select units"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:43
+msgid "Choose type (dual, quad, polar, BGA/PGA)"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:44
+msgid "Fill data, click OK."
+msgstr ""
+
+#: ../../pads_maker/parts.rst:47
+msgid "Add a Part"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:48
+msgid "Select 'Parts' section and partition"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:49
+msgid "Select Logic Family (UND by default)"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:50
+msgid "In PCB Decals assign Decals"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:51
+msgid ""
+"In Gates, Click 'Add' and choose symbol in 'CAE Decal 1', 'CAE Decal 2', "
+"etc"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:52
+msgid ""
+"Make a copy of C:\\PADS Projects\\Samples\\Part_Pins_Template.csv and "
+"complete the info for Pins Tab."
+msgstr ""
+
+#: ../../pads_maker/parts.rst:53
+msgid "In 'Pins' tab, click on Import CSV and import the completed CSV"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:54
+msgid "Click 'Check Part' and fix issues before click OK"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:57
+msgid "Part with fractures"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:58
+msgid "In Gates Tab, add multiple Gates with Swap 0"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:61
+msgid "Part with multiple symbol representations"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:62
+msgid "Add CAE Decal 1, CAE Decal 2, etc."
+msgstr ""
+
+#: ../../pads_maker/parts.rst:65
+msgid "Part with duplicate symbols (E.g., a quad nand IC)"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:66
+msgid "Add many gates with the same swap number, but different to 0"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:69
+msgid "Add data into databook"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:70
+msgid "Choose partition at Parts section"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:71
+msgid "``RClick`` > Edit parametric data"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:80
+msgid "Pins Tab Information:"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:76
+msgid "**Pin Group** Gate A, Gate B, Unused pin or Signal"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:77
+msgid "**Number** Decal number"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:78
+msgid "**Name** Symbol name"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:79
+msgid "**Type** Source, Bidirectional, etc"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:80
+msgid "**Swap** Gates Swap groups"
+msgstr ""
+
+#: ../../pads_maker/parts.rst:81
+msgid "**Seq** Symbol pin name"
+msgstr ""
+

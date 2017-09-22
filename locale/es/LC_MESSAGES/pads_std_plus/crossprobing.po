@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Std Plus
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Std Plus VX.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:39-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../pads_std_plus/crossprobing.rst:5
+msgid "Cross-probing"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:7
+msgid "It works for integrated projects."
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:11
+msgid "Setup"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:14
+msgid "On Schematics"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:15
+msgid "Setup > Settings"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:16
+msgid "At Cross Probing section, Check all checkboxes. Click OK."
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:17
+msgid "Setup > Cross Probing needs to be checked."
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:20
+msgid "On Layout |i-pads-layout| and Router |i-pads-router|"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:21
+msgid "Tools > Options"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:22
+msgid "In Cross Probing Tab, Check 'Enable'"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:23
+msgid "Choose Action."
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:26
+msgid "Pan is good for placing/routing"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:30
+msgid "Using"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:33
+msgid "Select in Schematics, work in Layout/Router"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:34
+msgid ""
+"Arrange Schematics and Layout/Router windows in splitted screen or "
+"different displays"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:35
+msgid "In Layout/Router, ``RClick`` and choose the selection type"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:36
+msgid "In Schematics, select the components"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:37
+msgid ""
+"Go to Layout/Router, in a region without elements to select press "
+"``Ctrl+LClick``, to avoid losing the selection"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:38
+msgid "Perform the selected operation"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:41
+msgid "Select in Layout/Router, work in Schematics"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:42
+msgid "In Layout/Router, select the elements"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:43
+msgid ""
+"In Schematics, in a region without elements to select press "
+"``Ctrl+LClick``, to avoid losing the selection"
+msgstr ""
+
+#: ../../pads_std_plus/crossprobing.rst:44
+msgid "Perform the selected operation."
+msgstr ""
+

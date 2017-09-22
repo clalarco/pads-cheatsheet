@@ -1,0 +1,216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Std Plus
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Std Plus VX.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:39-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../pads_std_plus/parts.rst:5
+msgid "Parts"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:8
+msgid "Use Library Tools |i-pads-library-tools|"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:12
+msgid "New Part"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:13
+msgid "Add symbol"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:14
+msgid "Add decal"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:15
+msgid "Add part and map symbols and decals"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:18
+msgid "Calling from Schematics"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:19
+msgid "Tools > PADS Library Tools"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:22
+msgid "Calling from Layout"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:23
+msgid "File > PADS Library Tools"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:26
+msgid "Add a Symbol (box type)"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:27
+msgid "Select symbols section and partition."
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:28
+msgid "Over Partition ``RClick`` > New Symbol or Symbol Wizard"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:29
+msgid "Choose Module and Fracture for big pin counts parts. Fill rows."
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:32
+msgid "You can copy/paste from Excel!"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:35
+msgid "Add a Decal"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:36
+msgid "Select decals section and partition"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:37
+msgid "Over Partition ``RClick`` > New Decal..."
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:38
+msgid "If possible, use Decal Wizard"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:41
+msgid "Use Decal Wizard"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:42
+msgid "|il-drafting|  > |il-decal-wizard|"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:43
+msgid "At bottom, select units"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:44
+msgid "Choose type (dual, quad, polar, BGA/PGA)"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:45
+msgid "Fill data, click OK."
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:48
+msgid "Add a Part"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:49
+msgid "Select 'Parts' section and partition"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:50
+msgid "Select Logic Family (UND by default)"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:51
+msgid "In PCB Decals assign Decals"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:52
+msgid ""
+"In Gates, Click 'Add' and choose symbol in 'CAE Decal 1', 'CAE Decal 2', "
+"etc"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:53
+msgid ""
+"Make a copy of C:\\PADS Projects\\Samples\\Part_Pins_Template.csv and "
+"complete the info for Pins Tab."
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:54
+msgid "In 'Pins' tab, click on Import CSV and import the completed CSV"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:55
+msgid "Click 'Check Part' and fix issues before click OK"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:58
+msgid "Part with fractures"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:59
+msgid "In Gates Tab, add multiple Gates with Swap 0"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:62
+msgid "Part with multiple symbol representations"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:63
+msgid "Add CAE Decal 1, CAE Decal 2, etc."
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:66
+msgid "Part with duplicate symbols (E.g., a quad nand IC)"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:67
+msgid "Add many gates with the same swap number, but different to 0"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:70
+msgid "Add data into databook"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:71
+msgid "Choose partition at Parts section"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:72
+msgid "``RClick`` > Edit parametric data"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:81
+msgid "Pins Tab Information:"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:77
+msgid "**Pin Group** Gate A, Gate B, Unused pin or Signal"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:78
+msgid "**Number** Decal number"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:79
+msgid "**Name** Symbol name"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:80
+msgid "**Type** Source, Bidirectional, etc"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:81
+msgid "**Swap** Gates Swap groups"
+msgstr ""
+
+#: ../../pads_std_plus/parts.rst:82
+msgid "**Seq** Symbol pin name"
+msgstr ""
+

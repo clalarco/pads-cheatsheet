@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/schematics/new-project.rst:3
+msgid "New Project"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:7
+msgid ""
+"in 'Start Page' tab, select in 'New Project' pane > PADS Integrated > "
+"PADS ODA"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:11
+msgid "in 'Start Page' tab, select in 'New Project' pane > Design"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:15
+msgid "Add a new Sheet"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:17
+msgid "``pg down`` on a active sheet"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:21
+msgid "Change page size"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:23
+msgid "Unselect all"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:24
+msgid "In Properties, change Drawing size and orientation"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:25
+msgid "In page, ``RClick`` > Change border... to select a proper border"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:29
+msgid "Show Parts Panel"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:33
+msgid "View > PADS Databook"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:38
+msgid "View > Parts"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:44
+msgid "Disable PADS Databook Database"
+msgstr ""
+
+#: ../../common/schematics/new-project.rst:46
+msgid "Setup > Settings > Licensing, uncheck 'PADS Databook database support'"
+msgstr ""
+

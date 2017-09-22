@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/pcb/copper.rst:5
+msgid "Copper"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:8
+msgid "Add"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:9 ../../common/pcb/copper.rst:15
+msgid "|il-drafting|"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:10
+msgid ""
+"|il-solid-copper| for solid copper or |il-copper-pour| for copper pour or"
+" |il-plane-shape| for plane shape **only in mixed plane layers**"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:11
+msgid "Draw shape"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:14
+msgid "Add cutout"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:16
+msgid ""
+"|il-solid-copper-cutout| for solid copper or |il-copper-pour-cutout| for "
+"copper pour or |il-plane-shape-cutout| for plane shape **only in mixed "
+"plane layers**"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:21
+msgid "Edit"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:22
+msgid "Clear selection"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:23
+msgid "RClick > Select Board Outline"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:24
+msgid "Pick polygon trace and edit"
+msgstr ""
+
+#: ../../common/pcb/copper.rst:27
+msgid "``RCLick`` for polygon options"
+msgstr ""
+

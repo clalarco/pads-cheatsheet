@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/schematics/manipulation.rst:5
+msgid "Manipulation"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:8
+msgid "Rotate"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:9
+msgid "``F3`` or pick handle |is-handle|"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:12
+msgid "Mirror Horizontally"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:13
+msgid "``F4`` or |is-mirror|"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:16
+msgid "Flip Vertically"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:17
+msgid "``F5`` or |is-flip|"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:20
+msgid "Array"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:21
+msgid "Select components"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:22
+msgid "|is-array|"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:23
+msgid "Set rows and column"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:24
+msgid "Set spacing"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:27
+msgid "Duplicate"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:28
+msgid "Select part; then ``Ctrl+C``, ``Ctrl+V``, or"
+msgstr ""
+
+#: ../../common/schematics/manipulation.rst:29
+msgid "Select part, then ``Ctrl+LClick`` and drag ``LClick``"
+msgstr ""
+

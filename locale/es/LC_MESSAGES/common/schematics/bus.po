@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/schematics/bus.rst:5
+msgid "Bus"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:8
+msgid "Add"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:9
+msgid "``b`` or |is-bus|"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:10
+msgid "``LClick`` to draw"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:11
+msgid "``ESC``"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:12
+msgid "In Properties > Name, set NET_NAME[n:0]"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:15
+msgid "Rip nets from bus"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:16
+msgid "RClick on Bus > Rip Nets"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:17
+msgid "Select nets (``Ctrl`` = multi)"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:18
+msgid "``LClick``"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:21
+msgid "Connect a symbol to the bus"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:22
+msgid "Touch bus with symbol pins"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:23
+msgid "Select the bus indexes to connect and order"
+msgstr ""
+
+#: ../../common/schematics/bus.rst:24
+msgid "put symbol away from the bus to draw nets"
+msgstr ""
+

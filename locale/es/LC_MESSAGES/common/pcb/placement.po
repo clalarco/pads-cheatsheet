@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/pcb/placement.rst:3
+msgid "Parts Placement"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:6
+msgid "Disperse"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:7
+msgid "Tools > Disperse Components"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:10
+msgid "Move components"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:11
+msgid "Pick part"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:12
+msgid "``Ctrl+E`` or ``LClick and drag``"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:15
+msgid "Rotate"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:16
+msgid "``Ctrl+R`` or ``tab``"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:19
+msgid "Change layer"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:20
+msgid "``Rclick`` > Flip Side or ``Ctrl+F``"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:23
+msgid "Cluster components"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:24
+msgid "``RCLick`` > Select Components"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:25
+msgid "Select parts"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:26
+msgid "``RClick`` > Create Cluster"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:29
+msgid "Select clusters"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:30
+msgid "``RClick`` > Select clusters"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:33
+msgid "Place parts from a cluster"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:34
+msgid "``LClick`` to Select Cluster"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:35
+msgid "``RClick`` > Break"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:36
+msgid "Place parts"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:41
+msgid ""
+"It’s easier to pick components from Schematics using cross-probing (use "
+"filters to select only symbols)"
+msgstr ""
+
+#: ../../common/pcb/placement.rst:42
+msgid "You can create a cluster of clusters!"
+msgstr ""
+

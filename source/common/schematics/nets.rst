@@ -16,7 +16,7 @@ Add a net
     ----------------------------------------
     #. |is-multinet|
     #. ``drag LClick`` to select starting pins
-    #. ``drag LClick`` to destination nets
+    #. ``drag LClick`` to destination pins
     #. ``RClick``
 
 Add nets to pins

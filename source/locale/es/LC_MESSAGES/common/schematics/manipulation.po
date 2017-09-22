@@ -19,39 +19,39 @@ msgstr ""
 
 #: ../../common/schematics/manipulation.rst:5
 msgid "Manipulation"
-msgstr ""
+msgstr "Manipulación"
 
 #: ../../common/schematics/manipulation.rst:8
 msgid "Rotate"
-msgstr ""
+msgstr "Rotar"
 
 #: ../../common/schematics/manipulation.rst:9
 msgid "``F3`` or pick handle |is-handle|"
-msgstr ""
+msgstr "``F3`` o con |is-handle|"
 
 #: ../../common/schematics/manipulation.rst:12
 msgid "Mirror Horizontally"
-msgstr ""
+msgstr "Reflejo Horizontal"
 
 #: ../../common/schematics/manipulation.rst:13
 msgid "``F4`` or |is-mirror|"
-msgstr ""
+msgstr "``F4`` o |is-mirror|"
 
 #: ../../common/schematics/manipulation.rst:16
 msgid "Flip Vertically"
-msgstr ""
+msgstr "Espejo Vertical"
 
 #: ../../common/schematics/manipulation.rst:17
 msgid "``F5`` or |is-flip|"
-msgstr ""
+msgstr "``F5`` o |is-flip|"
 
 #: ../../common/schematics/manipulation.rst:20
 msgid "Array"
-msgstr ""
+msgstr "Arreglo"
 
 #: ../../common/schematics/manipulation.rst:21
 msgid "Select components"
-msgstr ""
+msgstr "Selecciona componentes"
 
 #: ../../common/schematics/manipulation.rst:22
 msgid "|is-array|"
@@ -59,21 +59,21 @@ msgstr ""
 
 #: ../../common/schematics/manipulation.rst:23
 msgid "Set rows and column"
-msgstr ""
+msgstr "Define filas y columnas"
 
 #: ../../common/schematics/manipulation.rst:24
 msgid "Set spacing"
-msgstr ""
+msgstr "Define separación"
 
 #: ../../common/schematics/manipulation.rst:27
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplicar"
 
 #: ../../common/schematics/manipulation.rst:28
 msgid "Select part; then ``Ctrl+C``, ``Ctrl+V``, or"
-msgstr ""
+msgstr "Selecciona objeto, luego ``Ctrl+C``, ``Ctrl+V``, o"
 
 #: ../../common/schematics/manipulation.rst:29
 msgid "Select part, then ``Ctrl+LClick`` and drag ``LClick``"
-msgstr ""
+msgstr "Selecciona objeto, luego ``Ctrl+LClick``, arrastra y después ``LClick``"
 

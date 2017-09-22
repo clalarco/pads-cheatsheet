@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../pads_maker/parts.rst:5
 msgid "Parts"
-msgstr ""
+msgstr "Partes"
 
 #: ../../pads_maker/parts.rst:9 ../../pads_maker/parts.rst:28
 msgid "Symbols"
-msgstr ""
+msgstr "Símbolos"
 
 #: ../../pads_maker/parts.rst:12
 msgid "Use PADS Maker Schematic |i-pads-maker-schematic|"
@@ -31,23 +31,23 @@ msgstr ""
 
 #: ../../pads_maker/parts.rst:15
 msgid "New Symbol"
-msgstr ""
+msgstr "Nuevo Símbolo"
 
 #: ../../pads_maker/parts.rst:16
 msgid "In an existing design: File > New > Symbol"
-msgstr ""
+msgstr "En un diseño existente: File > New > Symbol"
 
 #: ../../pads_maker/parts.rst:19
 msgid "New Symbol (box type)"
-msgstr ""
+msgstr "Nuevo símbolo (tipo caja)"
 
 #: ../../pads_maker/parts.rst:20
 msgid "Create csv from template"
-msgstr ""
+msgstr "Crear csv desde template"
 
 #: ../../pads_maker/parts.rst:21
 msgid "In an existing design: File > New > Symbol from Pin List"
-msgstr ""
+msgstr "En un diseño existente: File > New > Symbol from Pin List"
 
 #: ../../pads_maker/parts.rst:24
 msgid ""
@@ -61,23 +61,23 @@ msgstr ""
 
 #: ../../pads_maker/parts.rst:34
 msgid "Add a Decal"
-msgstr ""
+msgstr "Agregar un footprint (decal)"
 
 #: ../../pads_maker/parts.rst:35
 msgid "Select decals section and partition"
-msgstr ""
+msgstr "Seleccionar sección y partición"
 
 #: ../../pads_maker/parts.rst:36
 msgid "Over Partition ``RClick`` > New Decal..."
-msgstr ""
+msgstr "Sobre la Partición ``RClick`` > New Decal..."
 
 #: ../../pads_maker/parts.rst:37
 msgid "If possible, use Decal Wizard"
-msgstr ""
+msgstr "Si es posible, usar Decal Wizard"
 
 #: ../../pads_maker/parts.rst:40
 msgid "Use Decal Wizard"
-msgstr ""
+msgstr "Usar Decal Wizard"
 
 #: ../../pads_maker/parts.rst:41
 msgid "|il-drafting|  > |il-decal-wizard|"
@@ -85,19 +85,19 @@ msgstr ""
 
 #: ../../pads_maker/parts.rst:42
 msgid "At bottom, select units"
-msgstr ""
+msgstr "En la parte inferior, escoger unidades"
 
 #: ../../pads_maker/parts.rst:43
 msgid "Choose type (dual, quad, polar, BGA/PGA)"
-msgstr ""
+msgstr "Escoger tipo (dual, quad, polar, BGA/PGA)"
 
 #: ../../pads_maker/parts.rst:44
 msgid "Fill data, click OK."
-msgstr ""
+msgstr "Completar datos, click en OK."
 
 #: ../../pads_maker/parts.rst:47
 msgid "Add a Part"
-msgstr ""
+msgstr "Agregar una Parte"
 
 #: ../../pads_maker/parts.rst:48
 msgid "Select 'Parts' section and partition"

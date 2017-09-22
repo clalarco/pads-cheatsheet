@@ -19,5 +19,5 @@ msgstr ""
 
 #: ../../pads_maker/schematics.rst:3
 msgid "Schematics"
-msgstr ""
+msgstr "Esquemático"
 

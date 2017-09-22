@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../common/schematics/links.rst:6
 msgid "Setup"
-msgstr ""
+msgstr "Configuración"
 
 #: ../../common/schematics/links.rst:9
 msgid "View > My Parts, to show panel"
-msgstr ""
+msgstr "View > My Parts"
 
 #: ../../common/schematics/links.rst:11
 msgid "Setup > Settings"
@@ -35,11 +35,11 @@ msgstr ""
 
 #: ../../common/schematics/links.rst:12
 msgid "In Cross Probing, Check 'Zoom Fit to Selected objects'"
-msgstr ""
+msgstr "En Cross Probing, activa 'Zoom Fit to Selected objects'"
 
 #: ../../common/schematics/links.rst:13
 msgid "In Advanced, check 'Automatically synchronize Links and net names'"
-msgstr ""
+msgstr "En Advanced, activa 'Automatically synchronize Links and net names'"
 
 #: ../../common/schematics/links.rst:14
 msgid "Click OK"
@@ -47,29 +47,29 @@ msgstr ""
 
 #: ../../common/schematics/links.rst:17
 msgid "Add"
-msgstr ""
+msgstr "Agregar"
 
 #: ../../common/schematics/links.rst:18
 msgid "In My Parts > Special Components > Link"
-msgstr ""
+msgstr "En My Parts > Special Components > Link"
 
 #: ../../common/schematics/links.rst:19
 msgid "Connect link to net"
-msgstr ""
+msgstr "Conectar link a una net"
 
 #: ../../common/schematics/links.rst:20
 msgid "In properties, set a name for the link"
-msgstr ""
+msgstr "In properties, escoge un nombre para el link"
 
 #: ../../common/schematics/links.rst:21
 msgid "Add another Link with the same net"
-msgstr ""
+msgstr "Agrega otro Link con la misma net"
 
 #: ../../common/schematics/links.rst:24
 msgid "Navigating"
-msgstr ""
+msgstr "Navegar"
 
 #: ../../common/schematics/links.rst:25
 msgid "``Alt+LClick`` over a Link."
-msgstr ""
+msgstr "``Alt+LClick`` sobre un link."
 

@@ -19,17 +19,17 @@ msgstr ""
 
 #: ../../common/schematics/filter.rst:5
 msgid "Selection Filter"
-msgstr ""
+msgstr "Filtros de Selección"
 
 #: ../../common/schematics/filter.rst:7
 msgid "|is-filter| then select the elements to enable by selection"
-msgstr ""
+msgstr "|is-filter| y luego selecciona los tipos de elementos habilitados"
 
 #: ../../common/schematics/filter.rst:10
 msgid "Add custom filters"
-msgstr ""
+msgstr "Agregar filtros personalizados"
 
 #: ../../common/schematics/filter.rst:11
 msgid "Choose 'settings...' in combobox"
-msgstr ""
+msgstr "Escoge 'settings...' en combobox"
 

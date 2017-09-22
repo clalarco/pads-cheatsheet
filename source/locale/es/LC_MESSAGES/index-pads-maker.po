@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../index-pads-maker.rst:10
 msgid "Cheat Sheet for |l-pads-maker|"
-msgstr ""
+msgstr "Resumen para |l-pads-maker|"
 
 #: ../../index-pads-maker.rst:14
 msgid "**Start Schematics** |i-pads-maker-schematic| PADS Maker Schematic"
-msgstr ""
+msgstr "**Esquemático** |i-pads-maker-schematic| PADS Maker Schematic"
 
 #: ../../index-pads-maker.rst:15
 msgid "**Start PCB** |i-pads-maker-layout| PADS Maker Layout"
-msgstr ""
+msgstr "**PCB** |i-pads-maker-layout| PADS Maker Layout"
 

@@ -19,35 +19,39 @@ msgstr ""
 
 #: ../../pads_maker/pcb/rules.rst:5
 msgid "Rules"
-msgstr ""
+msgstr "Reglas de Diseño"
 
 #: ../../pads_maker/pcb/rules.rst:8
 msgid "Open Dialog"
-msgstr ""
+msgstr "Abrir Diálogo"
 
 #: ../../pads_maker/pcb/rules.rst:9
 msgid "Setup > Design Rules... and select scope:"
-msgstr ""
+msgstr "Setup > Design Rules... y escoger ámbito:"
 
 #: ../../pads_maker/pcb/rules.rst:12
 msgid ""
 "**Scopes** - **Default** Set rules for all nets - **Net** Set rules per "
 "net, overriding Default"
 msgstr ""
+"**Ámbitos** - **Default** reglas para todas las nets- **Net** Reglas para nets en particular, "
+"sobreescribiendo Default"
 
 #: ../../pads_maker/pcb/rules.rst:17
 msgid "**\"Report\"** generates a report with rules"
-msgstr ""
+msgstr "**\"Report\"** genera un reporte con las reglas"
 
 #: ../../pads_maker/pcb/rules.rst:20
 msgid ""
 "**Sections** - **Clearance** Set trace widths and separations - "
 "**Routing** Set layers to route and via types"
 msgstr ""
+"**Secciones** - **Clearance** Anchos de pistas y separaciones - "
+"**Routing** Capas donde se puede rutear y tipos de vías"
 
 #: ../../pads_maker/pcb/rules.rst:26
 msgid "Set Trace Width"
-msgstr ""
+msgstr "Definir ancho de pistas"
 
 #: ../../pads_maker/pcb/rules.rst:27
 msgid "Clearance > Trace width"
@@ -55,7 +59,7 @@ msgstr ""
 
 #: ../../pads_maker/pcb/rules.rst:30
 msgid "Set separation for different nets"
-msgstr ""
+msgstr "Definir separation para nets diferentes"
 
 #: ../../pads_maker/pcb/rules.rst:31
 msgid "Clearance > Clerance section"
@@ -63,7 +67,7 @@ msgstr ""
 
 #: ../../pads_maker/pcb/rules.rst:34
 msgid "Set separation of objects for same net"
-msgstr ""
+msgstr "Definir separación de objetos de la misma net"
 
 #: ../../pads_maker/pcb/rules.rst:35
 msgid "Clearance > Same net Section"
@@ -71,7 +75,7 @@ msgstr ""
 
 #: ../../pads_maker/pcb/rules.rst:38
 msgid "Allow Via at SMD"
-msgstr ""
+msgstr "Permitir vías en SMD"
 
 #: ../../pads_maker/pcb/rules.rst:39
 msgid "Clearance > Same net > Via/SMD set 0"
@@ -79,7 +83,7 @@ msgstr ""
 
 #: ../../pads_maker/pcb/rules.rst:42
 msgid "Components separation"
-msgstr ""
+msgstr "Separación de componentes"
 
 #: ../../pads_maker/pcb/rules.rst:43
 msgid "Clearance > Other > Body to Body"
@@ -87,7 +91,7 @@ msgstr ""
 
 #: ../../pads_maker/pcb/rules.rst:46
 msgid "Drills separation"
-msgstr ""
+msgstr "Separación de perforaciones"
 
 #: ../../pads_maker/pcb/rules.rst:47
 msgid "Clearance > Other > Drill to drill"
@@ -95,23 +99,23 @@ msgstr ""
 
 #: ../../pads_maker/pcb/rules.rst:50
 msgid "Set allowed Layers"
-msgstr ""
+msgstr "Definir capas habilitadas para rutear"
 
 #: ../../pads_maker/pcb/rules.rst:51
 msgid "Routing > Layer biasing (selected = enabled)"
-msgstr ""
+msgstr "Routing > Layer biasing (selected = habilitada)"
 
 #: ../../pads_maker/pcb/rules.rst:54
 msgid "Set allowed via types"
-msgstr ""
+msgstr "Definir tipos de vías autorizados"
 
 #: ../../pads_maker/pcb/rules.rst:55
 msgid "Routing > Vias (selected = enabled)"
-msgstr ""
+msgstr "Routing > Vias (selected = habilitado)"
 
 #: ../../pads_maker/pcb/rules.rst:58
 msgid "Set maximum number of vias"
-msgstr ""
+msgstr "Definir número máximo de vías"
 
 #: ../../pads_maker/pcb/rules.rst:59
 msgid "Routing > maximum number of vias"

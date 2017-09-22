@@ -19,45 +19,47 @@ msgstr ""
 
 #: ../../common/schematics/new-project.rst:3
 msgid "New Project"
-msgstr ""
+msgstr "Nuevo Proyecto"
 
 #: ../../common/schematics/new-project.rst:7
 msgid ""
 "in 'Start Page' tab, select in 'New Project' pane > PADS Integrated > "
 "PADS ODA"
 msgstr ""
+"en 'Start Page' tab, escoge en 'New Project' > PADS Integrated > "
+"PADS ODA"
 
 #: ../../common/schematics/new-project.rst:11
 msgid "in 'Start Page' tab, select in 'New Project' pane > Design"
-msgstr ""
+msgstr "en 'Start Page', escoge en 'New Project' > Design"
 
 #: ../../common/schematics/new-project.rst:15
 msgid "Add a new Sheet"
-msgstr ""
+msgstr "Nueva Hoja"
 
 #: ../../common/schematics/new-project.rst:17
 msgid "``pg down`` on a active sheet"
-msgstr ""
+msgstr "``pg down`` en la última hoja activa"
 
 #: ../../common/schematics/new-project.rst:21
 msgid "Change page size"
-msgstr ""
+msgstr "Cambiar tamaño de página"
 
 #: ../../common/schematics/new-project.rst:23
 msgid "Unselect all"
-msgstr ""
+msgstr "Deselecciona todo"
 
 #: ../../common/schematics/new-project.rst:24
 msgid "In Properties, change Drawing size and orientation"
-msgstr ""
+msgstr "en 'Properties', cambiar 'Drawing size' y 'orientation'"
 
 #: ../../common/schematics/new-project.rst:25
 msgid "In page, ``RClick`` > Change border... to select a proper border"
-msgstr ""
+msgstr "En página, ``RClick`` > Change border... para escoger un borde adecuado"
 
 #: ../../common/schematics/new-project.rst:29
 msgid "Show Parts Panel"
-msgstr ""
+msgstr "Mostrar Partes"
 
 #: ../../common/schematics/new-project.rst:33
 msgid "View > PADS Databook"
@@ -69,9 +71,9 @@ msgstr ""
 
 #: ../../common/schematics/new-project.rst:44
 msgid "Disable PADS Databook Database"
-msgstr ""
+msgstr "Deshabilitar PADS Databook"
 
 #: ../../common/schematics/new-project.rst:46
 msgid "Setup > Settings > Licensing, uncheck 'PADS Databook database support'"
-msgstr ""
+msgstr "Setup > Settings > Licensing, desactiva 'PADS Databook database support'"
 

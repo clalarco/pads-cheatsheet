@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../common/pcb/copper.rst:5
 msgid "Copper"
-msgstr ""
+msgstr "Planos de Cobre"
 
 #: ../../common/pcb/copper.rst:8
 msgid "Add"
-msgstr ""
+msgstr "Agregar"
 
 #: ../../common/pcb/copper.rst:9 ../../common/pcb/copper.rst:15
 msgid "|il-drafting|"
@@ -34,14 +34,16 @@ msgid ""
 "|il-solid-copper| for solid copper or |il-copper-pour| for copper pour or"
 " |il-plane-shape| for plane shape **only in mixed plane layers**"
 msgstr ""
+"|il-solid-copper| para cobre sólido o |il-copper-pour| para relleno o"
+" |il-plane-shape| para planos **sólo en capas de tipo 'mixed plane'**"
 
 #: ../../common/pcb/copper.rst:11
 msgid "Draw shape"
-msgstr ""
+msgstr "Dibujar Figura"
 
 #: ../../common/pcb/copper.rst:14
 msgid "Add cutout"
-msgstr ""
+msgstr "Agregar corte"
 
 #: ../../common/pcb/copper.rst:16
 msgid ""
@@ -49,14 +51,17 @@ msgid ""
 "copper pour or |il-plane-shape-cutout| for plane shape **only in mixed "
 "plane layers**"
 msgstr ""
+"|il-solid-copper-cutout| para cobre sólido o |il-copper-pour-cutout| "
+"para relleno o |il-plane-shape-cutout| para planos **sólo en capas de tipo "
+"'mixed plane'**"
 
 #: ../../common/pcb/copper.rst:21
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: ../../common/pcb/copper.rst:22
 msgid "Clear selection"
-msgstr ""
+msgstr "Borrar Selección"
 
 #: ../../common/pcb/copper.rst:23
 msgid "RClick > Select Board Outline"
@@ -64,9 +69,9 @@ msgstr ""
 
 #: ../../common/pcb/copper.rst:24
 msgid "Pick polygon trace and edit"
-msgstr ""
+msgstr "Escoge trazo del polígono y edita"
 
 #: ../../common/pcb/copper.rst:27
 msgid "``RCLick`` for polygon options"
-msgstr ""
+msgstr "``RCLick`` para más opciones de polígonos"
 

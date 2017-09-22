@@ -4,18 +4,23 @@ pushd %~dp0
 
 REM Command file for Sphinx documentation
 
-set PRODUCT=%1
-set LANGUAGE=%2
+set ACTION=%1
+set PRODUCT=%2
+set LANGUAGE=%3
 
-if %LANGUAGE% == "" (
-	set LANGAUGE=en
+if "%LANGUAGE%" == "" (
+	set LANGUAGE=en
 )
 
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=python -msphinx
 )
-set SOURCEDIR=.
-set BUILDDIR=_build\%LANGUAGE%
+set SOURCEDIR=source
+
+set BUILDDIR=build
+if NOT "%ACTION%" == "gettext" (
+    set BUILDDIR=%BUILDDIR%\%LANGUAGE%
+)
 
 if "%1" == "" goto help
 
@@ -32,7 +37,7 @@ if errorlevel 9009 (
 	exit /b 1
 )
 
-%SPHINXBUILD% -M singlehtml %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% -Dlanguage=%LANGUAGE% -t%PRODUCT%
+%SPHINXBUILD% -M %ACTION% %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% -Dlanguage=%LANGUAGE% -t%PRODUCT%
 goto end
 
 :help

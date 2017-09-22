@@ -19,55 +19,56 @@ msgstr ""
 
 #: ../../common/schematics/parts.rst:5
 msgid "Parts"
-msgstr ""
+msgstr "Partes"
 
 #: ../../common/schematics/parts.rst:8
 msgid "Add a part"
-msgstr ""
+msgstr "Agregar"
 
 #: ../../common/schematics/parts.rst:10
 msgid "Choose symbol from PADS Databook"
-msgstr ""
+msgstr "Escoge símbolo en PADS Databook"
 
 #: ../../common/schematics/parts.rst:11
 msgid "drag and drop it into the page"
-msgstr ""
+msgstr "arrastra y suelta en la página"
 
 #: ../../common/schematics/parts.rst:15
 msgid "With Nets"
-msgstr ""
+msgstr "Con Nets"
 
 #: ../../common/schematics/parts.rst:16
 msgid "Check 'Add Nets'"
-msgstr ""
+msgstr "Activa 'Add Nets'"
 
 #: ../../common/schematics/parts.rst:20
 msgid "With names in Nets"
-msgstr ""
+msgstr "Con nombres de nets"
 
 #: ../../common/schematics/parts.rst:21
 msgid "Also Check 'Add Net Names'"
-msgstr ""
+msgstr "Activa también 'Add Net Names'"
 
 #: ../../common/schematics/parts.rst:25
 msgid "Add Ground, VDD, links, etc"
-msgstr ""
+msgstr "Agregar tierra, VDD, links, etc"
 
 #: ../../common/schematics/parts.rst:28
 msgid ""
 "Add > Special Components or View > My Parts, then 'Special Components' "
 "tab."
-msgstr ""
+msgstr "Add > Special Components o View > My Parts, en tab 'Special Components'"
+
 
 #: ../../common/schematics/parts.rst:33
 msgid "Add > Special Components or |is-specialcomponents|"
-msgstr ""
+msgstr "Add > Special Components o |is-specialcomponents|"
 
 #: ../../common/schematics/parts.rst:38
 msgid "Same part may have multiple symbols!"
-msgstr ""
+msgstr "Una misma parte puede tener múltiples símbolos!"
 
 #: ../../common/schematics/parts.rst:39
 msgid "If you put a part over a net, it will be automatically splitted!"
-msgstr ""
+msgstr "Si colocas una parte sobre una net, será cortada automáticamente!"
 

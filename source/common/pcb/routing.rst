@@ -68,13 +68,9 @@ Via at SMD
 
 .. only:: pads_std_plus
 
-    #. In Layout (|i-pads-layout|)  ``RClick`` > Select Traces/Pins
+    In Layout (|i-pads-layout|)
 
-.. only:: pads_maker
-
-    #.  ``RClick`` > Select Traces/Pins
-
-
+#. ``RClick`` > Select Traces/Pins
 #. ``LClick`` on pad
 #. ``RClick`` > Add Via at SMD
 

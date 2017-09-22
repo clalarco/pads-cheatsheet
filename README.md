@@ -1,5 +1,5 @@
-HOW TO GENERATE THE DOCUMENT
-============================
+HOW TO GENERATE THE CHEATSHEET
+==============================
 
 1. Install sphinx and sphinx-intl
 
@@ -18,15 +18,16 @@ HOW TO GENERATE THE DOCUMENT
 TRANSLATIONS
 ------------
 
-In pads_maker or pads_std_plus directories.
+Steps 1 and 2 are required only if rst files are updated.
 
 1. Create pot files for pads maker or pads_std_plus:
 
    make gettext pads_maker
 
 
-2. (existing bug in sphinx-intl) In conf.py, set pads_maker or pads_std_plus as tag,
-    at "# The master toctree document." section, before 'tags.has(...':
+2. (workaround for existing bug in sphinx-intl)
+    In conf.py, set pads_maker or pads_std_plus as tag, at
+    "# The master toctree document." section, before 'tags.has(...':
 
     tags.add('pads_maker')  # or tags.add('pads_std_plus')
 
@@ -35,7 +36,8 @@ In pads_maker or pads_std_plus directories.
     sphinx-intl update -l es -p build\gettext
 
 
-3. Update translations (using a text editor)
+3. Update translations (.po files) en source\locale\<lang>\LC_MESSAGES
+    using a text editor
 
 
 4. Create documentation

@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../pads_maker/pcb/begin.rst:5
+msgid "Begin"
+msgstr "Comenzar"
+
+#: ../../pads_maker/pcb/begin.rst:7
+msgid "Open PADS Maker Layout |i-pads-maker-layout|"
+msgstr "Abrir PADS Maker Layout |i-pads-maker-layout|"
+
+#: ../../pads_maker/pcb/begin.rst:9
+msgid "Tasks > New > Select Layers Board"
+msgstr ""
+
+#: ../../pads_maker/pcb/begin.rst:11
+msgid "File > Import... and select .dnf file"
+msgstr "File > Import... y escoger .dnf file creado en esquemático"
+
+#: ../../pads_maker/pcb/begin.rst:13
+msgid "Choose the proper footprints if required"
+msgstr "Escoger los footprints faltantes si es necesario"
+

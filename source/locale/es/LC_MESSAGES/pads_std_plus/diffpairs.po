@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Std Plus
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Std Plus VX.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:39-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../pads_std_plus/diffpairs.rst:5
+msgid "Diff Pairs"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:11
+msgid "Separation and Spacing"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:15
+msgid "Via types"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:20
+msgid "Setup"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:23
+msgid "Set Diff Pair in schematics"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:24
+msgid "Select net"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:25
+msgid "In Properties, set the pair net in 'diff pair' field"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:28
+msgid "Set diff pair in constraint manager:"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:29
+msgid "|i-constraint-manager|"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:30
+msgid "Edit > Differential Pairs > Auto Assign Differential Pairs..."
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:31
+msgid "Set patterns for Net name and Pair net Name"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:32
+msgid "Click Apply"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:34
+msgid "Nets set in schematics won't appear in auto assign dialog"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:37
+msgid "Set Diff Pair Spacing"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:38
+msgid "At Net Classes select class"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:39
+msgid "Change Differential Spacing"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:42
+msgid "Set Max Separation"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:43
+msgid "At Constraint Classes select the class"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:44
+msgid "Select 'Nets' tab"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:45
+msgid "Select class or net"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:46
+msgid "Set Separation Distance"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:49
+msgid "Set diff pair length"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:50
+msgid "In constraint manager (|i-constraint-manager|)"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:52
+msgid "Click in constraint classes"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:53
+msgid "Select diffpair"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:54
+msgid "Set Min and max length."
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:58
+msgid "Routing"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:61
+msgid "Route Diff pairs"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:63
+msgid "In Router (|i-pads-router|) Same as route a single trace"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:66
+msgid "Change leader routing trace"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:67
+msgid "``tab``"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:70
+msgid "Split traces"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:71
+msgid "``Ctrl+X``"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:74
+msgid "Route separately/join"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:75
+msgid "``Ctrl+Z``"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:78
+msgid "Set via pattern"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:79
+msgid "While routing:"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:81
+msgid "``RClick`` > Via Pattern"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:82
+msgid "Select via type"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:85
+msgid "Tune diff pairs"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:86
+msgid "In router (|i-pads-router|)"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:87
+msgid "``RClick`` > Select nets"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:88
+msgid "Click on one net of diff pair"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:89
+msgid "``RClick`` > Select Differential pairs"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:90
+msgid "``RClick`` > Tune"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:93
+msgid "Tune diff pair Options"
+msgstr ""
+
+#: ../../pads_std_plus/diffpairs.rst:94
+msgid "In Router (|i-pads-router|) Tools > Options > Routing Page > Tune"
+msgstr ""
+

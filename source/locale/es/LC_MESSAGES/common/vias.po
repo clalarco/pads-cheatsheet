@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/vias.rst:5
+msgid "Vias"
+msgstr ""
+
+#: ../../common/vias.rst:9
+msgid "**Pad stack** The via shape in the layers"
+msgstr "**Pad stack** La forma de la vía en las capas"
+
+#: ../../common/vias.rst:10
+msgid "**Via Span** The default via used to pass from one layer to another"
+msgstr "**Via Span** La vía predeterminada para pasar de una capa a otra"
+
+#: ../../common/vias.rst:11
+msgid "**Through Via** via crossing all layers"
+msgstr "**Through Via** Vía que atraviesa toda las capas"
+
+#: ../../common/vias.rst:12
+msgid "**Partial Via** Via crossing a only some layers (blind and buried vias)"
+msgstr "**Partial Via** Vía que atraviesa sólo algunas capas (vías blind y buried)"
+
+#: ../../common/vias.rst:17 ../../common/vias.rst:61
+msgid "Setup"
+msgstr ""
+
+#: ../../common/vias.rst:20
+msgid "Set via Pad Stacks"
+msgstr ""
+
+#: ../../common/vias.rst:21
+msgid "In Layout (|i-pads-layout|) Setup > Pad Stacks"
+msgstr "En Layout (|i-pads-layout|) Setup > Pad Stacks"
+
+#: ../../common/vias.rst:22
+msgid "Set Pad Stack type to Via"
+msgstr "Pad Stack type a Via"
+
+#: ../../common/vias.rst:23
+msgid "Select Via and change properties"
+msgstr "Selecciona vía y cambia propiedades"
+
+#: ../../common/vias.rst:26
+msgid "Add a via padstack"
+msgstr "Agregar un vía padstack"
+
+#: ../../common/vias.rst:27
+msgid "In Pad Stacks dialog, set Via type and Click in 'Add Via'."
+msgstr "In 'Pad Stacks', defina tipo de Vía, luego Click en 'Add Via'"
+
+#: ../../common/vias.rst:28
+msgid "Select through or partial"
+msgstr "Elegir 'through' o 'partial'"
+
+#: ../../common/vias.rst:29
+msgid "Set start an end layer for partial vias"
+msgstr "Define capa de inicio y fin para partial vias"
+
+#: ../../common/vias.rst:30
+msgid "Set pad styles for Pad and thermal"
+msgstr "Define estilos de pads for pad y thermal"
+
+#: ../../common/vias.rst:33
+msgid "Set default vias"
+msgstr "Define vías predeterminados"
+
+#: ../../common/vias.rst:37
+msgid "In Layout (|i-pads-layout|) Setup > Via Spans"
+msgstr "En Layout (|i-pads-layout|) Setup > Via Spans"
+
+#: ../../common/vias.rst:38
+msgid "Set Default via for the given according to vias types and layers"
+msgstr "Elige Default via para cada celda según los tipo de vías y capas"
+
+#: ../../common/vias.rst:43
+msgid "Setup > Design Rules... > Default > Routing"
+msgstr ""
+
+#: ../../common/vias.rst:44
+msgid "At Vias section, select vias (selected = enabled)"
+msgstr "En 'Vias', selecciona vías (selected = habilitada)"
+
+#: ../../common/vias.rst:50
+msgid "Set vias per Layer/Class"
+msgstr "Elige vías por Capa/Clase"
+
+#: ../../common/vias.rst:51
+msgid ""
+"In Constraint manager (|i-constraint-manager|) > Net Classes, set Via "
+"Assignments (same dialog as Via Spans)"
+msgstr ""
+"En Constraint manager (|i-constraint-manager|) > Net Classes, set Via "
+"Assignments (el mismo diálogo de 'Via Spans')"
+
+#: ../../common/vias.rst:58
+msgid "Stitching vias"
+msgstr ""
+
+#: ../../common/vias.rst:62
+msgid "In Layout (|i-pads-layout|) Tools > Options, Via Patterns page"
+msgstr "En Layout (|i-pads-layout|) Tools > Options, Via Patterns page"
+
+#: ../../common/vias.rst:63
+msgid "Choose GND at 'Add vias from net' option."
+msgstr "Escoge GND en 'Add vias from net'"
+
+#: ../../common/vias.rst:64
+msgid "Choose Via type"
+msgstr "Escoge tipo de vía"
+
+#: ../../common/vias.rst:65
+msgid "For shapes, select Net and Via type if required"
+msgstr "Para shapes, escoge Net and Via type si es necesario"
+
+#: ../../common/vias.rst:68
+msgid "Add Stitching vias around nets"
+msgstr "Agregar stitching vias alrededor nets"
+
+#: ../../common/vias.rst:69
+msgid "``RClick`` > Select Nets"
+msgstr ""
+
+#: ../../common/vias.rst:70
+msgid "Choose nets"
+msgstr "Escoge las nets"
+
+#: ../../common/vias.rst:71
+msgid "``RClick`` > Add Via Shield"
+msgstr ""
+
+#: ../../common/vias.rst:72
+msgid "ESC"
+msgstr ""
+
+#: ../../common/vias.rst:73
+msgid "``RClick`` > Select Pins/Vias/Tacks"
+msgstr ""
+
+#: ../../common/vias.rst:74
+msgid "Move/remove the unwanted vias"
+msgstr "Mover/quitar vías no deseadas"
+
+#: ../../common/vias.rst:77
+msgid "Fill a shape with stitching vias"
+msgstr "Rellena una figura con stitching vias"
+
+#: ../../common/vias.rst:78
+msgid "Choose a 'solid copper' shape (|il-drafting| > |il-solid-copper|)"
+msgstr "Escoge una figura 'solid copper' (|il-drafting| > |il-solid-copper|)"
+
+#: ../../common/vias.rst:79
+msgid "``RClick`` > Select Shapes"
+msgstr ""
+
+#: ../../common/vias.rst:80
+msgid "Select shape"
+msgstr "Selecciona figura"
+
+#: ../../common/vias.rst:81
+msgid "``RClick`` > Via Stitch"
+msgstr ""
+

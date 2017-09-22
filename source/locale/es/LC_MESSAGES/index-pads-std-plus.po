@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Std Plus
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Std Plus VX.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-21 20:20-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../index-pads-std-plus.rst:10
+msgid "Cheat Sheet for |l-pads|"
+msgstr ""
+
+#: ../../index-pads-std-plus.rst:14
+msgid "**Start Schematics** |i-pads-dxdesigner| PADS DX Designer"
+msgstr ""
+
+#: ../../index-pads-std-plus.rst:15
+msgid "**Start PCB** |i-pads-layout| PADS Layout"
+msgstr ""
+
+#: ../../index-pads-std-plus.rst:24
+msgid "Common Icons"
+msgstr ""
+
+#: ../../index-pads-std-plus.rst:21
+msgid "|i-pads-dxdesigner| Schematics"
+msgstr ""
+
+#: ../../index-pads-std-plus.rst:22
+msgid "|i-pads-layout| Layout"
+msgstr ""
+
+#: ../../index-pads-std-plus.rst:23
+msgid "|i-pads-router| Router"
+msgstr ""
+
+#: ../../index-pads-std-plus.rst:24
+msgid "|i-constraint-manager| Constraint Manager"
+msgstr ""
+
+#: ../../index-pads-std-plus.rst:25
+msgid "|i-pads-library-tools| Library Tools"
+msgstr ""
+

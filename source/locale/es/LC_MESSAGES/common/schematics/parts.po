@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/schematics/parts.rst:5
+msgid "Parts"
+msgstr "Partes"
+
+#: ../../common/schematics/parts.rst:8
+msgid "Add a part"
+msgstr "Agregar"
+
+#: ../../common/schematics/parts.rst:10
+msgid "Choose symbol from PADS Databook"
+msgstr "Escoge símbolo en PADS Databook"
+
+#: ../../common/schematics/parts.rst:11
+msgid "drag and drop it into the page"
+msgstr "arrastra y suelta en la página"
+
+#: ../../common/schematics/parts.rst:15
+msgid "With Nets"
+msgstr "Con Nets"
+
+#: ../../common/schematics/parts.rst:16
+msgid "Check 'Add Nets'"
+msgstr "Activa 'Add Nets'"
+
+#: ../../common/schematics/parts.rst:20
+msgid "With names in Nets"
+msgstr "Con nombres de nets"
+
+#: ../../common/schematics/parts.rst:21
+msgid "Also Check 'Add Net Names'"
+msgstr "Activa también 'Add Net Names'"
+
+#: ../../common/schematics/parts.rst:25
+msgid "Add Ground, VDD, links, etc"
+msgstr "Agregar tierra, VDD, links, etc"
+
+#: ../../common/schematics/parts.rst:28
+msgid ""
+"Add > Special Components or View > My Parts, then 'Special Components' "
+"tab."
+msgstr "Add > Special Components o View > My Parts, en tab 'Special Components'"
+
+
+#: ../../common/schematics/parts.rst:33
+msgid "Add > Special Components or |is-specialcomponents|"
+msgstr "Add > Special Components o |is-specialcomponents|"
+
+#: ../../common/schematics/parts.rst:38
+msgid "Same part may have multiple symbols!"
+msgstr "Una misma parte puede tener múltiples símbolos!"
+
+#: ../../common/schematics/parts.rst:39
+msgid "If you put a part over a net, it will be automatically splitted!"
+msgstr "Si colocas una parte sobre una net, será cortada automáticamente!"
+

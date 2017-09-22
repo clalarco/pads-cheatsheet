@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/schematics/links.rst:3
+msgid "Links"
+msgstr ""
+
+#: ../../common/schematics/links.rst:6
+msgid "Setup"
+msgstr "Configuración"
+
+#: ../../common/schematics/links.rst:9
+msgid "View > My Parts, to show panel"
+msgstr "View > My Parts"
+
+#: ../../common/schematics/links.rst:11
+msgid "Setup > Settings"
+msgstr ""
+
+#: ../../common/schematics/links.rst:12
+msgid "In Cross Probing, Check 'Zoom Fit to Selected objects'"
+msgstr "En Cross Probing, activa 'Zoom Fit to Selected objects'"
+
+#: ../../common/schematics/links.rst:13
+msgid "In Advanced, check 'Automatically synchronize Links and net names'"
+msgstr "En Advanced, activa 'Automatically synchronize Links and net names'"
+
+#: ../../common/schematics/links.rst:14
+msgid "Click OK"
+msgstr ""
+
+#: ../../common/schematics/links.rst:17
+msgid "Add"
+msgstr "Agregar"
+
+#: ../../common/schematics/links.rst:18
+msgid "In My Parts > Special Components > Link"
+msgstr "En My Parts > Special Components > Link"
+
+#: ../../common/schematics/links.rst:19
+msgid "Connect link to net"
+msgstr "Conectar link a una net"
+
+#: ../../common/schematics/links.rst:20
+msgid "In properties, set a name for the link"
+msgstr "In properties, escoge un nombre para el link"
+
+#: ../../common/schematics/links.rst:21
+msgid "Add another Link with the same net"
+msgstr "Agrega otro Link con la misma net"
+
+#: ../../common/schematics/links.rst:24
+msgid "Navigating"
+msgstr "Navegar"
+
+#: ../../common/schematics/links.rst:25
+msgid "``Alt+LClick`` over a Link."
+msgstr "``Alt+LClick`` sobre un link."
+

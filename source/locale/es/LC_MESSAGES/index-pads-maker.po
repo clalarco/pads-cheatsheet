@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:34-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../index-pads-maker.rst:10
+msgid "Cheat Sheet for |l-pads-maker|"
+msgstr "Resumen para |l-pads-maker|"
+
+#: ../../index-pads-maker.rst:14
+msgid "**Start Schematics** |i-pads-maker-schematic| PADS Maker Schematic"
+msgstr "**Esquemático** |i-pads-maker-schematic| PADS Maker Schematic"
+
+#: ../../index-pads-maker.rst:15
+msgid "**Start PCB** |i-pads-maker-layout| PADS Maker Layout"
+msgstr "**PCB** |i-pads-maker-layout| PADS Maker Layout"
+

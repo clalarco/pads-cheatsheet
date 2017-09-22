@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 14:14-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../source/common/schematics/nets.rst:5
+msgid "Nets"
+msgstr ""
+
+#: ../../source/common/schematics/nets.rst:8
+msgid "Add a net"
+msgstr "Nueva Net"
+
+#: ../../source/common/schematics/nets.rst:9
+msgid "``n`` or |is-net|"
+msgstr "``n`` o |is-net|"
+
+#: ../../source/common/schematics/nets.rst:10
+msgid "``LClick`` in start"
+msgstr "``LClick`` al inicio"
+
+#: ../../source/common/schematics/nets.rst:11
+msgid "Draw and ``LClick`` on end"
+msgstr "Draw and ``LClick`` al final"
+
+#: ../../source/common/schematics/nets.rst:16
+msgid "Add Multiple"
+msgstr "Agregar múltiples net"
+
+#: ../../source/common/schematics/nets.rst:17
+msgid "|is-multinet|"
+msgstr ""
+
+#: ../../source/common/schematics/nets.rst:18
+msgid "``drag LClick`` to select starting pins"
+msgstr "``arrastra LClick`` para seleccionar pines de partida"
+
+#: ../../source/common/schematics/nets.rst:19
+#, fuzzy
+msgid "``drag LClick`` to destination pins"
+msgstr "``arrastra LClick`` para seleccionar los pines de destino"
+
+#: ../../source/common/schematics/nets.rst:20
+msgid "``RClick``"
+msgstr ""
+
+#: ../../source/common/schematics/nets.rst:23
+msgid "Add nets to pins"
+msgstr "Agregar nets a pines"
+
+#: ../../source/common/schematics/nets.rst:24
+msgid "n or |is-net|"
+msgstr "n o |is-net|"
+
+#: ../../source/common/schematics/nets.rst:25
+msgid "``Alt+LClick`` on pin"
+msgstr "``Alt+LClick`` sobre el pin"
+

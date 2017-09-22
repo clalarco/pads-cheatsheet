@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../common/pcb/routing.rst:5
+msgid "Routing"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:8
+msgid "Setup Dynamic Route and Bus Route"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:9
+msgid "Tools > Options > Design"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:10
+msgid "Set On-line DRC to Prevent"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:13
+msgid "Begin"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:17
+msgid "|i-pads-router|"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:20
+msgid "``RClick`` > Select Pins/Traces/Unroutes"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:23
+msgid "Start route"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:24
+msgid "``LClick`` over pin or trace"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:25
+msgid "``F3``"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:28
+msgid "Confirm a segment"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:29
+msgid "``LClick`` or ``space``"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:32
+msgid "Undo a segment"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:33
+msgid "``Backspace``"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:36
+msgid "Change Layer"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:37
+msgid "``F4`` or ``l<n>``"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:40
+msgid "Autocomplete"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:41
+msgid "``Double LClick``"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:44
+msgid "Stop Routing"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:45
+msgid "``Ctrl+LClick``"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:48
+msgid "Change Width"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:49
+msgid "``w<width>``"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:52
+msgid "Add a via"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:53
+msgid "``Shift+LClick``"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:56
+msgid "Add testpoint"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:57
+msgid "While routing ``RClick`` > Add testpoint"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:60
+msgid "Add jumper"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:62
+msgid "While routing ``RClick`` > Add jumper"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:63
+msgid "Select orentation and length"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:67
+msgid "Via at SMD"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:71
+msgid "In Layout (|i-pads-layout|)  ``RClick`` > Select Traces/Pins"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:75
+msgid "``RClick`` > Select Traces/Pins"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:78
+msgid "``LClick`` on pad"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:79
+msgid "``RClick`` > Add Via at SMD"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:82
+msgid "To enable via at SMD, via to pad distance for the same net should be zero."
+msgstr ""
+
+#: ../../common/pcb/routing.rst:86
+msgid "Bus Route"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:87
+msgid "Rclick > Select Pins/Vias/Tacks"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:88
+msgid "Select pins to be routed together"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:89
+msgid "RClick > Bus Route"
+msgstr ""
+
+#: ../../common/pcb/routing.rst:92
+msgid ""
+"If one of the traces in cannot be routed, it will ask you to route it "
+"separately."
+msgstr ""
+

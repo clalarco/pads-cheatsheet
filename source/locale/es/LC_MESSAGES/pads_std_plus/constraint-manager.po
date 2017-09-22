@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Std Plus
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Std Plus VX.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 12:39-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../pads_std_plus/constraint-manager.rst:5
+msgid "Constraints"
+msgstr ""
+
+#: ../../pads_std_plus/constraint-manager.rst:8
+msgid "Use Constraint Manager |i-constraint-manager|"
+msgstr ""
+
+#: ../../pads_std_plus/constraint-manager.rst:12
+msgid "Definitions"
+msgstr ""
+
+#: ../../pads_std_plus/constraint-manager.rst:15
+msgid "Net Classes"
+msgstr ""
+
+#: ../../pads_std_plus/constraint-manager.rst:16
+msgid ""
+"To set Via assignments, layers where to route, trace widths and diff pair"
+" spacing. Applicable to nets."
+msgstr ""
+
+#: ../../pads_std_plus/constraint-manager.rst:19
+msgid "Clearances"
+msgstr ""
+
+#: ../../pads_std_plus/constraint-manager.rst:20
+msgid ""
+"To set general clearances (via to via, via to pad, etc). Just use the "
+"(Default Rule), except if custom clearances between Net classes is "
+"required (for example, distance between two buses)."
+msgstr ""
+
+#: ../../pads_std_plus/constraint-manager.rst:23
+msgid "Constraint classes"
+msgstr ""
+
+#: ../../pads_std_plus/constraint-manager.rst:24
+msgid ""
+"To set stub lengths, topology, net lengths, max number of vias, and diff "
+"pair separation distance"
+msgstr ""
+

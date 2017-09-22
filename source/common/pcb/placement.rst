@@ -19,21 +19,23 @@ Change layer
 ----------------------------------------
 ``Rclick`` > Flip Side or ``Ctrl+F``
 
-Cluster components
-----------------------------------------
-#. ``RCLick`` > Select Components
-#. Select parts
-#. ``RClick`` > Create Cluster
+.. only:: not pads_maker
 
-Select clusters
-----------------------------------------
-``RClick`` > Select clusters
+    Cluster components
+    ----------------------------------------
+    #. ``RCLick`` > Select Components
+    #. Select parts
+    #. ``RClick`` > Create Cluster
 
-Place parts from a cluster
-----------------------------------------
-#. ``LClick`` to Select Cluster
-#. ``RClick`` > Break
-#. Place parts
+    Select clusters
+    ----------------------------------------
+    ``RClick`` > Select clusters
+
+    Place parts from a cluster
+    ----------------------------------------
+    #. ``LClick`` to Select Cluster
+    #. ``RClick`` > Break
+    #. Place parts
 
 .. only:: not pads_maker
 

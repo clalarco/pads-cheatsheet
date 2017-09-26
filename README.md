@@ -3,7 +3,7 @@ HOW TO GENERATE THE CHEATSHEET
 
 1. Install sphinx and sphinx-intl
 
-    pip install sphinx sphinx-intl
+    ```pip install sphinx sphinx-intl```
 
 
 2. Create the documentation for PADS Maker in spanish

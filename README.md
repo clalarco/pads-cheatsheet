@@ -1,5 +1,16 @@
-HOW TO GENERATE THE CHEATSHEET
-==============================
+PADS CHEAT SHEET
+================
+
+This is a repository where cheat sheet is generated.
+
+The result can be seen here:
+
+Spanish: https://clalarco.github.io/pads-cheatsheet/maker/es/
+English: https://clalarco.github.io/pads-cheatsheet/maker/en/
+
+
+HOW TO GENERATE DOCUMENTATION
+-----------------------------
 
 1. Install sphinx and sphinx-intl
 

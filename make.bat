@@ -7,12 +7,13 @@ REM Command file for Sphinx documentation
 set FIRST_ARG=%1
 set ACTION=%FIRST_ARG%
 
+set FIRST_ARG_IS_TOOL=0
 for %%A in ("pads_maker" "pads_std_plus") do if "%FIRST_ARG%"==%%A (
 	set ACTION=singlehtml
 	set FIRST_ARG_IS_TOOL=1
 )
 
-if not "%FIRST_ARG_IS_TOOL%" == "" (
+if not "%FIRST_ARG_IS_TOOL%" == "1" (
 	shift
 )
 

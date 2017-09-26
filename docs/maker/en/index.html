@@ -1,0 +1,621 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PADS Maker Cheat Sheet</title>
+    <link rel="stylesheet" href="_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/cheatsheet_multicolumn.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script> 
+  </head>
+  <body>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">THIS DOCUMENT IS NOT PART OF MENTOR DOCUMENTATION!!</p>
+</div>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last"><a class="reference external" href="https://github.com/clalarco/pads-cheatsheet">https://github.com/clalarco/pads-cheatsheet</a></p>
+</div>
+<div class="section" id="cheat-sheet-for-l-pads-maker">
+<h1>Cheat Sheet for <img alt="l-pads-maker" src="_images/l-padsmaker.png" /><a class="headerlink" href="#cheat-sheet-for-l-pads-maker" title="Permalink to this headline">¶</a></h1>
+<div class="start-apps docutils container">
+<ul class="simple">
+<li><strong>Start Schematics</strong> <img alt="i-pads-maker-schematic" src="_images/i-pads-maker-schematic.png" /> PADS Maker Schematic</li>
+<li><strong>Start PCB</strong> <img alt="i-pads-maker-layout" src="_images/i-pads-maker-layout.png" /> PADS Maker Layout</li>
+</ul>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-pads_maker/schematics"></span><div class="section" id="schematics">
+<h2>Schematics<a class="headerlink" href="#schematics" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-common/schematics/new-project"></span><div class="section" id="new-project">
+<h3>New Project<a class="headerlink" href="#new-project" title="Permalink to this headline">¶</a></h3>
+<p>in ‘Start Page’ tab, select in ‘New Project’ pane &gt; Design</p>
+<div class="section" id="add-a-new-sheet">
+<h4>Add a new Sheet<a class="headerlink" href="#add-a-new-sheet" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">pg</span> <span class="pre">down</span></code> on a active sheet</p>
+</div>
+<div class="section" id="change-page-size">
+<h4>Change page size<a class="headerlink" href="#change-page-size" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Unselect all</li>
+<li>In Properties, change Drawing size and orientation</li>
+<li>In page, <code class="docutils literal"><span class="pre">RClick</span></code> &gt; Change border… to select a proper border</li>
+</ol>
+</div>
+<div class="section" id="show-parts-panel">
+<h4>Show Parts Panel<a class="headerlink" href="#show-parts-panel" title="Permalink to this headline">¶</a></h4>
+<p>View &gt; Parts</p>
+</div>
+</div>
+<span id="document-common/schematics/parts"></span><div class="section" id="parts">
+<h3>Parts<a class="headerlink" href="#parts" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="add-a-part">
+<h4>Add a part<a class="headerlink" href="#add-a-part" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Choose symbol from PADS Databook</li>
+<li>drag and drop it into the page</li>
+</ol>
+</div>
+<div class="section" id="with-nets">
+<h4>With Nets<a class="headerlink" href="#with-nets" title="Permalink to this headline">¶</a></h4>
+<p>Check ‘Add Nets’</p>
+</div>
+<div class="section" id="with-names-in-nets">
+<h4>With names in Nets<a class="headerlink" href="#with-names-in-nets" title="Permalink to this headline">¶</a></h4>
+<p>Also Check ‘Add Net Names’</p>
+</div>
+<div class="section" id="add-ground-vdd-links-etc">
+<h4>Add Ground, VDD, links, etc<a class="headerlink" href="#add-ground-vdd-links-etc" title="Permalink to this headline">¶</a></h4>
+<p>Add &gt; Special Components or <img alt="is-specialcomponents" src="_images/is-special-components.png" /></p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<ul class="last simple">
+<li>Same part may have multiple symbols!</li>
+<li>If you put a part over a net, it will be automatically splitted!</li>
+</ul>
+</div>
+</div>
+</div>
+<span id="document-common/schematics/manipulation"></span><div class="section" id="manipulation">
+<h3>Manipulation<a class="headerlink" href="#manipulation" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="rotate">
+<h4>Rotate<a class="headerlink" href="#rotate" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">F3</span></code> or pick handle <img alt="is-handle" src="_images/is-handle.png" /></p>
+</div>
+<div class="section" id="mirror-horizontally">
+<h4>Mirror Horizontally<a class="headerlink" href="#mirror-horizontally" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">F4</span></code> or <img alt="is-mirror" src="_images/is-mirror.png" /></p>
+</div>
+<div class="section" id="flip-vertically">
+<h4>Flip Vertically<a class="headerlink" href="#flip-vertically" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">F5</span></code> or <img alt="is-flip" src="_images/is-flip.png" /></p>
+</div>
+<div class="section" id="array">
+<h4>Array<a class="headerlink" href="#array" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Select components</li>
+<li><img alt="is-array" src="_images/is-array.png" /></li>
+<li>Set rows and column</li>
+<li>Set spacing</li>
+</ol>
+</div>
+<div class="section" id="duplicate">
+<h4>Duplicate<a class="headerlink" href="#duplicate" title="Permalink to this headline">¶</a></h4>
+<ol class="loweralpha simple">
+<li>Select part; then <code class="docutils literal"><span class="pre">Ctrl+C</span></code>, <code class="docutils literal"><span class="pre">Ctrl+V</span></code>, or</li>
+<li>Select part, then <code class="docutils literal"><span class="pre">Ctrl+LClick</span></code> and drag <code class="docutils literal"><span class="pre">LClick</span></code></li>
+</ol>
+</div>
+</div>
+<span id="document-common/schematics/nets"></span><div class="section" id="nets">
+<h3>Nets<a class="headerlink" href="#nets" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="add-a-net">
+<h4>Add a net<a class="headerlink" href="#add-a-net" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">n</span></code> or <img alt="is-net" src="_images/is-net.png" /></li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code> in start</li>
+<li>Draw and <code class="docutils literal"><span class="pre">LClick</span></code> on end</li>
+</ol>
+</div>
+<div class="section" id="add-nets-to-pins">
+<h4>Add nets to pins<a class="headerlink" href="#add-nets-to-pins" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>n or <img alt="is-net" src="_images/is-net.png" /></li>
+<li><code class="docutils literal"><span class="pre">Alt+LClick</span></code> on pin</li>
+</ol>
+</div>
+</div>
+<span id="document-common/schematics/bus"></span><div class="section" id="bus">
+<h3>Bus<a class="headerlink" href="#bus" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="add">
+<h4>Add<a class="headerlink" href="#add" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">b</span></code> or <img alt="is-bus" src="_images/is-bus.png" /></li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code> to draw</li>
+<li><code class="docutils literal"><span class="pre">ESC</span></code></li>
+<li>In Properties &gt; Name, set NET_NAME[n:0]</li>
+</ol>
+</div>
+<div class="section" id="rip-nets-from-bus">
+<h4>Rip nets from bus<a class="headerlink" href="#rip-nets-from-bus" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>RClick on Bus &gt; Rip Nets</li>
+<li>Select nets (<code class="docutils literal"><span class="pre">Ctrl</span></code> = multi)</li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code></li>
+</ol>
+</div>
+<div class="section" id="connect-a-symbol-to-the-bus">
+<h4>Connect a symbol to the bus<a class="headerlink" href="#connect-a-symbol-to-the-bus" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Touch bus with symbol pins</li>
+<li>Select the bus indexes to connect and order</li>
+<li>put symbol away from the bus to draw nets</li>
+</ol>
+</div>
+</div>
+<span id="document-common/schematics/links"></span><div class="section" id="links">
+<h3>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="setup">
+<h4>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Setup &gt; Settings</li>
+<li>In Cross Probing, Check ‘Zoom Fit to Selected objects’</li>
+<li>In Advanced, check ‘Automatically synchronize Links and net names’</li>
+<li>Click OK</li>
+</ol>
+</div>
+<div class="section" id="add">
+<h4>Add<a class="headerlink" href="#add" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>In My Parts &gt; Special Components &gt; Link</li>
+<li>Connect link to net</li>
+<li>In properties, set a name for the link</li>
+<li>Add another Link with the same net</li>
+</ol>
+</div>
+<div class="section" id="navigating">
+<h4>Navigating<a class="headerlink" href="#navigating" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Alt+LClick</span></code> over a Link.</p>
+</div>
+</div>
+<span id="document-common/schematics/filter"></span><div class="section" id="selection-filter">
+<h3>Selection Filter<a class="headerlink" href="#selection-filter" title="Permalink to this headline">¶</a></h3>
+<p><img alt="is-filter" src="_images/is-filter.png" /> then select the elements to enable by selection</p>
+<div class="section" id="add-custom-filters">
+<h4>Add custom filters<a class="headerlink" href="#add-custom-filters" title="Permalink to this headline">¶</a></h4>
+<p>Choose ‘settings…’ in combobox</p>
+</div>
+</div>
+<span id="document-pads_maker/schematics/create-pcb"></span><div class="section" id="create-a-pcb-from-schematics">
+<h3>Create a PCB from schematics<a class="headerlink" href="#create-a-pcb-from-schematics" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Tools &gt; Prepare for Layout</li>
+<li>ECO &gt; Forward Annotation. Select filename.</li>
+</ol>
+</div>
+</div>
+</div>
+<span id="document-pads_maker/pcb"></span><div class="section" id="pcb">
+<h2>PCB<a class="headerlink" href="#pcb" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-pads_maker/pcb/begin"></span><div class="section" id="begin">
+<h3>Begin<a class="headerlink" href="#begin" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Open PADS Maker Layout <img alt="i-pads-maker-layout" src="_images/i-pads-maker-layout.png" /></li>
+<li>Tasks &gt; New &gt; Select Layers Board</li>
+<li>File &gt; Import… and select .dnf file</li>
+<li>Choose the proper footprints if required</li>
+</ol>
+</div>
+<span id="document-common/pcb/outline-keepouts"></span><div class="section" id="outline-and-keepouts">
+<h3>Outline and keepouts<a class="headerlink" href="#outline-and-keepouts" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="set-board-outline-and-cutouts">
+<h4>Set Board Outline and cutouts<a class="headerlink" href="#set-board-outline-and-cutouts" title="Permalink to this headline">¶</a></h4>
+<p><img alt="il-drafting" src="_images/il-drafting.png" /> &gt; <img alt="il-outline" src="_images/il-outline.png" /></p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last"><code class="docutils literal"><span class="pre">RClick</span></code> for polygon options</p>
+</div>
+</div>
+<div class="section" id="edit-outline">
+<h4>Edit outline<a class="headerlink" href="#edit-outline" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Clear selection</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Board Outline</li>
+<li>Pick outline trace and move</li>
+</ol>
+</div>
+<div class="section" id="add-keepout">
+<h4>Add keepout<a class="headerlink" href="#add-keepout" title="Permalink to this headline">¶</a></h4>
+<p><img alt="il-drafting" src="_images/il-drafting.png" /> &gt; <img alt="il-keepout" src="_images/il-keepout.png" /> and draw, then set parameters</p>
+</div>
+</div>
+<span id="document-common/pcb/layers"></span><div class="section" id="layers">
+<h3>Layers<a class="headerlink" href="#layers" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="set-layers">
+<h4>Set Layers<a class="headerlink" href="#set-layers" title="Permalink to this headline">¶</a></h4>
+<p>Setup &gt; Layer Definition</p>
+</div>
+<div class="section" id="change-layers-number">
+<h4>Change layers number<a class="headerlink" href="#change-layers-number" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Click Modify</li>
+<li>Set new number</li>
+<li>Check reassignment</li>
+</ol>
+</div>
+</div>
+<span id="document-common/pcb/pan-zoom"></span><div class="section" id="pan-and-zoom">
+<h3>Pan and Zoom<a class="headerlink" href="#pan-and-zoom" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="pan-up-down">
+<h4>Pan Up/Down<a class="headerlink" href="#pan-up-down" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">mouse</span> <span class="pre">wheel</span></code></p>
+</div>
+<div class="section" id="pan-left-right">
+<h4>Pan Left/Right<a class="headerlink" href="#pan-left-right" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Shift+mouse</span> <span class="pre">wheel</span></code></p>
+</div>
+<div class="section" id="zoom">
+<h4>Zoom<a class="headerlink" href="#zoom" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+mouse</span> <span class="pre">wheel</span></code></p>
+</div>
+</div>
+<span id="document-common/pcb/selection"></span><div class="section" id="selection">
+<h3>Selection<a class="headerlink" href="#selection" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="single">
+<h4>Single<a class="headerlink" href="#single" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">LClick</span></code></p>
+</div>
+<div class="section" id="region">
+<h4>Region<a class="headerlink" href="#region" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">LClick</span></code> and drag</p>
+</div>
+<div class="section" id="add-remove-into-selection">
+<h4>Add/Remove into selection<a class="headerlink" href="#add-remove-into-selection" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+LClick</span></code> into item</p>
+</div>
+</div>
+<span id="document-common/pcb/visibility"></span><div class="section" id="visibility">
+<h3>Visibility<a class="headerlink" href="#visibility" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="layers-colors">
+<h4>Layers Colors<a class="headerlink" href="#layers-colors" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+Alt+C</span></code></p>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">Items with background color are hidden</p>
+</div>
+</div>
+<div class="section" id="nets-colors">
+<h4>Nets Colors<a class="headerlink" href="#nets-colors" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">Ctrl+Alt+N</span></code></li>
+<li>Select net or class</li>
+<li>Click ‘Add’</li>
+<li>Set color and what to show</li>
+<li>Check ‘color traces by net’ to show trace with the same color</li>
+</ol>
+</div>
+</div>
+<span id="document-common/pcb/placement"></span><div class="section" id="parts-placement">
+<h3>Parts Placement<a class="headerlink" href="#parts-placement" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="disperse">
+<h4>Disperse<a class="headerlink" href="#disperse" title="Permalink to this headline">¶</a></h4>
+<p>Tools &gt; Disperse Components</p>
+</div>
+<div class="section" id="move-components">
+<h4>Move components<a class="headerlink" href="#move-components" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Pick part</li>
+<li><code class="docutils literal"><span class="pre">Ctrl+E</span></code> or <code class="docutils literal"><span class="pre">LClick</span> <span class="pre">and</span> <span class="pre">drag</span></code></li>
+</ol>
+</div>
+<div class="section" id="rotate">
+<h4>Rotate<a class="headerlink" href="#rotate" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+R</span></code> or <code class="docutils literal"><span class="pre">tab</span></code></p>
+</div>
+<div class="section" id="change-layer">
+<h4>Change layer<a class="headerlink" href="#change-layer" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Rclick</span></code> &gt; Flip Side or <code class="docutils literal"><span class="pre">Ctrl+F</span></code></p>
+</div>
+</div>
+<span id="document-pads_maker/pcb/rules"></span><div class="section" id="rules">
+<h3>Rules<a class="headerlink" href="#rules" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="open-dialog">
+<h4>Open Dialog<a class="headerlink" href="#open-dialog" title="Permalink to this headline">¶</a></h4>
+<p>Setup &gt; Design Rules… and select scope:</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Scopes</strong>
+- <strong>Default</strong> Set rules for all nets
+- <strong>Net</strong> Set rules per net, overriding Default</p>
+</div>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<ul class="last simple">
+<li><strong>“Report”</strong> generates a report with rules</li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Sections</strong>
+- <strong>Clearance</strong> Set trace widths and separations
+- <strong>Routing</strong> Set layers to route and via types</p>
+</div>
+</div>
+<div class="section" id="set-trace-width">
+<h4>Set Trace Width<a class="headerlink" href="#set-trace-width" title="Permalink to this headline">¶</a></h4>
+<p>Clearance &gt; Trace width</p>
+</div>
+<div class="section" id="set-separation-for-different-nets">
+<h4>Set separation for different nets<a class="headerlink" href="#set-separation-for-different-nets" title="Permalink to this headline">¶</a></h4>
+<p>Clearance &gt; Clerance section</p>
+</div>
+<div class="section" id="set-separation-of-objects-for-same-net">
+<h4>Set separation of objects for same net<a class="headerlink" href="#set-separation-of-objects-for-same-net" title="Permalink to this headline">¶</a></h4>
+<p>Clearance &gt; Same net Section</p>
+</div>
+<div class="section" id="allow-via-at-smd">
+<h4>Allow Via at SMD<a class="headerlink" href="#allow-via-at-smd" title="Permalink to this headline">¶</a></h4>
+<p>Clearance &gt; Same net &gt; Via/SMD set 0</p>
+</div>
+<div class="section" id="components-separation">
+<h4>Components separation<a class="headerlink" href="#components-separation" title="Permalink to this headline">¶</a></h4>
+<p>Clearance &gt; Other &gt; Body to Body</p>
+</div>
+<div class="section" id="drills-separation">
+<h4>Drills separation<a class="headerlink" href="#drills-separation" title="Permalink to this headline">¶</a></h4>
+<p>Clearance &gt; Other &gt; Drill to drill</p>
+</div>
+<div class="section" id="set-allowed-layers">
+<h4>Set allowed Layers<a class="headerlink" href="#set-allowed-layers" title="Permalink to this headline">¶</a></h4>
+<p>Routing &gt; Layer biasing (selected = enabled)</p>
+</div>
+<div class="section" id="set-allowed-via-types">
+<h4>Set allowed via types<a class="headerlink" href="#set-allowed-via-types" title="Permalink to this headline">¶</a></h4>
+<p>Routing &gt; Vias (selected = enabled)</p>
+</div>
+<div class="section" id="set-maximum-number-of-vias">
+<h4>Set maximum number of vias<a class="headerlink" href="#set-maximum-number-of-vias" title="Permalink to this headline">¶</a></h4>
+<p>Routing &gt; maximum number of vias</p>
+</div>
+</div>
+<span id="document-common/pcb/routing"></span><div class="section" id="routing">
+<h3>Routing<a class="headerlink" href="#routing" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="setup-dynamic-route-and-bus-route">
+<h4>Setup Dynamic Route and Bus Route<a class="headerlink" href="#setup-dynamic-route-and-bus-route" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Tools &gt; Options &gt; Design</li>
+<li>Set On-line DRC to Prevent</li>
+</ol>
+</div>
+<div class="section" id="begin">
+<h4>Begin<a class="headerlink" href="#begin" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Pins/Traces/Unroutes</li>
+</ol>
+</div>
+<div class="section" id="start-route">
+<h4>Start route<a class="headerlink" href="#start-route" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">LClick</span></code> over pin or trace</li>
+<li><code class="docutils literal"><span class="pre">F3</span></code></li>
+</ol>
+</div>
+<div class="section" id="confirm-a-segment">
+<h4>Confirm a segment<a class="headerlink" href="#confirm-a-segment" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">LClick</span></code> or <code class="docutils literal"><span class="pre">space</span></code></p>
+</div>
+<div class="section" id="undo-a-segment">
+<h4>Undo a segment<a class="headerlink" href="#undo-a-segment" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Backspace</span></code></p>
+</div>
+<div class="section" id="change-layer">
+<h4>Change Layer<a class="headerlink" href="#change-layer" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">F4</span></code> or <code class="docutils literal"><span class="pre">l&lt;n&gt;</span></code></p>
+</div>
+<div class="section" id="autocomplete">
+<h4>Autocomplete<a class="headerlink" href="#autocomplete" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Double</span> <span class="pre">LClick</span></code></p>
+</div>
+<div class="section" id="stop-routing">
+<h4>Stop Routing<a class="headerlink" href="#stop-routing" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+LClick</span></code></p>
+</div>
+<div class="section" id="change-width">
+<h4>Change Width<a class="headerlink" href="#change-width" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">w&lt;width&gt;</span></code></p>
+</div>
+<div class="section" id="add-a-via">
+<h4>Add a via<a class="headerlink" href="#add-a-via" title="Permalink to this headline">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Shift+LClick</span></code></p>
+</div>
+<div class="section" id="add-testpoint">
+<h4>Add testpoint<a class="headerlink" href="#add-testpoint" title="Permalink to this headline">¶</a></h4>
+<p>While routing <code class="docutils literal"><span class="pre">RClick</span></code> &gt; Add testpoint</p>
+</div>
+<div class="section" id="add-jumper">
+<h4>Add jumper<a class="headerlink" href="#add-jumper" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>While routing <code class="docutils literal"><span class="pre">RClick</span></code> &gt; Add jumper</li>
+<li>Select orentation and length</li>
+</ol>
+</div>
+<div class="section" id="via-at-smd">
+<h4>Via at SMD<a class="headerlink" href="#via-at-smd" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Traces/Pins</li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code> on pad</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Add Via at SMD</li>
+</ol>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">To enable via at SMD, via to pad distance for the same net should be zero.</p>
+</div>
+</div>
+<div class="section" id="bus-route">
+<h4>Bus Route<a class="headerlink" href="#bus-route" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Rclick &gt; Select Pins/Vias/Tacks</li>
+<li>Select pins to be routed together</li>
+<li>RClick &gt; Bus Route</li>
+</ol>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">If one of the traces in cannot be routed, it will ask you to route it separately.</p>
+</div>
+</div>
+</div>
+<span id="document-common/pcb/copper"></span><div class="section" id="copper">
+<h3>Copper<a class="headerlink" href="#copper" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="add">
+<h4>Add<a class="headerlink" href="#add" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><img alt="il-drafting" src="_images/il-drafting.png" /></li>
+<li><img alt="il-solid-copper" src="_images/il-solid-copper.png" /> for solid copper or <img alt="il-copper-pour" src="_images/il-copper-pour.png" /> for copper pour or <img alt="il-plane-shape" src="_images/il-plane-shape.png" /> for plane shape <strong>only in mixed plane layers</strong></li>
+<li>Draw shape</li>
+</ol>
+</div>
+<div class="section" id="add-cutout">
+<h4>Add cutout<a class="headerlink" href="#add-cutout" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><img alt="il-drafting" src="_images/il-drafting.png" /></li>
+<li><img alt="il-solid-copper-cutout" src="_images/il-solid-copper-cutout.png" /> for solid copper or
+<img alt="il-copper-pour-cutout" src="_images/il-copper-pour-cutout.png" /> for copper pour or
+<img alt="il-plane-shape-cutout" src="_images/il-plane-shape-cutout.png" /> for plane shape <strong>only in mixed plane layers</strong></li>
+</ol>
+</div>
+<div class="section" id="edit">
+<h4>Edit<a class="headerlink" href="#edit" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Clear selection</li>
+<li>RClick &gt; Select Board Outline</li>
+<li>Pick polygon trace and edit</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last"><code class="docutils literal"><span class="pre">RCLick</span></code> for polygon options</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span id="document-common/vias"></span><div class="section" id="vias">
+<h2>Vias<a class="headerlink" href="#vias" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<ul class="last simple">
+<li><strong>Pad stack</strong> The via shape in the layers</li>
+<li><strong>Via Span</strong> The default via used to pass from one layer to another</li>
+<li><strong>Through Via</strong> via crossing all layers</li>
+<li><strong>Partial Via</strong> Via crossing a only some layers (blind and buried vias)</li>
+</ul>
+</div>
+<div class="section" id="setup">
+<h3>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="set-via-pad-stacks">
+<h4>Set via Pad Stacks<a class="headerlink" href="#set-via-pad-stacks" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>In Layout (<img alt="i-pads-layout" src="_images/i-pads-layout.png" />) Setup &gt; Pad Stacks</li>
+<li>Set Pad Stack type to Via</li>
+<li>Select Via and change properties</li>
+</ol>
+</div>
+<div class="section" id="add-a-via-padstack">
+<h4>Add a via padstack<a class="headerlink" href="#add-a-via-padstack" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>In Pad Stacks dialog, set Via type and Click in ‘Add Via’.</li>
+<li>Select through or partial</li>
+<li>Set start an end layer for partial vias</li>
+<li>Set pad styles for Pad and thermal</li>
+</ol>
+</div>
+<div class="section" id="set-default-vias">
+<h4>Set default vias<a class="headerlink" href="#set-default-vias" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Setup &gt; Design Rules… &gt; Default &gt; Routing</li>
+<li>At Vias section, select vias (selected = enabled)</li>
+</ol>
+</div>
+</div>
+</div>
+<span id="document-pads_maker/parts"></span><div class="section" id="parts">
+<h2>Parts<a class="headerlink" href="#parts" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="symbols">
+<h3>Symbols<a class="headerlink" href="#symbols" title="Permalink to this headline">¶</a></h3>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">Use PADS Maker Schematic <img alt="i-pads-maker-schematic" src="_images/i-pads-maker-schematic.png" /></p>
+</div>
+<div class="section" id="new-symbol">
+<h4>New Symbol<a class="headerlink" href="#new-symbol" title="Permalink to this headline">¶</a></h4>
+<p>In an existing design: File &gt; New &gt; Symbol</p>
+</div>
+<div class="section" id="new-symbol-box-type">
+<h4>New Symbol (box type)<a class="headerlink" href="#new-symbol-box-type" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Create csv from template</li>
+<li>In an existing design: File &gt; New &gt; Symbol from Pin List</li>
+</ol>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">Check wiki help “Creating and Editing Parts/Symbols”, Method #3 for excel template</p>
+</div>
+</div>
+</div>
+<div class="section" id="footprints">
+<h3>Footprints<a class="headerlink" href="#footprints" title="Permalink to this headline">¶</a></h3>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">Use PADS Maker Layout <img alt="i-pads-maker-layout" src="_images/i-pads-maker-layout.png" /></p>
+</div>
+<div class="section" id="add-a-decal">
+<h4>Add a Decal<a class="headerlink" href="#add-a-decal" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li>Select decals section and partition</li>
+<li>Over Partition <code class="docutils literal"><span class="pre">RClick</span></code> &gt; New Decal…</li>
+<li>If possible, use Decal Wizard</li>
+</ol>
+</div>
+<div class="section" id="use-decal-wizard">
+<h4>Use Decal Wizard<a class="headerlink" href="#use-decal-wizard" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><img alt="il-drafting" src="_images/il-drafting.png" />  &gt; <img alt="il-decal-wizard" src="_images/il-decal-wizard.png" /></li>
+<li>At bottom, select units</li>
+<li>Choose type (dual, quad, polar, BGA/PGA)</li>
+<li>Fill data, click OK.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

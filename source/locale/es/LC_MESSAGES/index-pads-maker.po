@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PADS Maker 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-26 14:14-0300\n"
+"POT-Creation-Date: 2017-09-26 15:00-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,15 +21,19 @@ msgstr ""
 msgid "THIS DOCUMENT IS NOT PART OF MENTOR DOCUMENTATION!!"
 msgstr "ESTE DOCUMENTO NO ES PARTE DE LA DOCUMENTACION DE PADS"
 
-#: ../../source/index-pads-maker.rst:13
+#: ../../source/index-pads-maker.rst:12
+msgid "https://github.com/clalarco/pads-cheatsheet"
+msgstr ""
+
+#: ../../source/index-pads-maker.rst:16
 msgid "Cheat Sheet for |l-pads-maker|"
 msgstr "Resumen para |l-pads-maker|"
 
-#: ../../source/index-pads-maker.rst:17
+#: ../../source/index-pads-maker.rst:20
 msgid "**Start Schematics** |i-pads-maker-schematic| PADS Maker Schematic"
 msgstr "**Esquemático** |i-pads-maker-schematic| PADS Maker Schematic"
 
-#: ../../source/index-pads-maker.rst:18
+#: ../../source/index-pads-maker.rst:21
 msgid "**Start PCB** |i-pads-maker-layout| PADS Maker Layout"
 msgstr "**PCB** |i-pads-maker-layout| PADS Maker Layout"
 

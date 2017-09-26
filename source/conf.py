@@ -43,7 +43,7 @@ source_suffix = '.rst'
 
 # Workaround for sphinx-intl: Uncomment only one of these two tags to
 # generate .po files from .pot files.
-tags.add('pads_maker')
+# tags.add('pads_maker')
 # tags.add('pads_std_plus')
 
 # The master toctree document.

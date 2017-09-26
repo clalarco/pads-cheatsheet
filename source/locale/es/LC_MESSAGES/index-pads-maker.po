@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/index-pads-maker.rst:9
 msgid "THIS DOCUMENT IS NOT PART OF MENTOR DOCUMENTATION!!"
-msgstr "ESTE DOCUMENTO NO ES PARTE DE LA DOCUMENTACION DE MENTOR PADS"
+msgstr "ESTE DOCUMENTO NO ES PARTE DE LA DOCUMENTACION DE PADS"
 
 #: ../../source/index-pads-maker.rst:13
 msgid "Cheat Sheet for |l-pads-maker|"

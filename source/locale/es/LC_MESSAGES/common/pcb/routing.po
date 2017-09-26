@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:5
 msgid "Routing"
-msgstr ""
+msgstr "Ruteo"
 
 #: ../../source/common/pcb/routing.rst:8
 msgid "Setup Dynamic Route and Bus Route"
-msgstr ""
+msgstr "Activar Dynamic Route and Bus Route"
 
 #: ../../source/common/pcb/routing.rst:9
 msgid "Tools > Options > Design"
@@ -31,11 +31,11 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:10
 msgid "Set On-line DRC to Prevent"
-msgstr ""
+msgstr "Activa On-line DRC a Prevent"
 
 #: ../../source/common/pcb/routing.rst:13
 msgid "Begin"
-msgstr ""
+msgstr "Comenzar"
 
 #: ../../source/common/pcb/routing.rst:17
 msgid "|i-pads-router|"
@@ -47,11 +47,11 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:23
 msgid "Start route"
-msgstr ""
+msgstr "Comenzar ruteo"
 
 #: ../../source/common/pcb/routing.rst:24
 msgid "``LClick`` over pin or trace"
-msgstr ""
+msgstr "``LClick`` sobre el pin o pista"
 
 #: ../../source/common/pcb/routing.rst:25
 msgid "``F3``"
@@ -59,15 +59,15 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:28
 msgid "Confirm a segment"
-msgstr ""
+msgstr "Confirmar un segmento"
 
 #: ../../source/common/pcb/routing.rst:29
 msgid "``LClick`` or ``space``"
-msgstr ""
+msgstr "``LClick`` o ``espacio``"
 
 #: ../../source/common/pcb/routing.rst:32
 msgid "Undo a segment"
-msgstr ""
+msgstr "Deshacer un segmento"
 
 #: ../../source/common/pcb/routing.rst:33
 msgid "``Backspace``"
@@ -75,23 +75,23 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:36
 msgid "Change Layer"
-msgstr ""
+msgstr "Cambiar Capa"
 
 #: ../../source/common/pcb/routing.rst:37
 msgid "``F4`` or ``l<n>``"
-msgstr ""
+msgstr "``F4`` o ``l<n>``"
 
 #: ../../source/common/pcb/routing.rst:40
 msgid "Autocomplete"
-msgstr ""
+msgstr "Autocompletar"
 
 #: ../../source/common/pcb/routing.rst:41
 msgid "``Double LClick``"
-msgstr ""
+msgstr "``Doble LClick``"
 
 #: ../../source/common/pcb/routing.rst:44
 msgid "Stop Routing"
-msgstr ""
+msgstr "Detener Ruteo"
 
 #: ../../source/common/pcb/routing.rst:45
 msgid "``Ctrl+LClick``"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:48
 msgid "Change Width"
-msgstr ""
+msgstr "Cambiar Ancho"
 
 #: ../../source/common/pcb/routing.rst:49
 msgid "``w<width>``"
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:52
 msgid "Add a via"
-msgstr ""
+msgstr "Agregar una vía"
 
 #: ../../source/common/pcb/routing.rst:53
 msgid "``Shift+LClick``"
@@ -115,31 +115,31 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:56
 msgid "Add testpoint"
-msgstr ""
+msgstr "Agregar un testpoint"
 
 #: ../../source/common/pcb/routing.rst:57
 msgid "While routing ``RClick`` > Add testpoint"
-msgstr ""
+msgstr "Mientras se rutea: ``RClick`` > Add testpoint"
 
 #: ../../source/common/pcb/routing.rst:60
 msgid "Add jumper"
-msgstr ""
+msgstr "Agregar un jumper"
 
 #: ../../source/common/pcb/routing.rst:62
 msgid "While routing ``RClick`` > Add jumper"
-msgstr ""
+msgstr "Mientra se rutea ``RClick`` > Add jumper"
 
 #: ../../source/common/pcb/routing.rst:63
 msgid "Select orentation and length"
-msgstr ""
+msgstr "Definir orientación y largo"
 
 #: ../../source/common/pcb/routing.rst:67
 msgid "Via at SMD"
-msgstr ""
+msgstr "Vía en SMD"
 
 #: ../../source/common/pcb/routing.rst:71
 msgid "In Layout (|i-pads-layout|)"
-msgstr ""
+msgstr "En Layout (|i-pads-layout|)"
 
 #: ../../source/common/pcb/routing.rst:73
 msgid "``RClick`` > Select Traces/Pins"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:74
 msgid "``LClick`` on pad"
-msgstr ""
+msgstr "``LClick`` en el pad"
 
 #: ../../source/common/pcb/routing.rst:75
 msgid "``RClick`` > Add Via at SMD"
@@ -155,11 +155,11 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:78
 msgid "To enable via at SMD, via to pad distance for the same net should be zero."
-msgstr ""
+msgstr "Para habilitar vía en SMD, distancia vía a pad para la misma net debe ser cero"
 
 #: ../../source/common/pcb/routing.rst:82
 msgid "Bus Route"
-msgstr ""
+msgstr "Bus Route"
 
 #: ../../source/common/pcb/routing.rst:83
 msgid "Rclick > Select Pins/Vias/Tacks"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../source/common/pcb/routing.rst:84
 msgid "Select pins to be routed together"
-msgstr ""
+msgstr "Seleccionar pines a rutear como bus"
 
 #: ../../source/common/pcb/routing.rst:85
 msgid "RClick > Bus Route"
@@ -178,6 +178,8 @@ msgid ""
 "If one of the traces in cannot be routed, it will ask you to route it "
 "separately."
 msgstr ""
+"Si uno de las pistas no puede ser ruteada automáticamente, se pedirá "
+"rutear por separado."
 
 #~ msgid "In Layout (|i-pads-layout|)  ``RClick`` > Select Traces/Pins"
 #~ msgstr ""

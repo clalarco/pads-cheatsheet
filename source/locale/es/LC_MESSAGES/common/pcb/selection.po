@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../common/pcb/selection.rst:3
 msgid "Selection"
-msgstr ""
+msgstr "Selección"
 
 #: ../../common/pcb/selection.rst:6
 msgid "Single"
-msgstr ""
+msgstr "Sencilla"
 
 #: ../../common/pcb/selection.rst:7
 msgid "``LClick``"
@@ -31,17 +31,17 @@ msgstr ""
 
 #: ../../common/pcb/selection.rst:10
 msgid "Region"
-msgstr ""
+msgstr "Región"
 
 #: ../../common/pcb/selection.rst:11
 msgid "``LClick`` and drag"
-msgstr ""
+msgstr "``LClick`` y arrastra"
 
 #: ../../common/pcb/selection.rst:14
 msgid "Add/Remove into selection"
-msgstr ""
+msgstr "Agregar/quitar de la selección"
 
 #: ../../common/pcb/selection.rst:15
 msgid "``Ctrl+LClick`` into item"
-msgstr ""
+msgstr "``Ctrl+LClick`` en el objeto"
 

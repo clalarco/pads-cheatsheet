@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../common/pcb/layers.rst:5
 msgid "Layers"
-msgstr ""
+msgstr "Capas"
 
 #: ../../common/pcb/layers.rst:8
 msgid "Set Layers"
-msgstr ""
+msgstr "Definir Capas"
 
 #: ../../common/pcb/layers.rst:9
 msgid "Setup > Layer Definition"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../common/pcb/layers.rst:12
 msgid "Change layers number"
-msgstr ""
+msgstr "Cambiar el número de capas"
 
 #: ../../common/pcb/layers.rst:13
 msgid "Click Modify"
@@ -39,9 +39,9 @@ msgstr ""
 
 #: ../../common/pcb/layers.rst:14
 msgid "Set new number"
-msgstr ""
+msgstr "Definir el nuevo número "
 
 #: ../../common/pcb/layers.rst:15
 msgid "Check reassignment"
-msgstr ""
+msgstr "Revisar reasignación de capas"
 

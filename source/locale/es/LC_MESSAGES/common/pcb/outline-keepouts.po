@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../common/pcb/outline-keepouts.rst:5
 msgid "Outline and keepouts"
-msgstr ""
+msgstr "Contornos y zonas restringidas"
 
 #: ../../common/pcb/outline-keepouts.rst:8
 msgid "Set Board Outline and cutouts"
-msgstr ""
+msgstr "Definir contorno y cortes"
 
 #: ../../common/pcb/outline-keepouts.rst:9
 msgid "|il-drafting| > |il-outline|"
@@ -31,15 +31,15 @@ msgstr ""
 
 #: ../../common/pcb/outline-keepouts.rst:12
 msgid "``RClick`` for polygon options"
-msgstr ""
+msgstr "``RClick`` para opciones de polígonos"
 
 #: ../../common/pcb/outline-keepouts.rst:15
 msgid "Edit outline"
-msgstr ""
+msgstr "Editar contorno"
 
 #: ../../common/pcb/outline-keepouts.rst:16
 msgid "Clear selection"
-msgstr ""
+msgstr "Borrar selección"
 
 #: ../../common/pcb/outline-keepouts.rst:17
 msgid "``RClick`` > Select Board Outline"
@@ -47,13 +47,13 @@ msgstr ""
 
 #: ../../common/pcb/outline-keepouts.rst:18
 msgid "Pick outline trace and move"
-msgstr ""
+msgstr "Selecciona la línea de contorno y edita"
 
 #: ../../common/pcb/outline-keepouts.rst:21
 msgid "Add keepout"
-msgstr ""
+msgstr "Agregar restricción"
 
 #: ../../common/pcb/outline-keepouts.rst:22
 msgid "|il-drafting| > |il-keepout| and draw, then set parameters"
-msgstr ""
+msgstr "|il-drafting| > |il-keepout|, dibuja y define parámetros"
 

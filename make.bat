@@ -11,7 +11,10 @@ for %%A in ("pads_maker" "pads_std_plus") do if "%FIRST_ARG%"==%%A (
 	set ACTION=singlehtml
 	set FIRST_ARG_IS_TOOL=1
 )
-if not defined FIRST_ARG_IS_TOOL shift
+
+if not "%FIRST_ARG_IS_TOOL%" == "" (
+	shift
+)
 
 set PRODUCT=%1
 shift

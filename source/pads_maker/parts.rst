@@ -24,7 +24,7 @@ New Symbol (box type)
     Check wiki help "Creating and Editing Parts/Symbols", Method #3 for excel template
 
 ========================================
-Symbols
+Footprints
 ========================================
 
 .. hint::

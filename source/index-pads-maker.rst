@@ -8,6 +8,9 @@
 .. hint::
   THIS DOCUMENT IS NOT PART OF MENTOR DOCUMENTATION!!
 
+.. hint::
+  https://github.com/clalarco/pads-cheatsheet
+
 ########################################
 Cheat Sheet for |l-pads-maker|
 ########################################

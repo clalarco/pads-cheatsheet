@@ -41,8 +41,14 @@ templates_path = ['_templates']
 # source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
 
+# Workaround for sphinx-intl: Uncomment only one of these two tags to
+# generate .po files from .pot files.
+tags.add('pads_maker')
+# tags.add('pads_std_plus')
+
 # The master toctree document.
 print ([t for t in tags])
+
 if tags.has('pads_maker'):
     master_doc = 'index-pads-maker'
     # General information about the project.

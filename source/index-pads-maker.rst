@@ -5,6 +5,9 @@
 
 .. include:: /common/icons-logos.rst
 
+.. hint::
+  THIS DOCUMENT IS NOT PART OF MENTOR DOCUMENTATION!!
+
 ########################################
 Cheat Sheet for |l-pads-maker|
 ########################################

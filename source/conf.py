@@ -218,4 +218,4 @@ epub_copyright = copyright
 epub_exclude_files = ['search.html']
 
 def setup(app):
-    app.add_stylesheet('css/cheatsheet.css')
+    app.add_stylesheet('css/cheatsheet_multicolumn.css')

@@ -18,7 +18,7 @@
 body {
     font-family: 'Abel';
     font-size: small;
-    column-count: 5;
+    column-width: 25em;
     column-rule-style: solid;
     column-rule-width: 1px;
 }
@@ -32,8 +32,8 @@ h1 img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    /*display: inline;*/
-    margin-bottom: 0;
+    display: inline;
+    margin: 0.2em 0 0 0;
 }
 
 p {
@@ -65,7 +65,7 @@ h2 {
     font-size: x-large;
 }
 
-h2 .toctree-wrapper div.section{
+h2 div.toctree-wrapper div.section {
   display: inline-block;
 }
 
@@ -75,22 +75,18 @@ h3 {
     font-size: large;
 }
 
-div {
-    display: inline;
-}
-
 div.body>div.section {
   display: block;
   /*border: 1px solid #aaa;*/
   margin: 0px;
 }
 
-h1 ~ div.section,
+/*h1 ~ div.section,
 h2 ~ div.section {
     padding: 0.3em;
     display: block;
 }
-
+*/
 h1 ~ div.section + div.section {
     border-top: 1px solid #aaa;
     margin: 0px;
@@ -104,6 +100,10 @@ h2 + div.section,
 h2 + p + div.section,
 h2 + div.admonition + div.section  {
     display: inline ;
+}
+
+h4 ~ p {
+  display:inline;
 }
 
 p {
@@ -138,19 +138,19 @@ ol li {
   counter-increment: list-c;
 }
 
-ol li:before {
-  /*content: counter(list-c) '.';*/
-  display: inline-block;
+/*ol li:before {
+  content: counter(list-c) '.';
+  display: block;
   text-align: center;
-  /*left: -5px;*/
+  left: -5px;
   color: #333;
   bottom: 0px;
 }
 
 ul li:before {
-  /*left: -5px;*/
+  left: -5px;
 }
-
+*/
 dl dd {
   margin: 0;
 }
@@ -188,7 +188,7 @@ div.admonition.note dl dt,
     /*display: inline;*/
     font-weight: bold;
     font-style: italic;
-    color: #fbaa23;
+    color: #ff7800;
 }
 
 div.admonition ul {
@@ -196,9 +196,10 @@ div.admonition ul {
 }
 
 div.admonition {
-    /*padding: 0px;*/
+    padding: 0px;
+    margin: 0px;
 }
-
+/*
 div.admonition.note:before {
   content: '|';
   margin:0;
@@ -210,7 +211,7 @@ div.admonition.note:after {
   margin:0;
   padding:0;
 }
-
+*/
 /*ul li + li:before {
     content: '- ';
 }*/
@@ -239,7 +240,7 @@ div.start-apps img,
 div.common-icons img {
   height: 20px;
 }
-
+/*
 .start-apps ul li + li:before: {
   margin-right: 0.5em;
 }
@@ -247,7 +248,7 @@ div.common-icons img {
 div.common-icons:before {
   content: '|';
 }
-
+*/
 div.common-icons dl dt {
   font-weight: bold;
 }
@@ -293,8 +294,9 @@ div.common-icons dl dt {
   display:inline;
 }
 
-#pcb div#pan-and-zoom:before,
+/*#pcb div#pan-and-zoom:before,
 #pcb div#selection:before {
   content: '|';
   color: #06a7e2;
 }
+*/

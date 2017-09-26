@@ -1,12 +1,22 @@
-@ECHO OFF
+rem @ECHO OFF
 
 pushd %~dp0
 
 REM Command file for Sphinx documentation
 
-set ACTION=%1
-set PRODUCT=%2
-set LANGUAGE=%3
+set FIRST_ARG=%1
+set ACTION=%FIRST_ARG%
+
+for %%A in ("pads_maker" "pads_std_plus") do if "%FIRST_ARG%"==%%A (
+	set ACTION=singlehtml
+	set FIRST_ARG_IS_TOOL=1
+)
+if not defined FIRST_ARG_IS_TOOL shift
+
+set PRODUCT=%1
+shift
+set LANGUAGE=%1
+shift
 
 if "%LANGUAGE%" == "" (
 	set LANGUAGE=en
@@ -22,7 +32,7 @@ if NOT "%ACTION%" == "gettext" (
     set BUILDDIR=%BUILDDIR%\%LANGUAGE%
 )
 
-if "%1" == "" goto help
+if "%FIRST_ARG%" == "" goto help
 
 %SPHINXBUILD% >NUL 2>NUL
 if errorlevel 9009 (
@@ -37,11 +47,11 @@ if errorlevel 9009 (
 	exit /b 1
 )
 
-%SPHINXBUILD% -M %ACTION% %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% -Dlanguage=%LANGUAGE% -t%PRODUCT%
+%SPHINXBUILD% -M %ACTION% %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% -Dlanguage=%LANGUAGE% -t%PRODUCT% %1 %2 %3 %4 %5 %6 %7 %8 %9
 goto end
 
 :help
-%SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS%
+%SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %1 %2 %3 %4 %5 %6 %7 %8 %9
 
 :end
 popd

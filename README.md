@@ -8,11 +8,11 @@ HOW TO GENERATE THE CHEATSHEET
 
 2. Create the documentation for PADS Maker in spanish
 
-    make singlehtml pads_maker es
+    make pads_maker es
 
 2. Create the documentation for PADS Std Plus in english
 
-    make singlehtml pads_std_plus en
+    make pads_std_plus en
 
 
 TRANSLATIONS
@@ -42,7 +42,7 @@ Steps 1 and 2 are required only if rst files are updated.
 
 4. Create documentation
 
-    make singlehtml pads_maker es
+    make pads_maker es
 
 
 FILES ORGANIZATION

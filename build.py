@@ -114,8 +114,9 @@ def publish(tool, language):
     copytree(src_dir, dest_dir, ignore=ignore_patterns('.buildinfo', 'objects.inv'))
     move(join(dest_dir, index_filename), join(dest_dir, 'index.html'))
 
-    # Create .nojekyll file if it does not exist.
-    open(join(dest_dir, '.nojekyll'), 'a').close()
+    # Create .nojekyll file in gh-pages/ if it does not exist.
+    open(join(root_dir, 'gh-pages', '.nojekyll'), 'a').close()
+
 
 def parse_args():
     parser = argparse.ArgumentParser()

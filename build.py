@@ -68,7 +68,7 @@ def create_translations():
             call_sphinx_intl(tool, language)
 
 def prepare_publish():
-    """ It copies the .git directory into gh-pages, and 
+    """ It copies the .git directory into gh-pages, and
     change the branch to gh-pages.
     """
     root_dir = dirname(abspath(__file__))
@@ -88,8 +88,6 @@ def prepare_publish():
     chdir(gh_dir)
     call(['git', 'checkout', 'gh-pages'])
     chdir(current_dir)
-
-
 
 
 def publish(tool, language):
@@ -116,6 +114,8 @@ def publish(tool, language):
     copytree(src_dir, dest_dir, ignore=ignore_patterns('.buildinfo', 'objects.inv'))
     move(join(dest_dir, index_filename), join(dest_dir, 'index.html'))
 
+    # Create .nojekyll file if it does not exist.
+    open(join(dest_dir, '.nojekyll'), 'a').close()
 
 def parse_args():
     parser = argparse.ArgumentParser()

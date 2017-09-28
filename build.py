@@ -1,7 +1,11 @@
-from os.path import abspath, dirname, join
+
+from os import chdir, getcwd
+from os.path import abspath, dirname, join, isdir
+from subprocess import call
+from shutil import rmtree, copytree, ignore_patterns, move
+
 import argparse
 
-from subprocess import call
 
 def call_sphinx(action, tool, language):
     """ Launch a sphinx action.
@@ -63,6 +67,55 @@ def create_translations():
         for language in languages:
             call_sphinx_intl(tool, language)
 
+def prepare_publish():
+    """ It copies the .git directory into gh-pages, and 
+    change the branch to gh-pages.
+    """
+    root_dir = dirname(abspath(__file__))
+    gh_dir = join(root_dir, 'gh-pages')
+    git_dir = join(root_dir, '.git')
+
+    # Copies .git directory.
+    if isdir(git_dir):
+        # Remove gh-pages if exists.
+        if isdir(gh_dir):
+            rmtree(gh_dir)
+
+        copytree(git_dir, join(gh_dir, '.git'))
+
+    # Change branch.
+    current_dir = getcwd()
+    chdir(gh_dir)
+    call(['git', 'checkout', 'gh-pages'])
+    chdir(current_dir)
+
+
+
+
+def publish(tool, language):
+    """ Copy the build results into gh-pages folder.
+    It does not add, commit nor push the changes.
+    """
+
+    # Creates documentation.
+    create_doc(tool, language)
+
+    tool_dir = {'pads_maker': 'maker', 'pads_std_plus': 'std_plus'}[tool]
+    index_filename = {'pads_maker': 'index-pads-maker.html', 'pads_std_plus': 'index-pads-std-plus.html'}[tool]
+
+    # Copy the results into gh-pages
+    root_dir = dirname(abspath(__file__))
+    src_dir = join(root_dir, 'build', tool, language, 'singlehtml')
+    dest_dir = join(root_dir, 'gh-pages', tool_dir, language)
+
+    # Delete the old directory and copy the new content.
+    if isdir(dest_dir):
+        rmtree(dest_dir)
+
+    # Copy content and rename index.html.
+    copytree(src_dir, dest_dir, ignore=ignore_patterns('.buildinfo', 'objects.inv'))
+    move(join(dest_dir, index_filename), join(dest_dir, 'index.html'))
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -80,7 +133,7 @@ def parse_args():
 
     parser.add_argument(
         'action', help="Action to select.",
-        choices=['doc', 'translations', 'trans', 'publish'])
+        choices=['doc', 'translations', 'trans', 'publish', 'prepare-publish', 'publish-all'])
 
     parser.add_argument(
         'tool', help="Tool to build.", nargs='?', default='pads_maker',
@@ -111,7 +164,16 @@ def main():
         create_translations()
 
     if args.action in ['publish']:
-        publish(tool, language)
+        publish(args.tool, args.language)
+
+    if args.action in ['publish-all']:
+        for tool in ['pads_maker', 'pads_std_plus']:
+            for language in ['es', 'en']:
+                publish(tool, language)
+
+    if args.action in ['prepare-publish']:
+        prepare_publish()
+
 
 
 if __name__ == '__main__':

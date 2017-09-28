@@ -1,25 +1,17 @@
 language: python
 python:
   - "2.7"
-  - "3.3"
 
 install:
   - pip install -r requirements.txt
 
-jobs:
-  include:
-    - stage: test-2.7
-    python: "2.7"
-    script: python build.py publish-all
+script:
+  - python build.py publish-all
 
-    - stage: test-3.3
-    python: "3.3"
-    script: python build.py publish-all
-
-    - stage: deploy
-    provider: pages
-    skip_cleanup: true
-    local_dir: gh-pages
-    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-    on:
-      branch: master
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: gh-pages
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master

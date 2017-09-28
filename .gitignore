@@ -1,3 +1,4 @@
 build
 *.mo
 gh-pages
+source/locale/en

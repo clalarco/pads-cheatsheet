@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../common/pcb/placement.rst:3
 msgid "Parts Placement"
-msgstr ""
+msgstr "Colocar Partes"
 
 #: ../../common/pcb/placement.rst:6
 msgid "Disperse"
-msgstr ""
+msgstr "Dispersar"
 
 #: ../../common/pcb/placement.rst:7
 msgid "Tools > Disperse Components"
@@ -31,35 +31,35 @@ msgstr ""
 
 #: ../../common/pcb/placement.rst:10
 msgid "Move components"
-msgstr ""
+msgstr "Mover componentes"
 
 #: ../../common/pcb/placement.rst:11
 msgid "Pick part"
-msgstr ""
+msgstr "Selecciona parte"
 
 #: ../../common/pcb/placement.rst:12
 msgid "``Ctrl+E`` or ``LClick and drag``"
-msgstr ""
+msgstr "``Ctrl+E`` o ``LClick y arrastrar``"
 
 #: ../../common/pcb/placement.rst:15
 msgid "Rotate"
-msgstr ""
+msgstr "Rotar"
 
 #: ../../common/pcb/placement.rst:16
 msgid "``Ctrl+R`` or ``tab``"
-msgstr ""
+msgstr "``Ctrl+R`` o ``tab``"
 
 #: ../../common/pcb/placement.rst:19
 msgid "Change layer"
-msgstr ""
+msgstr "Cambiar capa"
 
 #: ../../common/pcb/placement.rst:20
 msgid "``Rclick`` > Flip Side or ``Ctrl+F``"
-msgstr ""
+msgstr "``Rclick`` > Flip Side o ``Ctrl+F``"
 
 #: ../../common/pcb/placement.rst:23
 msgid "Cluster components"
-msgstr ""
+msgstr "Agrupar componentes (cluster)"
 
 #: ../../common/pcb/placement.rst:24
 msgid "``RCLick`` > Select Components"
@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../common/pcb/placement.rst:25
 msgid "Select parts"
-msgstr ""
+msgstr "Escoger partes"
 
 #: ../../common/pcb/placement.rst:26
 msgid "``RClick`` > Create Cluster"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: ../../common/pcb/placement.rst:29
 msgid "Select clusters"
-msgstr ""
+msgstr "Seleccionar clusters"
 
 #: ../../common/pcb/placement.rst:30
 msgid "``RClick`` > Select clusters"
@@ -83,11 +83,11 @@ msgstr ""
 
 #: ../../common/pcb/placement.rst:33
 msgid "Place parts from a cluster"
-msgstr ""
+msgstr "Colocar partes de un cluster"
 
 #: ../../common/pcb/placement.rst:34
 msgid "``LClick`` to Select Cluster"
-msgstr ""
+msgstr "``LClick`` para seleccionar Cluster"
 
 #: ../../common/pcb/placement.rst:35
 msgid "``RClick`` > Break"
@@ -95,15 +95,17 @@ msgstr ""
 
 #: ../../common/pcb/placement.rst:36
 msgid "Place parts"
-msgstr ""
+msgstr "Colocar partes"
 
 #: ../../common/pcb/placement.rst:41
 msgid ""
 "It’s easier to pick components from Schematics using cross-probing (use "
 "filters to select only symbols)"
 msgstr ""
+"Es más fácil escoger componentes en el esquemático usando cross-probing"
+"(usa filtros para seleccionar sólo simbolos)"
 
 #: ../../common/pcb/placement.rst:42
 msgid "You can create a cluster of clusters!"
-msgstr ""
+msgstr "Puedes crear un cluster de clusters!"
 

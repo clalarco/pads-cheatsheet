@@ -19,22 +19,22 @@ msgstr ""
 
 #: ../../common/pcb/pan-zoom.rst:3
 msgid "Pan and Zoom"
-msgstr ""
+msgstr "Zoom y desplazarse"
 
 #: ../../common/pcb/pan-zoom.rst:6
 msgid "Pan Up/Down"
-msgstr ""
+msgstr "Desplazar arriba/abajo"
 
 #: ../../common/pcb/pan-zoom.rst:7
-msgid "``mouse wheel``"
+msgid "``rueda del mouse``"
 msgstr ""
 
 #: ../../common/pcb/pan-zoom.rst:10
 msgid "Pan Left/Right"
-msgstr ""
+msgstr "Desplazar izquierda/derecha"
 
 #: ../../common/pcb/pan-zoom.rst:11
-msgid "``Shift+mouse wheel``"
+msgid "``Shift+rueda del mouse``"
 msgstr ""
 
 #: ../../common/pcb/pan-zoom.rst:14
@@ -43,5 +43,5 @@ msgstr ""
 
 #: ../../common/pcb/pan-zoom.rst:15
 msgid "``Ctrl+mouse wheel``"
-msgstr ""
+msgstr "``Ctrl+rueda del mouse``"
 

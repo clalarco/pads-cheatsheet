@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../common/pcb/visibility.rst:3
 msgid "Visibility"
-msgstr ""
+msgstr "Visibilidad"
 
 #: ../../common/pcb/visibility.rst:6
 msgid "Layers Colors"
-msgstr ""
+msgstr "Colores de Capas"
 
 #: ../../common/pcb/visibility.rst:7
 msgid "``Ctrl+Alt+C``"
@@ -31,11 +31,11 @@ msgstr ""
 
 #: ../../common/pcb/visibility.rst:10
 msgid "Items with background color are hidden"
-msgstr ""
+msgstr "Se ocultan los elementos con el mismo color que el fondo"
 
 #: ../../common/pcb/visibility.rst:13
 msgid "Nets Colors"
-msgstr ""
+msgstr "Colores de Nets"
 
 #: ../../common/pcb/visibility.rst:14
 msgid "``Ctrl+Alt+N``"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../common/pcb/visibility.rst:15
 msgid "Select net or class"
-msgstr ""
+msgstr "Seleccionar net o class"
 
 #: ../../common/pcb/visibility.rst:16
 msgid "Click 'Add'"
@@ -51,9 +51,9 @@ msgstr ""
 
 #: ../../common/pcb/visibility.rst:17
 msgid "Set color and what to show"
-msgstr ""
+msgstr "Define color y qué mostrar"
 
 #: ../../common/pcb/visibility.rst:18
 msgid "Check 'color traces by net' to show trace with the same color"
-msgstr ""
+msgstr "Activar 'color traces by net' para mostrar pistas con el mismo color"
 

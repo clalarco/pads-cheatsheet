@@ -18,6 +18,7 @@
 .. |i-pads-router| image:: /pads_std_plus/_static/img/i-pads-router.png
 .. |i-constraint-manager| image:: /pads_std_plus/_static/img/i-constraint-manager.png
 .. |i-pads-library-tools| image:: /pads_std_plus/_static/img/i-pads-library-tools.png
+.. |l-partquest| image:: /common/_static/img/l-partquest.png
 
 .. Schematics icons
 

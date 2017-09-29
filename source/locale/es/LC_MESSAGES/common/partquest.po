@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Mentor Graphics
+# This file is distributed under the same license as the PADS Maker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PADS Maker 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-29 18:15-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../source/common/partquest.rst:5
+msgid "PartQuest |l-partquest|"
+msgstr ""
+
+#: ../../source/common/partquest.rst:9
+msgid "Register"
+msgstr "Registrarse"
+
+#: ../../source/common/partquest.rst:20
+msgid "Go to http://partquest.com"
+msgstr "Ingresar a http://partquest.com"
+
+#: ../../source/common/partquest.rst:21
+msgid ""
+"At top-right, click on 'Create Account'. It will redirect to mentor.com "
+"site."
+msgstr ""
+"Arriba a la derecha, hacer click en 'Create Account'. Se redigirá a la "
+"página de mentor.com"
+
+#: ../../source/common/partquest.rst:22
+msgid "Fill the form and click on 'Create Account'"
+msgstr "Llenar el formulario y hacer click en 'Create Account'"
+
+#: ../../source/common/partquest.rst:23
+msgid "Once registered, log in"
+msgstr "Una vez registrado, iniciar sesión arriba a la derecha, en 'log in'"
+
+#: ../../source/common/partquest.rst:24
+msgid "At top-right, click on your name, then click on 'My Profile'"
+msgstr "Hacer click en tu nombre, y luego click en 'My Profile'"
+
+#: ../../source/common/partquest.rst:25
+msgid "Check Desktop Integration. Select 'Direct Download'"
+msgstr "En 'Desktop Integration', seleccionar 'Direct Download'"
+
+#: ../../source/common/partquest.rst:26
+msgid "In Default flow, select '|partquest_flow|'"
+msgstr "En 'Default flow', seleccionar '|partquest_flow|'"
+
+#: ../../source/common/partquest.rst:30
+msgid "Download parts"
+msgstr "Descargar partes"
+
+#: ../../source/common/partquest.rst:33
+msgid "Download one part"
+msgstr "Descargar una sola parte"
+
+#: ../../source/common/partquest.rst:35
+msgid "Open PADS Maker Schematic and load a project"
+msgstr "Abrir PADS Maker Schematic y cargar un proyecto"
+
+#: ../../source/common/partquest.rst:36
+msgid "At checkboxes, check \"Symbol/Footprint\""
+msgstr "En los checkboxes, activar 'Symbol/Footprint'"
+
+#: ../../source/common/partquest.rst:37
+msgid "At search box, enter the name of the part"
+msgstr "En la barra de búsqueda, ingresar el nombre de la parte"
+
+#: ../../source/common/partquest.rst:38
+msgid "(Recommended) also check RoHS Complaint and Lead Free"
+msgstr "(Recomendado) activa también 'RoHS Complaint' y 'Lead Free'"
+
+#: ../../source/common/partquest.rst:39
+msgid "Click on 'More' at the part from results"
+msgstr "Click en 'More' en la fila seleccionada "
+
+#: ../../source/common/partquest.rst:40
+msgid "Check that no warnings appear"
+msgstr "Revisar que no hayan advertencias en la parte"
+
+#: ../../source/common/partquest.rst:41
+msgid "Click on Download. Select Partition if required."
+msgstr "Click en 'Download'. Seleccionar la partición si es necesario"
+
+#: ../../source/common/partquest.rst:42
+msgid "Once the file is downloaded, double click on it."
+msgstr "Una vez que la parte se descargó (archivo .pqz), hacer click sobre ella"
+
+#: ../../source/common/partquest.rst:43
+msgid ""
+"On PADS Maker Schematics, the part will be immediately included into the "
+"library at PartQuestDirect partition."
+msgstr ""
+"En PADS Maker Schematics, la parte será automáticamente incluida en la "
+"biblioteca 'PartQuestDirect'"
+
+#: ../../source/common/partquest.rst:47
+msgid "You can use filters to reduce the search results"
+msgstr "Puedes usar filtros para reducir el número de resultados"
+
+#: ../../source/common/partquest.rst:50
+msgid "Download multiple parts"
+msgstr "Bajar múltiples partes"
+
+#: ../../source/common/partquest.rst:52
+msgid ""
+"Follow the same steps than before, except instead click on 'Download' "
+"click on 'Add to Project'. Select the project or create a new one."
+msgstr ""
+"Sigue los mismos pasos que para una sola parte, pero en vez de hacer "
+"click en 'Download'm click en 'Add to Project'. Selecciona el proyecto "
+"o crea uno nuevo."
+
+#: ../../source/common/partquest.rst:54
+msgid ""
+"When all parts are selected, at left pane click on 'My Projects' and "
+"select the project"
+msgstr ""
+"Cuando todas las partes han sido incluidas, hacer click a la izquierda en "
+"'My Projects' y seleccionar en proyecto"
+
+#: ../../source/common/partquest.rst:56
+msgid "Click on every row to download or in 'Select All'"
+msgstr "Hacer click en las partes a descargar o en 'Select All'"
+
+#: ../../source/common/partquest.rst:57
+msgid "Click on 'Download' above the table headers."
+msgstr "Click en 'Download' sobre los encabezados de la tabla."
+
+#: ../../source/common/partquest.rst:58
+msgid "Double click on the .pqz file to add the new parts into the library."
+msgstr ""
+"Doble click en el archivo .pqz para agregar las nuevas partes a la "
+"biblioteca."

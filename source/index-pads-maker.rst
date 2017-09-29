@@ -27,3 +27,4 @@ Cheat Sheet for |l-pads-maker|
     pads_maker/pcb
     common/vias
     pads_maker/parts
+    common/partquest

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PADS Maker 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"POT-Creation-Date: 2017-09-29 17:56-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-#: ../../common/pcb/pan-zoom.rst:3
+#: ../../source/common/pcb/pan-zoom.rst:3
 msgid "Pan and Zoom"
 msgstr "Zoom y desplazarse"
 
-#: ../../common/pcb/pan-zoom.rst:6
+#: ../../source/common/pcb/pan-zoom.rst:6
 msgid "Pan Up/Down"
 msgstr "Desplazar arriba/abajo"
 
-#: ../../common/pcb/pan-zoom.rst:7
-msgid "``rueda del mouse``"
-msgstr ""
+#: ../../source/common/pcb/pan-zoom.rst:7
+#, fuzzy
+msgid "``mouse wheel``"
+msgstr "``Ctrl+rueda del mouse``"
 
-#: ../../common/pcb/pan-zoom.rst:10
+#: ../../source/common/pcb/pan-zoom.rst:10
 msgid "Pan Left/Right"
 msgstr "Desplazar izquierda/derecha"
 
-#: ../../common/pcb/pan-zoom.rst:11
-msgid "``Shift+rueda del mouse``"
-msgstr ""
+#: ../../source/common/pcb/pan-zoom.rst:11
+#, fuzzy
+msgid "``Shift+mouse wheel``"
+msgstr "``Ctrl+rueda del mouse``"
 
-#: ../../common/pcb/pan-zoom.rst:14
+#: ../../source/common/pcb/pan-zoom.rst:14
 msgid "Zoom"
 msgstr ""
 
-#: ../../common/pcb/pan-zoom.rst:15
+#: ../../source/common/pcb/pan-zoom.rst:15
 msgid "``Ctrl+mouse wheel``"
 msgstr "``Ctrl+rueda del mouse``"
-

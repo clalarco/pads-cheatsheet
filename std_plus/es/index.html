@@ -1,0 +1,946 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PADS Std Plus Cheat Sheet</title>
+    <link rel="stylesheet" href="_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/cheatsheet_multicolumn.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     'VX.2.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script> 
+  </head>
+  <body>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="cheat-sheet-for-l-pads">
+<h1>Cheat Sheet for <img alt="l-pads" src="_images/l-pads.png" /><a class="headerlink" href="#cheat-sheet-for-l-pads" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="start-apps docutils container">
+<ul class="simple">
+<li><strong>Start Schematics</strong> <img alt="i-pads-dxdesigner" src="_images/i-pads-dxdesigner.png" /> PADS DX Designer</li>
+<li><strong>Start PCB</strong> <img alt="i-pads-layout" src="_images/i-pads-layout.png" /> PADS Layout</li>
+</ul>
+</div>
+<div class="common-icons docutils container">
+<dl class="docutils">
+<dt>Common Icons</dt>
+<dd><ul class="first last simple">
+<li><img alt="i-pads-dxdesigner" src="_images/i-pads-dxdesigner.png" /> Schematics</li>
+<li><img alt="i-pads-layout" src="_images/i-pads-layout.png" /> Layout</li>
+<li><img alt="i-pads-router" src="_images/i-pads-router.png" /> Router</li>
+<li><img alt="i-constraint-manager" src="_images/i-constraint-manager.png" /> Constraint Manager</li>
+<li><img alt="i-pads-library-tools" src="_images/i-pads-library-tools.png" /> Library Tools</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-pads_std_plus/schematics"></span><div class="section" id="schematics">
+<h2>Schematics<a class="headerlink" href="#schematics" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-common/schematics/new-project"></span><div class="section" id="new-project">
+<h3>Nuevo Proyecto<a class="headerlink" href="#new-project" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>en “Start Page” tab, escoge en “New Project” &gt; PADS Integrated &gt; PADS ODA</p>
+<div class="section" id="add-a-new-sheet">
+<h4>Nueva Hoja<a class="headerlink" href="#add-a-new-sheet" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">pg</span> <span class="pre">down</span></code> en la última hoja activa</p>
+</div>
+<div class="section" id="change-page-size">
+<h4>Cambiar tamaño de página<a class="headerlink" href="#change-page-size" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Deselecciona todo</li>
+<li>en “Properties”, cambiar “Drawing size” y “orientation”</li>
+<li>En página, <code class="docutils literal"><span class="pre">RClick</span></code> &gt; Change border… para escoger un borde adecuado</li>
+</ol>
+</div>
+<div class="section" id="show-parts-panel">
+<h4>Mostrar Partes<a class="headerlink" href="#show-parts-panel" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>View &gt; PADS Databook</p>
+</div>
+<div class="section" id="disable-pads-databook-database">
+<h4>Deshabilitar PADS Databook<a class="headerlink" href="#disable-pads-databook-database" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Setup &gt; Settings &gt; Licensing, desactiva “PADS Databook database support”</p>
+</div>
+</div>
+<span id="document-common/schematics/parts"></span><div class="section" id="parts">
+<h3>Partes<a class="headerlink" href="#parts" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="add-a-part">
+<h4>Agregar<a class="headerlink" href="#add-a-part" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Escoge símbolo en PADS Databook</li>
+<li>arrastra y suelta en la página</li>
+</ol>
+</div>
+<div class="section" id="with-nets">
+<h4>Con Nets<a class="headerlink" href="#with-nets" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Activa “Add Nets”</p>
+</div>
+<div class="section" id="with-names-in-nets">
+<h4>Con nombres de nets<a class="headerlink" href="#with-names-in-nets" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Activa también “Add Net Names”</p>
+</div>
+<div class="section" id="add-ground-vdd-links-etc">
+<h4>Agregar tierra, VDD, links, etc<a class="headerlink" href="#add-ground-vdd-links-etc" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Add &gt; Special Components o View &gt; My Parts, en tab “Special Components”</p>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<ul class="last simple">
+<li>Una misma parte puede tener múltiples símbolos!</li>
+<li>Si colocas una parte sobre una net, será cortada automáticamente!</li>
+</ul>
+</div>
+</div>
+</div>
+<span id="document-common/schematics/manipulation"></span><div class="section" id="manipulation">
+<h3>Manipulación<a class="headerlink" href="#manipulation" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="rotate">
+<h4>Rotar<a class="headerlink" href="#rotate" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">F3</span></code> o con <img alt="is-handle" src="_images/is-handle.png" /></p>
+</div>
+<div class="section" id="mirror-horizontally">
+<h4>Reflejo Horizontal<a class="headerlink" href="#mirror-horizontally" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">F4</span></code> o <img alt="is-mirror" src="_images/is-mirror.png" /></p>
+</div>
+<div class="section" id="flip-vertically">
+<h4>Espejo Vertical<a class="headerlink" href="#flip-vertically" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">F5</span></code> o <img alt="is-flip" src="_images/is-flip.png" /></p>
+</div>
+<div class="section" id="array">
+<h4>Arreglo<a class="headerlink" href="#array" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Selecciona componentes</li>
+<li><img alt="is-array" src="_images/is-array.png" /></li>
+<li>Define filas y columnas</li>
+<li>Define separación</li>
+</ol>
+</div>
+<div class="section" id="duplicate">
+<h4>Duplicar<a class="headerlink" href="#duplicate" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="loweralpha simple">
+<li>Selecciona objeto, luego <code class="docutils literal"><span class="pre">Ctrl+C</span></code>, <code class="docutils literal"><span class="pre">Ctrl+V</span></code>, o</li>
+<li>Selecciona objeto, luego <code class="docutils literal"><span class="pre">Ctrl+LClick</span></code>, arrastra y después <code class="docutils literal"><span class="pre">LClick</span></code></li>
+</ol>
+</div>
+</div>
+<span id="document-common/schematics/nets"></span><div class="section" id="nets">
+<h3>Nets<a class="headerlink" href="#nets" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="add-a-net">
+<h4>Nueva Net<a class="headerlink" href="#add-a-net" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">n</span></code> o <img alt="is-net" src="_images/is-net.png" /></li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code> al inicio</li>
+<li>Draw and <code class="docutils literal"><span class="pre">LClick</span></code> al final</li>
+</ol>
+</div>
+<div class="section" id="add-multiple">
+<h4>Agregar múltiples net<a class="headerlink" href="#add-multiple" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><img alt="is-multinet" src="_images/is-multinet.png" /></li>
+<li><code class="docutils literal"><span class="pre">arrastra</span> <span class="pre">LClick</span></code> para seleccionar pines de partida</li>
+<li><code class="docutils literal"><span class="pre">drag</span> <span class="pre">LClick</span></code> to destination pins</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code></li>
+</ol>
+</div>
+<div class="section" id="add-nets-to-pins">
+<h4>Agregar nets a pines<a class="headerlink" href="#add-nets-to-pins" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>n o <img alt="is-net" src="_images/is-net.png" /></li>
+<li><code class="docutils literal"><span class="pre">Alt+LClick</span></code> sobre el pin</li>
+</ol>
+</div>
+</div>
+<span id="document-common/schematics/bus"></span><div class="section" id="bus">
+<h3>Bus<a class="headerlink" href="#bus" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="add">
+<h4>Agregar<a class="headerlink" href="#add" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">b</span></code> o <img alt="is-bus" src="_images/is-bus.png" /></li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code> para dibujar</li>
+<li><code class="docutils literal"><span class="pre">ESC</span></code></li>
+<li>En Properties &gt; Name, asigna NET_NAME[n:0]</li>
+</ol>
+</div>
+<div class="section" id="rip-nets-from-bus">
+<h4>Extraer nets desde el bus<a class="headerlink" href="#rip-nets-from-bus" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>RClick en Bus &gt; Rip Nets</li>
+<li>Selecciona nets (<code class="docutils literal"><span class="pre">Ctrl</span></code> = multi)</li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code></li>
+</ol>
+</div>
+<div class="section" id="connect-a-symbol-to-the-bus">
+<h4>Conectar un símbolo a un bus<a class="headerlink" href="#connect-a-symbol-to-the-bus" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Toca el bus con los pines del símbolo</li>
+<li>Selecciona los índices y el orden</li>
+<li>Aleja el símbolo del bus para dibujar las nets</li>
+</ol>
+</div>
+</div>
+<span id="document-common/schematics/links"></span><div class="section" id="links">
+<h3>Links<a class="headerlink" href="#links" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="setup">
+<h4>Configuración<a class="headerlink" href="#setup" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>View &gt; My Parts</li>
+</ol>
+<ol class="arabic simple">
+<li>Setup &gt; Settings</li>
+<li>En Cross Probing, activa “Zoom Fit to Selected objects”</li>
+<li>En Advanced, activa “Automatically synchronize Links and net names”</li>
+<li>Click OK</li>
+</ol>
+</div>
+<div class="section" id="add">
+<h4>Agregar<a class="headerlink" href="#add" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>En My Parts &gt; Special Components &gt; Link</li>
+<li>Conectar link a una net</li>
+<li>In properties, escoge un nombre para el link</li>
+<li>Agrega otro Link con la misma net</li>
+</ol>
+</div>
+<div class="section" id="navigating">
+<h4>Navegar<a class="headerlink" href="#navigating" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Alt+LClick</span></code> sobre un link.</p>
+</div>
+</div>
+<span id="document-common/schematics/blocks"></span><div class="section" id="blocks">
+<h3>Blocks<a class="headerlink" href="#blocks" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="create-a-block-for-an-existing-circuit">
+<h4>Create a block for an existing circuit<a class="headerlink" href="#create-a-block-for-an-existing-circuit" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Prepare circuit to extend ports nets</li>
+<li><img alt="is-block" src="_images/is-block.png" /></li>
+<li>Create a box crossing the ports nets with the border</li>
+<li>Set block name</li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code> in block</li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code> in <img alt="is-block-extract" src="_images/is-block-extract.png" /> (extract schematic)</li>
+</ol>
+</div>
+<div class="section" id="edit-a-block">
+<h4>Edit a block<a class="headerlink" href="#edit-a-block" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>In Project &gt; Blocks, double <code class="docutils literal"><span class="pre">LClick</span></code> on the block</p>
+</div>
+<div class="section" id="edit-a-block-directly-from-schematic">
+<h4>Edit a block directly from schematic<a class="headerlink" href="#edit-a-block-directly-from-schematic" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>On block <code class="docutils literal"><span class="pre">RClick</span></code> &gt; Push</p>
+</div>
+</div>
+<span id="document-common/schematics/filter"></span><div class="section" id="selection-filter">
+<h3>Filtros de Selección<a class="headerlink" href="#selection-filter" title="Enlazar permanentemente con este título">¶</a></h3>
+<p><img alt="is-filter" src="_images/is-filter.png" /> y luego selecciona los tipos de elementos habilitados</p>
+<div class="section" id="add-custom-filters">
+<h4>Agregar filtros personalizados<a class="headerlink" href="#add-custom-filters" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Escoge “settings…” en combobox</p>
+</div>
+</div>
+<span id="document-pads_std_plus/schematics/create-pcb"></span><div class="section" id="create-a-pcb-from-schematics">
+<h3>Create a PCB from schematics<a class="headerlink" href="#create-a-pcb-from-schematics" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic simple">
+<li><img alt="i-pads-layout" src="_images/i-pads-layout.png" /> or Tools &gt; PADS Layout</li>
+<li>Select template (System Default start-up file is OK)</li>
+</ol>
+</div>
+</div>
+</div>
+<span id="document-pads_std_plus/pcb"></span><div class="section" id="pcb">
+<h2>PCB<a class="headerlink" href="#pcb" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-pads_std_plus/pcb/begin"></span><div class="section" id="begin">
+<h3>Begin<a class="headerlink" href="#begin" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="sync-to-schematics">
+<h4>1. Sync to Schematics<a class="headerlink" href="#sync-to-schematics" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Setup &gt; Project Integration, click in amber lights</p>
+</div>
+<div class="section" id="set-board-outline-and-cutouts">
+<h4>2. Set Board Outline and cutouts<a class="headerlink" href="#set-board-outline-and-cutouts" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><img alt="il-drafting" src="_images/il-drafting.png" /> &gt; <img alt="il-outline" src="_images/il-outline.png" /> and draw</p>
+</div>
+<div class="section" id="set-layers">
+<h4>3. Set Layers<a class="headerlink" href="#set-layers" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Setup &gt; Layer Definition</p>
+</div>
+</div>
+<span id="document-common/pcb/outline-keepouts"></span><div class="section" id="outline-and-keepouts">
+<h3>Contornos y zonas restringidas<a class="headerlink" href="#outline-and-keepouts" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="set-board-outline-and-cutouts">
+<h4>Definir contorno y cortes<a class="headerlink" href="#set-board-outline-and-cutouts" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><img alt="il-drafting" src="_images/il-drafting.png" /> &gt; <img alt="il-outline" src="_images/il-outline.png" /></p>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last"><code class="docutils literal"><span class="pre">RClick</span></code> para opciones de polígonos</p>
+</div>
+</div>
+<div class="section" id="edit-outline">
+<h4>Editar contorno<a class="headerlink" href="#edit-outline" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Borrar selección</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Board Outline</li>
+<li>Selecciona la línea de contorno y edita</li>
+</ol>
+</div>
+<div class="section" id="add-keepout">
+<h4>Agregar restricción<a class="headerlink" href="#add-keepout" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><img alt="il-drafting" src="_images/il-drafting.png" /> &gt; <img alt="il-keepout" src="_images/il-keepout.png" />, dibuja y define parámetros</p>
+</div>
+</div>
+<span id="document-common/pcb/layers"></span><div class="section" id="layers">
+<h3>Capas<a class="headerlink" href="#layers" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="set-layers">
+<h4>Definir Capas<a class="headerlink" href="#set-layers" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Setup &gt; Layer Definition</p>
+</div>
+<div class="section" id="change-layers-number">
+<h4>Cambiar el número de capas<a class="headerlink" href="#change-layers-number" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Click Modify</li>
+<li>Definir el nuevo número</li>
+<li>Revisar reasignación de capas</li>
+</ol>
+</div>
+</div>
+<span id="document-common/pcb/pan-zoom"></span><div class="section" id="pan-and-zoom">
+<h3>Zoom y desplazarse<a class="headerlink" href="#pan-and-zoom" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="pan-up-down">
+<h4>Desplazar arriba/abajo<a class="headerlink" href="#pan-up-down" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">mouse</span> <span class="pre">wheel</span></code></p>
+</div>
+<div class="section" id="pan-left-right">
+<h4>Desplazar izquierda/derecha<a class="headerlink" href="#pan-left-right" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Shift+mouse</span> <span class="pre">wheel</span></code></p>
+</div>
+<div class="section" id="zoom">
+<h4>Zoom<a class="headerlink" href="#zoom" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+rueda</span> <span class="pre">del</span> <span class="pre">mouse</span></code></p>
+</div>
+</div>
+<span id="document-common/pcb/selection"></span><div class="section" id="selection">
+<h3>Selección<a class="headerlink" href="#selection" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="single">
+<h4>Sencilla<a class="headerlink" href="#single" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">LClick</span></code></p>
+</div>
+<div class="section" id="region">
+<h4>Región<a class="headerlink" href="#region" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">LClick</span></code> y arrastra</p>
+</div>
+<div class="section" id="add-remove-into-selection">
+<h4>Agregar/quitar de la selección<a class="headerlink" href="#add-remove-into-selection" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+LClick</span></code> en el objeto</p>
+</div>
+</div>
+<span id="document-common/pcb/visibility"></span><div class="section" id="visibility">
+<h3>Visibilidad<a class="headerlink" href="#visibility" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="layers-colors">
+<h4>Colores de Capas<a class="headerlink" href="#layers-colors" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+Alt+C</span></code></p>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Se ocultan los elementos con el mismo color que el fondo</p>
+</div>
+</div>
+<div class="section" id="nets-colors">
+<h4>Colores de Nets<a class="headerlink" href="#nets-colors" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">Ctrl+Alt+N</span></code></li>
+<li>Seleccionar net o class</li>
+<li>Click “Add”</li>
+<li>Define color y qué mostrar</li>
+<li>Activar “color traces by net” para mostrar pistas con el mismo color</li>
+</ol>
+</div>
+</div>
+<span id="document-common/pcb/placement"></span><div class="section" id="parts-placement">
+<h3>Colocar Partes<a class="headerlink" href="#parts-placement" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="disperse">
+<h4>Dispersar<a class="headerlink" href="#disperse" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Tools &gt; Disperse Components</p>
+</div>
+<div class="section" id="move-components">
+<h4>Mover componentes<a class="headerlink" href="#move-components" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Selecciona parte</li>
+<li><code class="docutils literal"><span class="pre">Ctrl+E</span></code> o <code class="docutils literal"><span class="pre">LClick</span> <span class="pre">y</span> <span class="pre">arrastrar</span></code></li>
+</ol>
+</div>
+<div class="section" id="rotate">
+<h4>Rotar<a class="headerlink" href="#rotate" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+R</span></code> o <code class="docutils literal"><span class="pre">tab</span></code></p>
+</div>
+<div class="section" id="change-layer">
+<h4>Cambiar capa<a class="headerlink" href="#change-layer" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Rclick</span></code> &gt; Flip Side o <code class="docutils literal"><span class="pre">Ctrl+F</span></code></p>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<ul class="last simple">
+<li>Es más fácil escoger componentes en el esquemático usando cross-probing(usa filtros para seleccionar sólo simbolos)</li>
+<li>Puedes crear un cluster de clusters!</li>
+</ul>
+</div>
+</div>
+<div class="section" id="cluster-components">
+<h4>Agrupar componentes (cluster)<a class="headerlink" href="#cluster-components" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">RCLick</span></code> &gt; Select Components</li>
+<li>Escoger partes</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Create Cluster</li>
+</ol>
+</div>
+<div class="section" id="select-clusters">
+<h4>Seleccionar clusters<a class="headerlink" href="#select-clusters" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select clusters</p>
+</div>
+<div class="section" id="place-parts-from-a-cluster">
+<h4>Colocar partes de un cluster<a class="headerlink" href="#place-parts-from-a-cluster" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">LClick</span></code> para seleccionar Cluster</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Break</li>
+<li>Colocar partes</li>
+</ol>
+</div>
+</div>
+<span id="document-common/pcb/copper"></span><div class="section" id="copper">
+<h3>Planos de Cobre<a class="headerlink" href="#copper" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="add">
+<h4>Agregar<a class="headerlink" href="#add" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><img alt="il-drafting" src="_images/il-drafting.png" /></li>
+<li><img alt="il-solid-copper" src="_images/il-solid-copper.png" /> para cobre sólido o <img alt="il-copper-pour" src="_images/il-copper-pour.png" /> para relleno o <img alt="il-plane-shape" src="_images/il-plane-shape.png" /> para planos <strong>sólo en capas de tipo “mixed plane”</strong></li>
+<li>Dibujar Figura</li>
+</ol>
+</div>
+<div class="section" id="add-cutout">
+<h4>Agregar corte<a class="headerlink" href="#add-cutout" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><img alt="il-drafting" src="_images/il-drafting.png" /></li>
+<li><img alt="il-solid-copper-cutout" src="_images/il-solid-copper-cutout.png" /> para cobre sólido o <img alt="il-copper-pour-cutout" src="_images/il-copper-pour-cutout.png" /> para relleno o <img alt="il-plane-shape-cutout" src="_images/il-plane-shape-cutout.png" /> para planos <strong>sólo en capas de tipo “mixed plane”</strong></li>
+</ol>
+</div>
+<div class="section" id="edit">
+<h4>Editar<a class="headerlink" href="#edit" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Borrar Selección</li>
+<li>RClick &gt; Select Board Outline</li>
+<li>Escoge trazo del polígono y edita</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last"><code class="docutils literal"><span class="pre">RCLick</span></code> para más opciones de polígonos</p>
+</div>
+</div>
+</div>
+<span id="document-common/pcb/routing"></span><div class="section" id="routing">
+<h3>Ruteo<a class="headerlink" href="#routing" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="setup-dynamic-route-and-bus-route">
+<h4>Activar Dynamic Route and Bus Route<a class="headerlink" href="#setup-dynamic-route-and-bus-route" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Tools &gt; Options &gt; Design</li>
+<li>Activa On-line DRC a Prevent</li>
+</ol>
+</div>
+<div class="section" id="begin">
+<h4>Comenzar<a class="headerlink" href="#begin" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><img alt="i-pads-router" src="_images/i-pads-router.png" /></li>
+</ol>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Pins/Traces/Unroutes</li>
+</ol>
+</div>
+<div class="section" id="start-route">
+<h4>Comenzar ruteo<a class="headerlink" href="#start-route" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">LClick</span></code> sobre el pin o pista</li>
+<li><code class="docutils literal"><span class="pre">F3</span></code></li>
+</ol>
+</div>
+<div class="section" id="confirm-a-segment">
+<h4>Confirmar un segmento<a class="headerlink" href="#confirm-a-segment" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">LClick</span></code> o <code class="docutils literal"><span class="pre">espacio</span></code></p>
+</div>
+<div class="section" id="undo-a-segment">
+<h4>Deshacer un segmento<a class="headerlink" href="#undo-a-segment" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Backspace</span></code></p>
+</div>
+<div class="section" id="change-layer">
+<h4>Cambiar Capa<a class="headerlink" href="#change-layer" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">F4</span></code> o <code class="docutils literal"><span class="pre">l&lt;n&gt;</span></code></p>
+</div>
+<div class="section" id="autocomplete">
+<h4>Autocompletar<a class="headerlink" href="#autocomplete" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Doble</span> <span class="pre">LClick</span></code></p>
+</div>
+<div class="section" id="stop-routing">
+<h4>Detener Ruteo<a class="headerlink" href="#stop-routing" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+LClick</span></code></p>
+</div>
+<div class="section" id="change-width">
+<h4>Cambiar Ancho<a class="headerlink" href="#change-width" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">w&lt;width&gt;</span></code></p>
+</div>
+<div class="section" id="add-a-via">
+<h4>Agregar una vía<a class="headerlink" href="#add-a-via" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Shift+LClick</span></code></p>
+</div>
+<div class="section" id="add-testpoint">
+<h4>Agregar un testpoint<a class="headerlink" href="#add-testpoint" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Mientras se rutea: <code class="docutils literal"><span class="pre">RClick</span></code> &gt; Add testpoint</p>
+</div>
+<div class="section" id="add-jumper">
+<h4>Agregar un jumper<a class="headerlink" href="#add-jumper" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Mientra se rutea <code class="docutils literal"><span class="pre">RClick</span></code> &gt; Add jumper</li>
+<li>Definir orientación y largo</li>
+</ol>
+</div>
+<div class="section" id="via-at-smd">
+<h4>Vía en SMD<a class="headerlink" href="#via-at-smd" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>En Layout (<img alt="i-pads-layout" src="_images/i-pads-layout.png" />)</p>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Traces/Pins</li>
+<li><code class="docutils literal"><span class="pre">LClick</span></code> en el pad</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Add Via at SMD</li>
+</ol>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Para habilitar vía en SMD, distancia vía a pad para la misma net debe ser cero</p>
+</div>
+</div>
+<div class="section" id="bus-route">
+<h4>Bus Route<a class="headerlink" href="#bus-route" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Rclick &gt; Select Pins/Vias/Tacks</li>
+<li>Seleccionar pines a rutear como bus</li>
+<li>RClick &gt; Bus Route</li>
+</ol>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Si uno de las pistas no puede ser ruteada automáticamente, se pedirá rutear por separado.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<span id="document-pads_std_plus/crossprobing"></span><div class="section" id="cross-probing">
+<h2>Cross-probing<a class="headerlink" href="#cross-probing" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>It works for integrated projects.</p>
+<div class="section" id="setup">
+<h3>Setup<a class="headerlink" href="#setup" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="on-schematics">
+<h4>On Schematics<a class="headerlink" href="#on-schematics" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Setup &gt; Settings</li>
+<li>At Cross Probing section, Check all checkboxes. Click OK.</li>
+<li>Setup &gt; Cross Probing needs to be checked.</li>
+</ol>
+</div>
+<div class="section" id="on-layout-i-pads-layout-and-router-i-pads-router">
+<h4>On Layout <img alt="i-pads-layout" src="_images/i-pads-layout.png" /> and Router <img alt="i-pads-router" src="_images/i-pads-router.png" /><a class="headerlink" href="#on-layout-i-pads-layout-and-router-i-pads-router" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Tools &gt; Options</li>
+<li>In Cross Probing Tab, Check “Enable”</li>
+<li>Choose Action.</li>
+</ol>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Pan is good for placing/routing</p>
+</div>
+</div>
+</div>
+<div class="section" id="using">
+<h3>Using<a class="headerlink" href="#using" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="select-in-schematics-work-in-layout-router">
+<h4>Select in Schematics, work in Layout/Router<a class="headerlink" href="#select-in-schematics-work-in-layout-router" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Arrange Schematics and Layout/Router windows in splitted screen or different displays</li>
+<li>In Layout/Router, <code class="docutils literal"><span class="pre">RClick</span></code> and choose the selection type</li>
+<li>In Schematics, select the components</li>
+<li>Go to Layout/Router, in a region without elements to select press <code class="docutils literal"><span class="pre">Ctrl+LClick</span></code>, to avoid losing the selection</li>
+<li>Perform the selected operation</li>
+</ol>
+</div>
+<div class="section" id="select-in-layout-router-work-in-schematics">
+<h4>Select in Layout/Router, work in Schematics<a class="headerlink" href="#select-in-layout-router-work-in-schematics" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>In Layout/Router, select the elements</li>
+<li>In Schematics, in a region without elements to select press <code class="docutils literal"><span class="pre">Ctrl+LClick</span></code>, to avoid losing the selection</li>
+<li>Perform the selected operation.</li>
+</ol>
+</div>
+</div>
+</div>
+<span id="document-common/vias"></span><div class="section" id="vias">
+<h2>Vias<a class="headerlink" href="#vias" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<ul class="last simple">
+<li><strong>Pad stack</strong> La forma de la vía en las capas</li>
+<li><strong>Via Span</strong> La vía predeterminada para pasar de una capa a otra</li>
+<li><strong>Through Via</strong> Vía que atraviesa toda las capas</li>
+<li><strong>Partial Via</strong> Vía que atraviesa sólo algunas capas (vías blind y buried)</li>
+</ul>
+</div>
+<div class="section" id="setup">
+<h3>Setup<a class="headerlink" href="#setup" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="set-via-pad-stacks">
+<h4>Set via Pad Stacks<a class="headerlink" href="#set-via-pad-stacks" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>En Layout (<img alt="i-pads-layout" src="_images/i-pads-layout.png" />) Setup &gt; Pad Stacks</li>
+<li>Pad Stack type a Via</li>
+<li>Selecciona vía y cambia propiedades</li>
+</ol>
+</div>
+<div class="section" id="add-a-via-padstack">
+<h4>Agregar un vía padstack<a class="headerlink" href="#add-a-via-padstack" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>In “Pad Stacks”, defina tipo de Vía, luego Click en “Add Via”</li>
+<li>Elegir “through” o “partial”</li>
+<li>Define capa de inicio y fin para partial vias</li>
+<li>Define estilos de pads for pad y thermal</li>
+</ol>
+</div>
+<div class="section" id="set-default-vias">
+<h4>Define vías predeterminados<a class="headerlink" href="#set-default-vias" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>En Layout (<img alt="i-pads-layout" src="_images/i-pads-layout.png" />) Setup &gt; Via Spans</li>
+<li>Elige Default via para cada celda según los tipo de vías y capas</li>
+</ol>
+</div>
+<div class="section" id="set-vias-per-layer-class">
+<h4>Elige vías por Capa/Clase<a class="headerlink" href="#set-vias-per-layer-class" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>En Constraint manager (<img alt="i-constraint-manager" src="_images/i-constraint-manager.png" />) &gt; Net Classes, set Via Assignments (el mismo diálogo de “Via Spans”)</p>
+</div>
+</div>
+<div class="section" id="stitching-vias">
+<h3>Stitching vias<a class="headerlink" href="#stitching-vias" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="id1">
+<h4>Setup<a class="headerlink" href="#id1" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>En Layout (<img alt="i-pads-layout" src="_images/i-pads-layout.png" />) Tools &gt; Options, Via Patterns page</li>
+<li>Escoge GND en “Add vias from net”</li>
+<li>Escoge tipo de vía</li>
+<li>Para shapes, escoge Net and Via type si es necesario</li>
+</ol>
+</div>
+<div class="section" id="add-stitching-vias-around-nets">
+<h4>Agregar stitching vias alrededor nets<a class="headerlink" href="#add-stitching-vias-around-nets" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Nets</li>
+<li>Escoge las nets</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Add Via Shield</li>
+<li>ESC</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Pins/Vias/Tacks</li>
+<li>Mover/quitar vías no deseadas</li>
+</ol>
+</div>
+<div class="section" id="fill-a-shape-with-stitching-vias">
+<h4>Rellena una figura con stitching vias<a class="headerlink" href="#fill-a-shape-with-stitching-vias" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Escoge una figura “solid copper” (<img alt="il-drafting" src="_images/il-drafting.png" /> &gt; <img alt="il-solid-copper" src="_images/il-solid-copper.png" />)</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Shapes</li>
+<li>Selecciona figura</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Via Stitch</li>
+</ol>
+</div>
+</div>
+</div>
+<span id="document-pads_std_plus/diffpairs"></span><div class="section" id="diff-pairs">
+<h2>Diff Pairs<a class="headerlink" href="#diff-pairs" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="side-images docutils container">
+<div class="figure" id="id1">
+<img alt="_images/d-diffpair-separation.png" src="_images/d-diffpair-separation.png" />
+<p class="caption"><span class="caption-text">Separation and Spacing</span></p>
+</div>
+<div class="figure" id="id2">
+<img alt="_images/d-diffpair-via-type.png" src="_images/d-diffpair-via-type.png" />
+<p class="caption"><span class="caption-text">Via types</span></p>
+</div>
+</div>
+<div class="section" id="setup">
+<h3>Setup<a class="headerlink" href="#setup" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="set-diff-pair-in-schematics">
+<h4>Set Diff Pair in schematics<a class="headerlink" href="#set-diff-pair-in-schematics" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Select net</li>
+<li>In Properties, set the pair net in “diff pair” field</li>
+</ol>
+</div>
+<div class="section" id="set-diff-pair-in-constraint-manager">
+<h4>Set diff pair in constraint manager:<a class="headerlink" href="#set-diff-pair-in-constraint-manager" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic">
+<li><p class="first"><img alt="i-constraint-manager" src="_images/i-constraint-manager.png" /></p>
+</li>
+<li><p class="first">Edit &gt; Differential Pairs &gt; Auto Assign Differential Pairs…</p>
+</li>
+<li><p class="first">Set patterns for Net name and Pair net Name</p>
+</li>
+<li><p class="first">Click Apply</p>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Nets set in schematics won’t appear in auto assign dialog</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="set-diff-pair-spacing">
+<h4>Set Diff Pair Spacing<a class="headerlink" href="#set-diff-pair-spacing" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>At Net Classes select class</li>
+<li>Change Differential Spacing</li>
+</ol>
+</div>
+<div class="section" id="set-max-separation">
+<h4>Set Max Separation<a class="headerlink" href="#set-max-separation" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>At Constraint Classes select the class</li>
+<li>Select “Nets” tab</li>
+<li>Select class or net</li>
+<li>Set Separation Distance</li>
+</ol>
+</div>
+<div class="section" id="set-diff-pair-length">
+<h4>Set diff pair length<a class="headerlink" href="#set-diff-pair-length" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>In constraint manager (<img alt="i-constraint-manager" src="_images/i-constraint-manager.png" />)</p>
+<ol class="arabic simple">
+<li>Click in constraint classes</li>
+<li>Select diffpair</li>
+<li>Set Min and max length.</li>
+</ol>
+</div>
+</div>
+<div class="section" id="routing">
+<h3>Routing<a class="headerlink" href="#routing" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="route-diff-pairs">
+<h4>Route Diff pairs<a class="headerlink" href="#route-diff-pairs" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>In Router (<img alt="i-pads-router" src="_images/i-pads-router.png" />) Same as route a single trace</p>
+</div>
+<div class="section" id="change-leader-routing-trace">
+<h4>Change leader routing trace<a class="headerlink" href="#change-leader-routing-trace" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">tab</span></code></p>
+</div>
+<div class="section" id="split-traces">
+<h4>Split traces<a class="headerlink" href="#split-traces" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+X</span></code></p>
+</div>
+<div class="section" id="route-separately-join">
+<h4>Route separately/join<a class="headerlink" href="#route-separately-join" title="Enlazar permanentemente con este título">¶</a></h4>
+<p><code class="docutils literal"><span class="pre">Ctrl+Z</span></code></p>
+</div>
+<div class="section" id="set-via-pattern">
+<h4>Set via pattern<a class="headerlink" href="#set-via-pattern" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>While routing:</p>
+<ol class="arabic simple">
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Via Pattern</li>
+<li>Select via type</li>
+</ol>
+</div>
+<div class="section" id="tune-diff-pairs">
+<h4>Tune diff pairs<a class="headerlink" href="#tune-diff-pairs" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>In router (<img alt="i-pads-router" src="_images/i-pads-router.png" />)</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select nets</li>
+<li>Click on one net of diff pair</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Select Differential pairs</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Tune</li>
+</ol>
+</div>
+<div class="section" id="tune-diff-pair-options">
+<h4>Tune diff pair Options<a class="headerlink" href="#tune-diff-pair-options" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>In Router (<img alt="i-pads-router" src="_images/i-pads-router.png" />) Tools &gt; Options &gt; Routing Page &gt; Tune</p>
+</div>
+</div>
+</div>
+<span id="document-pads_std_plus/parts"></span><div class="section" id="parts">
+<h2>Parts<a class="headerlink" href="#parts" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Use Library Tools <img alt="i-pads-library-tools" src="_images/i-pads-library-tools.png" /></p>
+</div>
+<div class="section" id="new-part">
+<h3>New Part<a class="headerlink" href="#new-part" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic simple">
+<li>Add symbol</li>
+<li>Add decal</li>
+<li>Add part and map symbols and decals</li>
+</ol>
+<div class="section" id="calling-from-schematics">
+<h4>Calling from Schematics<a class="headerlink" href="#calling-from-schematics" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Tools &gt; PADS Library Tools</p>
+</div>
+<div class="section" id="calling-from-layout">
+<h4>Calling from Layout<a class="headerlink" href="#calling-from-layout" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>File &gt; PADS Library Tools</p>
+</div>
+<div class="section" id="add-a-symbol-box-type">
+<h4>Add a Symbol (box type)<a class="headerlink" href="#add-a-symbol-box-type" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Select symbols section and partition.</li>
+<li>Over Partition <code class="docutils literal"><span class="pre">RClick</span></code> &gt; New Symbol or Symbol Wizard</li>
+<li>Choose Module and Fracture for big pin counts parts. Fill rows.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Truco</p>
+<p class="last">You can copy/paste from Excel!</p>
+</div>
+</div>
+<div class="section" id="add-a-decal">
+<h4>Add a Decal<a class="headerlink" href="#add-a-decal" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Select decals section and partition</li>
+<li>Over Partition <code class="docutils literal"><span class="pre">RClick</span></code> &gt; New Decal…</li>
+<li>If possible, use Decal Wizard</li>
+</ol>
+</div>
+<div class="section" id="use-decal-wizard">
+<h4>Use Decal Wizard<a class="headerlink" href="#use-decal-wizard" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li><img alt="il-drafting" src="_images/il-drafting.png" />  &gt; <img alt="il-decal-wizard" src="_images/il-decal-wizard.png" /></li>
+<li>At bottom, select units</li>
+<li>Choose type (dual, quad, polar, BGA/PGA)</li>
+<li>Fill data, click OK.</li>
+</ol>
+</div>
+<div class="section" id="add-a-part">
+<h4>Add a Part<a class="headerlink" href="#add-a-part" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Select “Parts” section and partition</li>
+<li>Select Logic Family (UND by default)</li>
+<li>In PCB Decals assign Decals</li>
+<li>In Gates, Click “Add” and choose symbol in “CAE Decal 1”, “CAE Decal 2”, etc</li>
+<li>Make a copy of C:PADS ProjectsSamplesPart_Pins_Template.csv and complete the info for Pins Tab.</li>
+<li>In “Pins” tab, click on Import CSV and import the completed CSV</li>
+<li>Click “Check Part” and fix issues before click OK</li>
+</ol>
+</div>
+<div class="section" id="part-with-fractures">
+<h4>Part with fractures<a class="headerlink" href="#part-with-fractures" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>In Gates Tab, add multiple Gates with Swap 0</p>
+</div>
+<div class="section" id="part-with-multiple-symbol-representations">
+<h4>Part with multiple symbol representations<a class="headerlink" href="#part-with-multiple-symbol-representations" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Add CAE Decal 1, CAE Decal 2, etc.</p>
+</div>
+<div class="section" id="part-with-duplicate-symbols-e-g-a-quad-nand-ic">
+<h4>Part with duplicate symbols (E.g., a quad nand IC)<a class="headerlink" href="#part-with-duplicate-symbols-e-g-a-quad-nand-ic" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>Add many gates with the same swap number, but different to 0</p>
+</div>
+<div class="section" id="add-data-into-databook">
+<h4>Add data into databook<a class="headerlink" href="#add-data-into-databook" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Choose partition at Parts section</li>
+<li><code class="docutils literal"><span class="pre">RClick</span></code> &gt; Edit parametric data</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<dl class="last docutils">
+<dt>Pins Tab Information:</dt>
+<dd><ul class="first last simple">
+<li><strong>Pin Group</strong> Gate A, Gate B, Unused pin or Signal</li>
+<li><strong>Number</strong> Decal number</li>
+<li><strong>Name</strong> Symbol name</li>
+<li><strong>Type</strong> Source, Bidirectional, etc</li>
+<li><strong>Swap</strong> Gates Swap groups</li>
+<li><strong>Seq</strong> Symbol pin name</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+<span id="document-pads_std_plus/constraint-manager"></span><div class="section" id="constraints">
+<h2>Constraints<a class="headerlink" href="#constraints" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Use Constraint Manager <img alt="i-constraint-manager" src="_images/i-constraint-manager.png" /></p>
+</div>
+<div class="section" id="definitions">
+<h3>Definitions<a class="headerlink" href="#definitions" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="net-classes">
+<h4>Net Classes<a class="headerlink" href="#net-classes" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>To set Via assignments, layers where to route, trace widths and diff pair spacing. Applicable to nets.</p>
+</div>
+<div class="section" id="clearances">
+<h4>Clearances<a class="headerlink" href="#clearances" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>To set general clearances (via to via, via to pad, etc). Just use the (Default Rule), except if custom clearances between Net classes is required (for example, distance between two buses).</p>
+</div>
+<div class="section" id="constraint-classes">
+<h4>Constraint classes<a class="headerlink" href="#constraint-classes" title="Enlazar permanentemente con este título">¶</a></h4>
+<p>To set stub lengths, topology, net lengths, max number of vias, and diff pair separation distance</p>
+</div>
+</div>
+</div>
+<span id="document-common/partquest"></span><div class="section" id="partquest-l-partquest">
+<h2>PartQuest <img alt="l-partquest" src="_images/l-partquest.png" /><a class="headerlink" href="#partquest-l-partquest" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="register">
+<h3>Registrarse<a class="headerlink" href="#register" title="Enlazar permanentemente con este título">¶</a></h3>
+<ol class="arabic simple">
+<li>Ingresar a <a class="reference external" href="http://partquest.com">http://partquest.com</a></li>
+<li>Arriba a la derecha, hacer click en “Create Account”. Se redigirá a la página de mentor.com</li>
+<li>Llenar el formulario y hacer click en “Create Account”</li>
+<li>Una vez registrado, iniciar sesión arriba a la derecha, en “log in”</li>
+<li>Hacer click en tu nombre, y luego click en “My Profile”</li>
+<li>En “Desktop Integration”, seleccionar “Direct Download”</li>
+<li>En “Default flow”, seleccionar “PADS Integrated”</li>
+</ol>
+</div>
+<div class="section" id="download-parts">
+<h3>Descargar partes<a class="headerlink" href="#download-parts" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="section" id="download-one-part">
+<h4>Descargar una sola parte<a class="headerlink" href="#download-one-part" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Abrir PADS Maker Schematic y cargar un proyecto</li>
+<li>En los checkboxes, activar “Symbol/Footprint”</li>
+<li>En la barra de búsqueda, ingresar el nombre de la parte</li>
+<li>(Recomendado) activa también “RoHS Complaint” y “Lead Free”</li>
+<li>Click en “More” en la fila seleccionada</li>
+<li>Revisar que no hayan advertencias en la parte</li>
+<li>Click en “Download”. Seleccionar la partición si es necesario</li>
+<li>Una vez que la parte se descargó (archivo .pqz), hacer click sobre ella</li>
+<li>En PADS Maker Schematics, la parte será automáticamente incluida en la biblioteca “PartQuestDirect”</li>
+</ol>
+<div class="admonition hint">
+<p class="first admonition-title">Consejo</p>
+<p class="last">Puedes usar filtros para reducir el número de resultados</p>
+</div>
+</div>
+<div class="section" id="download-multiple-parts">
+<h4>Bajar múltiples partes<a class="headerlink" href="#download-multiple-parts" title="Enlazar permanentemente con este título">¶</a></h4>
+<ol class="arabic simple">
+<li>Sigue los mismos pasos que para una sola parte, pero en vez de hacer click en “Download’m click en “Add to Project”. Selecciona el proyecto o crea uno nuevo.</li>
+<li>Cuando todas las partes han sido incluidas, hacer click a la izquierda en “My Projects” y seleccionar en proyecto</li>
+<li>Hacer click en las partes a descargar o en “Select All”</li>
+<li>Click en “Download” sobre los encabezados de la tabla.</li>
+<li>Doble click en el archivo .pqz para agregar las nuevas partes a la biblioteca.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

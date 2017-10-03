@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel Regular'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v7/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v6/RQxK-3RA0Lnf3gnnnNrAsYdJ2JT0J65PSe7wdxAnx_I.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+body {
+    font-family: 'Abel';
+    font-size: small;
+    column-width: 25em;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h1 img, h2 img {
+    height: 1em;
+    margin-bottom: -0.15em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    display: block;
+    margin: 0.2em 0 0 0;
+}
+
+p {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Title (Cheat sheet 1)*/
+
+h1 {
+    font-weight: bold;
+    padding-left: 0.15em;
+}
+
+/* Start apps container */
+h1 + div.start-apps.container {
+  font-size: large;
+}
+
+/* Common icons container */
+h1 ~ div.common-icons.container {
+  font-size: medium;
+}
+
+
+/* Part (Schematics / PCB)*/
+h2 {
+    font-size: x-large;
+}
+
+h2 div.toctree-wrapper div.section {
+  display: inline-block;
+}
+
+/* Section (New project, parts) */
+h3 {
+    color: #06a7e2;
+    font-size: large;
+}
+
+div.body>div.section {
+  display: block;
+  /*border: 1px solid #aaa;*/
+  margin: 0px;
+}
+
+/*h1 ~ div.section,
+h2 ~ div.section {
+    padding: 0.3em;
+    display: block;
+}
+*/
+h1 ~ div.section + div.section {
+    border-top: 1px solid #aaa;
+    margin: 0px;
+}
+
+h2 ~ div.section {
+    display: block;
+}
+
+h2 + div.section,
+h2 + p + div.section,
+h2 + div.admonition + div.section  {
+    display: inline ;
+}
+
+h4 ~ p {
+  display:inline;
+}
+
+p {
+    color: #666;
+}
+
+/* Lists */
+
+ol, ul {
+  /*display: inline;*/
+  margin: 0;
+  padding-left: 1.3em;
+}
+
+dl {
+  /*display: inline;*/
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+    counter-reset: list-c;
+}
+
+ol li, ul li, dl dt, dl dd {
+  /*display: inline;*/
+  position: relative;
+  color: #666;
+}
+
+ol li {
+  counter-increment: list-c;
+}
+
+/*ol li:before {
+  content: counter(list-c) '.';
+  display: block;
+  text-align: center;
+  left: -5px;
+  color: #333;
+  bottom: 0px;
+}
+
+ul li:before {
+  left: -5px;
+}
+*/
+dl dd {
+  margin: 0;
+}
+
+a.headerlink {
+    display: none;
+}
+
+code {
+    font-family: 'Share Tech Mono';
+    color: #06a7e2;
+    font-size: x-small;
+    font-weight: bold;
+}
+
+
+/* Notes */
+p.admonition-title {
+    display:none;
+}
+
+div.admonition.note,
+div.admonition.note dl dt,
+.admonition.note ul li,
+.admonition.note p.last {
+    color: #06a7e2;
+    display: inline;
+    font-style: italic;
+}
+
+.admonition.hint ul li,
+.admonition.hint p.last,
+.admonition.tip ul li,
+.admonition.tip p.last {
+    /*display: inline;*/
+    font-weight: bold;
+    font-style: italic;
+    color: #ff7800;
+}
+
+div.admonition ul {
+  /*padding: 0;*/
+}
+
+div.admonition {
+    padding: 0px;
+    margin: 0px;
+}
+/*
+div.admonition.note:before {
+  content: '|';
+  margin:0;
+  padding:0;
+}
+
+div.admonition.note:after {
+  content: '|';
+  margin:0;
+  padding:0;
+}
+*/
+/*ul li + li:before {
+    content: '- ';
+}*/
+
+/* Delimiters between actions */
+/*h3 ~ div.section + div.section:before {
+    content: '-';
+}
+*/
+
+/* Delimiters between admonition list elements */
+/*div.admonition ul li ~ li:before {
+    content: '|';
+    padding-right: 0.3em;
+}*/
+
+/* icons */
+
+h4 img, ol li img, p img {
+  max-height: 14px;
+}
+
+
+/* Start apps images */
+div.start-apps img,
+div.common-icons img {
+  height: 20px;
+}
+/*
+.start-apps ul li + li:before: {
+  margin-right: 0.5em;
+}
+
+div.common-icons:before {
+  content: '|';
+}
+*/
+div.common-icons dl dt {
+  font-weight: bold;
+}
+
+
+/* side images (E.g., diffpair) */
+.side-images {
+  float:right;
+  padding-left: 0.2em;
+  margin-left: 0.2em;
+  border-left: solid 1px #ccc;
+}
+
+.side-images .figure {
+  display: inline-block;
+  max-height:90%;
+}
+
+.side-images .figure:first-child {
+  padding-left:0.3em;
+}
+
+.side-images .figure img {
+  max-height: 115px;
+}
+
+.side-images .figure p.caption {
+  display: block;
+  text-align: center;
+}
+
+/* Special styles, to save space */
+
+#pcb div#layers {
+  display:inline-block;
+}
+
+#pcb div#pan-and-zoom {
+  display:inline;
+}
+
+#pcb div#selection {
+  display:inline;
+}
+
+/*#pcb div#pan-and-zoom:before,
+#pcb div#selection:before {
+  content: '|';
+  color: #06a7e2;
+}
+*/

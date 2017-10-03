@@ -6,15 +6,33 @@ Manipulation
 
 Rotate
 ----------------------------------------
-``F3`` or pick handle |is-handle|
+.. only:: pads_std_plus
+
+    ``F3`` or pick handle |is-handle|
+
+.. only:: pads_maker
+
+    ``r`` or pick handle |is-handle|
 
 Mirror Horizontally
 ----------------------------------------
-``F4`` or |is-mirror|
+.. only:: pads_std_plus
+
+    ``F4`` or |is-mirror|
+
+.. only:: pads_maker
+
+    ``h`` or ``m`` or |is-mirror|
 
 Flip Vertically
 ----------------------------------------
-``F5`` or |is-flip|
+.. only:: pads_std_plus
+
+    ``F5`` or |is-flip|
+
+.. only:: pads_maker
+
+    ``f`` or ``v`` or |is-flip|
 
 Array
 ----------------------------------------

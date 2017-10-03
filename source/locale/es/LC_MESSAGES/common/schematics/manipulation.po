@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PADS Maker 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-22 12:36-0300\n"
+"POT-Creation-Date: 2017-10-03 18:32-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,63 +17,75 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.1\n"
 
-#: ../../common/schematics/manipulation.rst:5
+#: ../../source/common/schematics/manipulation.rst:5
 msgid "Manipulation"
 msgstr "Manipulación"
 
-#: ../../common/schematics/manipulation.rst:8
+#: ../../source/common/schematics/manipulation.rst:8
 msgid "Rotate"
 msgstr "Rotar"
 
-#: ../../common/schematics/manipulation.rst:9
+#: ../../source/common/schematics/manipulation.rst:11
 msgid "``F3`` or pick handle |is-handle|"
 msgstr "``F3`` o con |is-handle|"
 
-#: ../../common/schematics/manipulation.rst:12
+#: ../../source/common/schematics/manipulation.rst:15
+msgid "``r`` or pick handle |is-handle|"
+msgstr "``r`` o con |is-handle|"
+
+#: ../../source/common/schematics/manipulation.rst:18
 msgid "Mirror Horizontally"
 msgstr "Reflejo Horizontal"
 
-#: ../../common/schematics/manipulation.rst:13
+#: ../../source/common/schematics/manipulation.rst:21
 msgid "``F4`` or |is-mirror|"
 msgstr "``F4`` o |is-mirror|"
 
-#: ../../common/schematics/manipulation.rst:16
+#: ../../source/common/schematics/manipulation.rst:25
+msgid "``h`` or ``m`` or |is-mirror|"
+msgstr "``h`` o ``m`` o |is-mirror|"
+
+#: ../../source/common/schematics/manipulation.rst:28
 msgid "Flip Vertically"
 msgstr "Espejo Vertical"
 
-#: ../../common/schematics/manipulation.rst:17
+#: ../../source/common/schematics/manipulation.rst:31
 msgid "``F5`` or |is-flip|"
 msgstr "``F5`` o |is-flip|"
 
-#: ../../common/schematics/manipulation.rst:20
+#: ../../source/common/schematics/manipulation.rst:35
+msgid "``f`` or ``v`` or |is-flip|"
+msgstr "``f`` o ``v`` o |is-flip|"
+
+#: ../../source/common/schematics/manipulation.rst:38
 msgid "Array"
 msgstr "Arreglo"
 
-#: ../../common/schematics/manipulation.rst:21
+#: ../../source/common/schematics/manipulation.rst:39
 msgid "Select components"
 msgstr "Selecciona componentes"
 
-#: ../../common/schematics/manipulation.rst:22
+#: ../../source/common/schematics/manipulation.rst:40
 msgid "|is-array|"
 msgstr ""
 
-#: ../../common/schematics/manipulation.rst:23
+#: ../../source/common/schematics/manipulation.rst:41
 msgid "Set rows and column"
 msgstr "Define filas y columnas"
 
-#: ../../common/schematics/manipulation.rst:24
+#: ../../source/common/schematics/manipulation.rst:42
 msgid "Set spacing"
 msgstr "Define separación"
 
-#: ../../common/schematics/manipulation.rst:27
+#: ../../source/common/schematics/manipulation.rst:45
 msgid "Duplicate"
 msgstr "Duplicar"
 
-#: ../../common/schematics/manipulation.rst:28
+#: ../../source/common/schematics/manipulation.rst:46
 msgid "Select part; then ``Ctrl+C``, ``Ctrl+V``, or"
 msgstr "Selecciona objeto, luego ``Ctrl+C``, ``Ctrl+V``, o"
 
-#: ../../common/schematics/manipulation.rst:29
+#: ../../source/common/schematics/manipulation.rst:47
 msgid "Select part, then ``Ctrl+LClick`` and drag ``LClick``"
 msgstr "Selecciona objeto, luego ``Ctrl+LClick``, arrastra y después ``LClick``"
 
